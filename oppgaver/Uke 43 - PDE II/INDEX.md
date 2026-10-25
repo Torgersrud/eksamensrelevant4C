@@ -12,6 +12,7 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2020-host-4D_problem4.md](2020-host-4D_problem4.md) | TMA4135 · host 2020 | problem 4 (5 p) | [2020-host-4D-losning_problem4.md](2020-host-4D-losning_problem4.md) |
 | [2023-host-4D-losning_problem8.md](2023-host-4D-losning_problem8.md) | TMA4135 · host 2023 | problem 8 (10 p) | (løsningsfil) |
 | [2023-host-4D_problem8.md](2023-host-4D_problem8.md) | TMA4135 · host 2023 | problem 8 (10 p) | [2023-host-4D-losning_problem8.md](2023-host-4D-losning_problem8.md) |
+| [2023-host-4N_dup1_problem8.md](2023-host-4N_dup1_problem8.md) | TMA4135 · host 2023 | problem 8 (10 p) | – |
 | [2023-kont-4D-losning_problem7.md](2023-kont-4D-losning_problem7.md) | TMA4135 · kont 2023 | problem 7 (10 p) | (løsningsfil) |
 | [2023-kont-4D_problem7.md](2023-kont-4D_problem7.md) | TMA4135 · kont 2023 | problem 7 (10 p) | [2023-kont-4D-losning_problem7.md](2023-kont-4D-losning_problem7.md) |
 | [2023-sommer-4D-losning_problem8.md](2023-sommer-4D-losning_problem8.md) | TMA4135 · sommer 2023 | problem 8 | (løsningsfil) |
