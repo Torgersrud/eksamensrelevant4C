@@ -1,0 +1,6 @@
+# Kildesett-PDF-ene ligger i sources/ men skal ALDRI committes.
+# Bare sources/MANIFEST.csv hoerer til repoet.
+sources/*.pdf
+
+__pycache__/
+.DS_Store
