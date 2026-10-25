@@ -6,6 +6,7 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 |---|---|---|---|
 | [2012-host-4D-losning_oppgave1.md](2012-host-4D-losning_oppgave1.md) | TMA4135 · host 2012 | oppgave 1 | (løsningsfil) |
 | [2012-host-4D_oppgave1.md](2012-host-4D_oppgave1.md) | TMA4135 · host 2012 | oppgave 1 | [2012-host-4D-losning_oppgave1.md](2012-host-4D-losning_oppgave1.md) |
+| [2014-host-4D-losning_oppgave2.md](2014-host-4D-losning_oppgave2.md) | TMA4135 · host 2014 | oppgave 2 | (løsningsfil) |
 | [2015-kont-4N_oppgave2.md](2015-kont-4N_oppgave2.md) | TMA4123 · kont 2015 | oppgave 2 | – |
 | [2016-host-4D-losning_oppgave1.md](2016-host-4D-losning_oppgave1.md) | TMA4135 · host 2016 | oppgave 1 | (løsningsfil) |
 | [2016-host-4D_oppgave1.md](2016-host-4D_oppgave1.md) | TMA4135 · host 2016 | oppgave 1 | [2016-host-4D-losning_oppgave1.md](2016-host-4D-losning_oppgave1.md) |

@@ -10,6 +10,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2012-kont-4D_oppgave5.md](2012-kont-4D_oppgave5.md) | TMA4135 · kont 2012 | oppgave 5 | [2012-kont-4D-losning_oppgave5.md](2012-kont-4D-losning_oppgave5.md) |
 | [2013-host-4D-losning_oppgave2.md](2013-host-4D-losning_oppgave2.md) | TMA4135 · host 2013 | oppgave 2 | (løsningsfil) |
 | [2013-host-4D_oppgave2.md](2013-host-4D_oppgave2.md) | TMA4135 · host 2013 | oppgave 2 | [2013-host-4D-losning_oppgave2.md](2013-host-4D-losning_oppgave2.md) |
+| [2014-host-4D-losning_oppgave3.md](2014-host-4D-losning_oppgave3.md) | TMA4135 · host 2014 | oppgave 3 | (løsningsfil) |
+| [2014-host-4D_oppgave3.md](2014-host-4D_oppgave3.md) | TMA4135 · host 2014 | oppgave 3 | [2014-host-4D-losning_oppgave3.md](2014-host-4D-losning_oppgave3.md) |
 | [2015-host-4D-losning_oppgave2.md](2015-host-4D-losning_oppgave2.md) | TMA4135 · host 2015 | oppgave 2 | (løsningsfil) |
 | [2015-host-4D_oppgave2.md](2015-host-4D_oppgave2.md) | TMA4135 · host 2015 | oppgave 2 | [2015-host-4D-losning_oppgave2.md](2015-host-4D-losning_oppgave2.md) |
 | [2015-kont-4N_oppgave1.md](2015-kont-4N_oppgave1.md) | TMA4123 · kont 2015 | oppgave 1 | – |
