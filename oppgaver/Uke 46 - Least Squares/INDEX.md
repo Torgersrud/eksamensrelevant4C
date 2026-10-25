@@ -6,6 +6,7 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 |---|---|---|---|
 | [2011-host-LM-losning_problem4.md](2011-host-LM-losning_problem4.md) | TMA4145 · host 2011 | problem 4 | (løsningsfil) |
 | [2011-host-LM_problem4.md](2011-host-LM_problem4.md) | TMA4145 · host 2011 | problem 4 | [2011-host-LM-losning_problem4.md](2011-host-LM-losning_problem4.md) |
+| [2011-kont-LM_problem4.md](2011-kont-LM_problem4.md) | TMA4145 · kont 2011 | problem 4 | – |
 | [2012-host-LM-losning_problem4.md](2012-host-LM-losning_problem4.md) | TMA4145 · host 2012 | problem 4 | (løsningsfil) |
 | [2012-host-LM_problem4.md](2012-host-LM_problem4.md) | TMA4145 · host 2012 | problem 4 | [2012-host-LM-losning_problem4.md](2012-host-LM-losning_problem4.md) |
 | [2013-host-LM-losning_problem5.md](2013-host-LM-losning_problem5.md) | TMA4145 · host 2013 | problem 5 | (løsningsfil) |
