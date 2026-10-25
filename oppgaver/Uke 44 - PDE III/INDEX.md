@@ -53,6 +53,7 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2009-host-4D_oppgave6.md](2009-host-4D_oppgave6.md) | TMA4135 · host 2009 | oppgave 6 | [2009-host-4D-losning_oppgave6.md](2009-host-4D-losning_oppgave6.md) |
 | [2009-kont-4D-losning_oppgave2.md](2009-kont-4D-losning_oppgave2.md) | TMA4135 · kont 2009 | oppgave 2 | (løsningsfil) |
 | [2009-kont-4D_oppgave2.md](2009-kont-4D_oppgave2.md) | TMA4135 · kont 2009 | oppgave 2 | [2009-kont-4D-losning_oppgave2.md](2009-kont-4D-losning_oppgave2.md) |
+| [2009-sommer-4N_dup1_oppgave2.md](2009-sommer-4N_dup1_oppgave2.md) | TMA4130 · sommer 2009 | oppgave 2 | – |
 | [2010-host-4D-losning_oppgave6.md](2010-host-4D-losning_oppgave6.md) | TMA4135 · host 2010 | oppgave 6 | (løsningsfil) |
 | [2010-host-4D-losning_oppgave9.md](2010-host-4D-losning_oppgave9.md) | TMA4135 · host 2010 | oppgave 9 | (løsningsfil) |
 | [2010-host-4D_oppgave6.md](2010-host-4D_oppgave6.md) | TMA4135 · host 2010 | oppgave 6 | [2010-host-4D-losning_oppgave6.md](2010-host-4D-losning_oppgave6.md) |
