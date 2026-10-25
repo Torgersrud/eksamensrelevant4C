@@ -8,3 +8,5 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2018-host-LM_problem5.md](2018-host-LM_problem5.md) | TMA4145 · host 2018 | problem 5 | [2018-host-LM-losning_problem5.md](2018-host-LM-losning_problem5.md) |
 | [2019-host-LM-losning_problem2.md](2019-host-LM-losning_problem2.md) | TMA4145 · host 2019 | problem 2 | (løsningsfil) |
 | [2019-host-LM_problem2.md](2019-host-LM_problem2.md) | TMA4145 · host 2019 | problem 2 | [2019-host-LM-losning_problem2.md](2019-host-LM-losning_problem2.md) |
+| [2025-host-M3-losning_problem3.md](2025-host-M3-losning_problem3.md) | TMA4110 · host 2025 | problem 3 | (løsningsfil) |
+| [2025-host-M3_problem3.md](2025-host-M3_problem3.md) | TMA4110 · host 2025 | problem 3 | [2025-host-M3-losning_problem3.md](2025-host-M3-losning_problem3.md) |
