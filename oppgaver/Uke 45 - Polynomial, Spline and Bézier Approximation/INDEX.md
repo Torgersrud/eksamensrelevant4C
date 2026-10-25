@@ -19,6 +19,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2020-host-4N_dup1_problem7.md](2020-host-4N_dup1_problem7.md) | TMA4135 · host 2020 | problem 7 (10 p) | – |
 | [2020-kont-4D-losning_problem8.md](2020-kont-4D-losning_problem8.md) | TMA4135 · kont 2020 | problem 8 (7 p) | (løsningsfil) |
 | [2020-kont-4D_problem8.md](2020-kont-4D_problem8.md) | TMA4135 · kont 2020 | problem 8 (7 p) | [2020-kont-4D-losning_problem8.md](2020-kont-4D-losning_problem8.md) |
+| [2020-var-4N-losning_problem3.md](2020-var-4N-losning_problem3.md) | TMA4125 · var 2020 | problem 3 (8 p) | (løsningsfil) |
+| [2020-var-4N_problem3.md](2020-var-4N_problem3.md) | TMA4125 · var 2020 | problem 3 (8 p) | [2020-var-4N-losning_problem3.md](2020-var-4N-losning_problem3.md) |
 | [2021-host-4D-losning_problem6.md](2021-host-4D-losning_problem6.md) | TMA4135 · host 2021 | problem 6 (6 p) | (løsningsfil) |
 | [2021-host-4D_problem6.md](2021-host-4D_problem6.md) | TMA4135 · host 2021 | problem 6 (6 p) | [2021-host-4D-losning_problem6.md](2021-host-4D-losning_problem6.md) |
 | [2021-host-4N-losning_problem5.md](2021-host-4N-losning_problem5.md) | TMA4130 · host 2021 | problem 5 (9 p) | (løsningsfil) |
