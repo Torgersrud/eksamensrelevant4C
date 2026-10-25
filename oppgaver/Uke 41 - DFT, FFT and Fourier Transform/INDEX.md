@@ -31,6 +31,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2023-sommer-4D_problem3.md](2023-sommer-4D_problem3.md) | TMA4135 · sommer 2023 | problem 3 | [2023-sommer-4D-losning_problem3.md](2023-sommer-4D-losning_problem3.md) |
 | [2024-host-4D-losning_problem7.md](2024-host-4D-losning_problem7.md) | TMA4135 · host 2024 | problem 7 (10 p) | (løsningsfil) |
 | [2024-host-4D_problem7.md](2024-host-4D_problem7.md) | TMA4135 · host 2024 | problem 7 (10 p) | [2024-host-4D-losning_problem7.md](2024-host-4D-losning_problem7.md) |
+| [2025-sommer-4N-losning_problem5.md](2025-sommer-4N-losning_problem5.md) | TMA4125 · sommer 2025 | problem 5 (10 p) | (løsningsfil) |
+| [2025-sommer-4N_problem5.md](2025-sommer-4N_problem5.md) | TMA4125 · sommer 2025 | problem 5 (10 p) | [2025-sommer-4N-losning_problem5.md](2025-sommer-4N-losning_problem5.md) |
 | [2025-var-4N-losning_problem5.md](2025-var-4N-losning_problem5.md) | TMA4125 · var 2025 | problem 5 (10 p) | (løsningsfil) |
 | [2025-var-4N_problem5.md](2025-var-4N_problem5.md) | TMA4125 · var 2025 | problem 5 (10 p) | [2025-var-4N-losning_problem5.md](2025-var-4N-losning_problem5.md) |
 | [2026-test-4C-losning_problem7.md](2026-test-4C-losning_problem7.md) | TMA4432 · test 2026 | problem 7 (10 p) | (løsningsfil) |
