@@ -18,5 +18,7 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2023-sommer-4D_problem8.md](2023-sommer-4D_problem8.md) | TMA4135 · sommer 2023 | problem 8 | [2023-sommer-4D-losning_problem8.md](2023-sommer-4D-losning_problem8.md) |
 | [2025-host-4N-losning_problem5.md](2025-host-4N-losning_problem5.md) | TMA4130 · host 2025 | problem 5 (10 p) | (løsningsfil) |
 | [2025-host-4N_problem5.md](2025-host-4N_problem5.md) | TMA4130 · host 2025 | problem 5 (10 p) | [2025-host-4N-losning_problem5.md](2025-host-4N-losning_problem5.md) |
+| [2025-var-4N-losning_problem6.md](2025-var-4N-losning_problem6.md) | TMA4125 · var 2025 | problem 6 (14 p) | (løsningsfil) |
+| [2025-var-4N_problem6.md](2025-var-4N_problem6.md) | TMA4125 · var 2025 | problem 6 (14 p) | [2025-var-4N-losning_problem6.md](2025-var-4N-losning_problem6.md) |
 | [2026-test-4C-losning_problem9.md](2026-test-4C-losning_problem9.md) | TMA4432 · test 2026 | problem 9 (10 p) | (løsningsfil) |
 | [2026-test-4C_problem9.md](2026-test-4C_problem9.md) | TMA4432 · test 2026 | problem 9 (10 p) | [2026-test-4C-losning_problem9.md](2026-test-4C-losning_problem9.md) |

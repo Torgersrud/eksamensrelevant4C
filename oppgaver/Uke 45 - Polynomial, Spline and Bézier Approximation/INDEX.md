@@ -33,6 +33,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2024-host-4D_problem4.md](2024-host-4D_problem4.md) | TMA4135 · host 2024 | problem 4 (10 p) | [2024-host-4D-losning_problem4.md](2024-host-4D-losning_problem4.md) |
 | [2025-host-4N-losning_problem2.md](2025-host-4N-losning_problem2.md) | TMA4130 · host 2025 | problem 2 (10 p) | (løsningsfil) |
 | [2025-host-4N_problem2.md](2025-host-4N_problem2.md) | TMA4130 · host 2025 | problem 2 (10 p) | [2025-host-4N-losning_problem2.md](2025-host-4N-losning_problem2.md) |
+| [2025-var-4N-losning_problem1.md](2025-var-4N-losning_problem1.md) | TMA4125 · var 2025 | problem 1 (10 p) | (løsningsfil) |
+| [2025-var-4N_problem1.md](2025-var-4N_problem1.md) | TMA4125 · var 2025 | problem 1 (10 p) | [2025-var-4N-losning_problem1.md](2025-var-4N-losning_problem1.md) |
 | [2026-test-4C-losning_problem10.md](2026-test-4C-losning_problem10.md) | TMA4432 · test 2026 | problem 10 (11 p) | (løsningsfil) |
 | [2026-test-4C_problem10.md](2026-test-4C_problem10.md) | TMA4432 · test 2026 | problem 10 (11 p) | [2026-test-4C-losning_problem10.md](2026-test-4C-losning_problem10.md) |
 | [synthetic-2026-test-4C-losning_problem1.md](synthetic-2026-test-4C-losning_problem1.md) | – | problem 1 | (løsningsfil) |
