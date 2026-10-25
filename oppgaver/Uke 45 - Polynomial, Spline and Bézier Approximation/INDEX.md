@@ -30,6 +30,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2020-kont-4D-losning_problem8.md](2020-kont-4D-losning_problem8.md) | TMA4135 · kont 2020 | problem 8 (7 p) | (løsningsfil) |
 | [2020-kont-4D_problem8.md](2020-kont-4D_problem8.md) | TMA4135 · kont 2020 | problem 8 (7 p) | [2020-kont-4D-losning_problem8.md](2020-kont-4D-losning_problem8.md) |
 | [2020-kont-4N_dup1_problem8.md](2020-kont-4N_dup1_problem8.md) | TMA4135 · kont 2020 | problem 8 (7 p) | – |
+| [2020-kont-M3-losning_oppgave32.md](2020-kont-M3-losning_oppgave32.md) | TMA4110 · kont 2020 | oppgave 32 | (løsningsfil) |
+| [2020-kont-M3_oppgave32.md](2020-kont-M3_oppgave32.md) | TMA4110 · kont 2020 | oppgave 32 | [2020-kont-M3-losning_oppgave32.md](2020-kont-M3-losning_oppgave32.md) |
 | [2020-var-4N-losning_problem3.md](2020-var-4N-losning_problem3.md) | TMA4125 · var 2020 | problem 3 (8 p) | (løsningsfil) |
 | [2020-var-4N_problem3.md](2020-var-4N_problem3.md) | TMA4125 · var 2020 | problem 3 (8 p) | [2020-var-4N-losning_problem3.md](2020-var-4N-losning_problem3.md) |
 | [2021-host-4D-losning_problem6.md](2021-host-4D-losning_problem6.md) | TMA4135 · host 2021 | problem 6 (6 p) | (løsningsfil) |
