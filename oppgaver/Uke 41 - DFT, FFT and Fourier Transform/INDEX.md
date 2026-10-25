@@ -9,6 +9,7 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2006-host-4N_dup1_oppgave2.md](2006-host-4N_dup1_oppgave2.md) | TMA4130 · host 2006 | oppgave 2 | – |
 | [2006-kont-4D-losning_oppgave3.md](2006-kont-4D-losning_oppgave3.md) | TMA4135 · kont 2006 | oppgave 3 | (løsningsfil) |
 | [2006-kont-4D_oppgave3.md](2006-kont-4D_oppgave3.md) | TMA4135 · kont 2006 | oppgave 3 | [2006-kont-4D-losning_oppgave3.md](2006-kont-4D-losning_oppgave3.md) |
+| [2006-kont-4N_dup1_oppgave3.md](2006-kont-4N_dup1_oppgave3.md) | TMA4125 · kont 2006 | oppgave 3 | – |
 | [2007-host-4D-losning_oppgave4.md](2007-host-4D-losning_oppgave4.md) | TMA4135 · host 2007 | oppgave 4 | (løsningsfil) |
 | [2007-host-4D_oppgave4.md](2007-host-4D_oppgave4.md) | TMA4135 · host 2007 | oppgave 4 | [2007-host-4D-losning_oppgave4.md](2007-host-4D-losning_oppgave4.md) |
 | [2008-host-4D-losning_oppgave3.md](2008-host-4D-losning_oppgave3.md) | TMA4135 · host 2008 | oppgave 3 | (løsningsfil) |
