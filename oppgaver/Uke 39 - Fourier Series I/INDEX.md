@@ -14,6 +14,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2019-kont-4D_oppgave2.md](2019-kont-4D_oppgave2.md) | TMA4135 · kont 2019 | oppgave 2 | [2019-kont-4D-losning_oppgave2.md](2019-kont-4D-losning_oppgave2.md) |
 | [2020-kont-4D-losning_problem2.md](2020-kont-4D-losning_problem2.md) | TMA4135 · kont 2020 | problem 2 (10 p) | (løsningsfil) |
 | [2020-kont-4D_problem2.md](2020-kont-4D_problem2.md) | TMA4135 · kont 2020 | problem 2 (10 p) | [2020-kont-4D-losning_problem2.md](2020-kont-4D-losning_problem2.md) |
+| [2021-host-4N-losning_problem2.md](2021-host-4N-losning_problem2.md) | TMA4130 · host 2021 | problem 2 (15 p) | (løsningsfil) |
+| [2021-host-4N_problem2.md](2021-host-4N_problem2.md) | TMA4130 · host 2021 | problem 2 (15 p) | [2021-host-4N-losning_problem2.md](2021-host-4N-losning_problem2.md) |
 | [2023-host-4D-losning_problem2.md](2023-host-4D-losning_problem2.md) | TMA4135 · host 2023 | problem 2 (10 p) | (løsningsfil) |
 | [2023-host-4D-losning_problem6.md](2023-host-4D-losning_problem6.md) | TMA4135 · host 2023 | problem 6 (10 p) | (løsningsfil) |
 | [2023-host-4D_problem2.md](2023-host-4D_problem2.md) | TMA4135 · host 2023 | problem 2 (10 p) | [2023-host-4D-losning_problem2.md](2023-host-4D-losning_problem2.md) |
