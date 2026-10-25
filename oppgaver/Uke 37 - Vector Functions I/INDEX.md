@@ -12,6 +12,7 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2017-host-4D_oppgave4.md](2017-host-4D_oppgave4.md) | TMA4135 · host 2017 | oppgave 4 | [2017-host-4D-losning_oppgave4.md](2017-host-4D-losning_oppgave4.md) |
 | [2018-var-4D-losning_oppgave4.md](2018-var-4D-losning_oppgave4.md) | TMA4135 · var 2018 | oppgave 4 | (løsningsfil) |
 | [2018-var-4D_oppgave4.md](2018-var-4D_oppgave4.md) | TMA4135 · var 2018 | oppgave 4 | [2018-var-4D-losning_oppgave4.md](2018-var-4D-losning_oppgave4.md) |
+| [2018-var-4N_dup1_oppgave4.md](2018-var-4N_dup1_oppgave4.md) | TMA4135 · var 2018 | oppgave 4 | – |
 | [2019-host-4D-losning_problem7.md](2019-host-4D-losning_problem7.md) | TMA4135 · host 2019 | problem 7 (10 p) | (løsningsfil) |
 | [2019-host-4D_problem7.md](2019-host-4D_problem7.md) | TMA4135 · host 2019 | problem 7 (10 p) | [2019-host-4D-losning_problem7.md](2019-host-4D-losning_problem7.md) |
 | [2019-host-4N_dup1_problem7.md](2019-host-4N_dup1_problem7.md) | TMA4135 · host 2019 | problem 7 (10 p) | – |
