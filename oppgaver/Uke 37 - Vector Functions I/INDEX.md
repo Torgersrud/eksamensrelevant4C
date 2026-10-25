@@ -18,6 +18,10 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2010-host-4D-losning_oppgave8.md](2010-host-4D-losning_oppgave8.md) | TMA4135 · host 2010 | oppgave 8 | (løsningsfil) |
 | [2010-host-4D_oppgave3.md](2010-host-4D_oppgave3.md) | TMA4135 · host 2010 | oppgave 3 | [2010-host-4D-losning_oppgave3.md](2010-host-4D-losning_oppgave3.md) |
 | [2010-host-4D_oppgave8.md](2010-host-4D_oppgave8.md) | TMA4135 · host 2010 | oppgave 8 | [2010-host-4D-losning_oppgave8.md](2010-host-4D-losning_oppgave8.md) |
+| [2011-host-4D-losning_oppgave1.md](2011-host-4D-losning_oppgave1.md) | TMA4135 · host 2011 | oppgave 1 | (løsningsfil) |
+| [2011-host-4D-losning_oppgave6.md](2011-host-4D-losning_oppgave6.md) | TMA4135 · host 2011 | oppgave 6 | (løsningsfil) |
+| [2011-host-4D_oppgave1.md](2011-host-4D_oppgave1.md) | TMA4135 · host 2011 | oppgave 1 | [2011-host-4D-losning_oppgave1.md](2011-host-4D-losning_oppgave1.md) |
+| [2011-host-4D_oppgave6.md](2011-host-4D_oppgave6.md) | TMA4135 · host 2011 | oppgave 6 | [2011-host-4D-losning_oppgave6.md](2011-host-4D-losning_oppgave6.md) |
 | [2012-kont-4D-losning_oppgave3.md](2012-kont-4D-losning_oppgave3.md) | TMA4135 · kont 2012 | oppgave 3 | (løsningsfil) |
 | [2012-kont-4D-losning_oppgave7.md](2012-kont-4D-losning_oppgave7.md) | TMA4135 · kont 2012 | oppgave 7 | (løsningsfil) |
 | [2012-kont-4D_oppgave3.md](2012-kont-4D_oppgave3.md) | TMA4135 · kont 2012 | oppgave 3 | [2012-kont-4D-losning_oppgave3.md](2012-kont-4D-losning_oppgave3.md) |
