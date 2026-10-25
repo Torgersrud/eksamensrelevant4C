@@ -10,6 +10,7 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2015-host-4N-losning_oppgave7.md](2015-host-4N-losning_oppgave7.md) | TMA4130 · host 2015 | oppgave 7 | (løsningsfil) |
 | [2015-host-4N_oppgave6.md](2015-host-4N_oppgave6.md) | TMA4130 · host 2015 | oppgave 6 | [2015-host-4N-losning_oppgave6.md](2015-host-4N-losning_oppgave6.md) |
 | [2015-host-4N_oppgave7.md](2015-host-4N_oppgave7.md) | TMA4130 · host 2015 | oppgave 7 | [2015-host-4N-losning_oppgave7.md](2015-host-4N-losning_oppgave7.md) |
+| [2015-kont-4N_oppgave5.md](2015-kont-4N_oppgave5.md) | TMA4123 · kont 2015 | oppgave 5 | – |
 | [2015-var-4N-losning_oppgave4.md](2015-var-4N-losning_oppgave4.md) | TMA4123 · var 2015 | oppgave 4 | (løsningsfil) |
 | [2015-var-4N_oppgave4.md](2015-var-4N_oppgave4.md) | TMA4123 · var 2015 | oppgave 4 | [2015-var-4N-losning_oppgave4.md](2015-var-4N-losning_oppgave4.md) |
 | [2016-host-4D-losning_oppgave4.md](2016-host-4D-losning_oppgave4.md) | TMA4135 · host 2016 | oppgave 4 | (løsningsfil) |
