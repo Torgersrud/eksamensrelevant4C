@@ -24,6 +24,7 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2008-var-4N_oppgave5.md](2008-var-4N_oppgave5.md) | TMA4125 · var 2008 | oppgave 5 | [2008-var-4N-losning_oppgave5.md](2008-var-4N-losning_oppgave5.md) |
 | [2009-host-4D-losning_oppgave7.md](2009-host-4D-losning_oppgave7.md) | TMA4135 · host 2009 | oppgave 7 | (løsningsfil) |
 | [2009-host-4D_oppgave7.md](2009-host-4D_oppgave7.md) | TMA4135 · host 2009 | oppgave 7 | [2009-host-4D-losning_oppgave7.md](2009-host-4D-losning_oppgave7.md) |
+| [2009-host-4N_dup1_oppgave7.md](2009-host-4N_dup1_oppgave7.md) | TMA4130 · host 2009 | oppgave 7 | – |
 | [2009-sommer-4N-losning_oppgave4.md](2009-sommer-4N-losning_oppgave4.md) | TMA4130 · sommer 2009 | oppgave 4 | (løsningsfil) |
 | [2009-sommer-4N_oppgave4.md](2009-sommer-4N_oppgave4.md) | TMA4130 · sommer 2009 | oppgave 4 | [2009-sommer-4N-losning_oppgave4.md](2009-sommer-4N-losning_oppgave4.md) |
 | [2010-host-4D-losning_oppgave1.md](2010-host-4D-losning_oppgave1.md) | TMA4135 · host 2010 | oppgave 1 | (løsningsfil) |
