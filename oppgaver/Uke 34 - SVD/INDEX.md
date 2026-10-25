@@ -4,6 +4,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 
 | Fil | Kildesett | Oppgave | Løsningsfil |
 |---|---|---|---|
+| [2017-host-LM-losning_problem1.md](2017-host-LM-losning_problem1.md) | TMA4145 · host 2017 | problem 1 | (løsningsfil) |
+| [2017-host-LM_problem1.md](2017-host-LM_problem1.md) | TMA4145 · host 2017 | problem 1 | [2017-host-LM-losning_problem1.md](2017-host-LM-losning_problem1.md) |
 | [2018-host-LM-losning_problem4.md](2018-host-LM-losning_problem4.md) | TMA4145 · host 2018 | problem 4 | (løsningsfil) |
 | [2018-host-LM_problem4.md](2018-host-LM_problem4.md) | TMA4145 · host 2018 | problem 4 | [2018-host-LM-losning_problem4.md](2018-host-LM-losning_problem4.md) |
 | [2018-kont-LM-losning_problem6.md](2018-kont-LM-losning_problem6.md) | TMA4145 · kont 2018 | problem 6 | (løsningsfil) |
