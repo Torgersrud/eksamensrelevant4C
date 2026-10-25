@@ -4,6 +4,10 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 
 | Fil | Kildesett | Oppgave | Løsningsfil |
 |---|---|---|---|
+| [2020-host-4D-losning_problem10.md](2020-host-4D-losning_problem10.md) | TMA4135 · host 2020 | problem 10 (12 p) | (løsningsfil) |
+| [2020-host-4D-losning_problem5.md](2020-host-4D-losning_problem5.md) | TMA4135 · host 2020 | problem 5 (20 p) | (løsningsfil) |
+| [2020-host-4D_problem10.md](2020-host-4D_problem10.md) | TMA4135 · host 2020 | problem 10 (12 p) | [2020-host-4D-losning_problem10.md](2020-host-4D-losning_problem10.md) |
+| [2020-host-4D_problem5.md](2020-host-4D_problem5.md) | TMA4135 · host 2020 | problem 5 (20 p) | [2020-host-4D-losning_problem5.md](2020-host-4D-losning_problem5.md) |
 | [2021-host-4D-losning_problem4.md](2021-host-4D-losning_problem4.md) | TMA4135 · host 2021 | problem 4 | (løsningsfil) |
 | [2021-host-4D-losning_problem5.md](2021-host-4D-losning_problem5.md) | TMA4135 · host 2021 | problem 5 | (løsningsfil) |
 | [2021-host-4D_problem4.md](2021-host-4D_problem4.md) | TMA4135 · host 2021 | problem 4 | [2021-host-4D-losning_problem4.md](2021-host-4D-losning_problem4.md) |

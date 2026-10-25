@@ -4,6 +4,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 
 | Fil | Kildesett | Oppgave | Løsningsfil |
 |---|---|---|---|
+| [2020-host-4D-losning_problem2.md](2020-host-4D-losning_problem2.md) | TMA4135 · host 2020 | problem 2 (5 p) | (løsningsfil) |
+| [2020-host-4D_problem2.md](2020-host-4D_problem2.md) | TMA4135 · host 2020 | problem 2 (5 p) | [2020-host-4D-losning_problem2.md](2020-host-4D-losning_problem2.md) |
 | [2021-kont-4D-losning_problem2.md](2021-kont-4D-losning_problem2.md) | TMA4135 · kont 2021 | problem 2 | (løsningsfil) |
 | [2021-kont-4D_problem2.md](2021-kont-4D_problem2.md) | TMA4135 · kont 2021 | problem 2 | [2021-kont-4D-losning_problem2.md](2021-kont-4D-losning_problem2.md) |
 | [2022-host-4D-losning_problem3.md](2022-host-4D-losning_problem3.md) | TMA4135 · host 2022 | problem 3 | (løsningsfil) |
