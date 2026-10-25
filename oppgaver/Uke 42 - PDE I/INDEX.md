@@ -4,6 +4,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 
 | Fil | Kildesett | Oppgave | Løsningsfil |
 |---|---|---|---|
+| [2017-kont-4D-losning_oppgave6.md](2017-kont-4D-losning_oppgave6.md) | TMA4135 · kont 2017 | oppgave 6 | (løsningsfil) |
+| [2017-kont-4D_oppgave6.md](2017-kont-4D_oppgave6.md) | TMA4135 · kont 2017 | oppgave 6 | [2017-kont-4D-losning_oppgave6.md](2017-kont-4D-losning_oppgave6.md) |
 | [2018-host-4D-losning_oppgave3.md](2018-host-4D-losning_oppgave3.md) | TMA4135 · host 2018 | oppgave 3 (6 p) | (løsningsfil) |
 | [2018-host-4D_oppgave3.md](2018-host-4D_oppgave3.md) | TMA4135 · host 2018 | oppgave 3 (6 p) | [2018-host-4D-losning_oppgave3.md](2018-host-4D-losning_oppgave3.md) |
 | [2021-kont-4D-losning_problem4.md](2021-kont-4D-losning_problem4.md) | TMA4135 · kont 2021 | problem 4 | (løsningsfil) |
