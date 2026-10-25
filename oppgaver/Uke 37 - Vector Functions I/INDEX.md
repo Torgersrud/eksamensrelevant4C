@@ -24,6 +24,7 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2021-kont-4D_problem6.md](2021-kont-4D_problem6.md) | TMA4135 · kont 2021 | problem 6 | [2021-kont-4D-losning_problem6.md](2021-kont-4D-losning_problem6.md) |
 | [2022-host-4D-losning_problem7.md](2022-host-4D-losning_problem7.md) | TMA4135 · host 2022 | problem 7 | (løsningsfil) |
 | [2022-host-4D_problem7.md](2022-host-4D_problem7.md) | TMA4135 · host 2022 | problem 7 | [2022-host-4D-losning_problem7.md](2022-host-4D-losning_problem7.md) |
+| [2022-host-4N_dup1_problem7.md](2022-host-4N_dup1_problem7.md) | TMA4135 · host 2022 | problem 7 | – |
 | [2022-kont-4D-losning_problem3.md](2022-kont-4D-losning_problem3.md) | TMA4135 · kont 2022 | problem 3 (10 p) | (løsningsfil) |
 | [2022-kont-4D-losning_problem4.md](2022-kont-4D-losning_problem4.md) | TMA4135 · kont 2022 | problem 4 (12 p) | (løsningsfil) |
 | [2022-kont-4D_problem3.md](2022-kont-4D_problem3.md) | TMA4135 · kont 2022 | problem 3 (10 p) | [2022-kont-4D-losning_problem3.md](2022-kont-4D-losning_problem3.md) |

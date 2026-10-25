@@ -44,6 +44,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2022-host-4D-losning_problem5.md](2022-host-4D-losning_problem5.md) | TMA4135 · host 2022 | problem 5 | (løsningsfil) |
 | [2022-host-4D_problem4.md](2022-host-4D_problem4.md) | TMA4135 · host 2022 | problem 4 | [2022-host-4D-losning_problem4.md](2022-host-4D-losning_problem4.md) |
 | [2022-host-4D_problem5.md](2022-host-4D_problem5.md) | TMA4135 · host 2022 | problem 5 | [2022-host-4D-losning_problem5.md](2022-host-4D-losning_problem5.md) |
+| [2022-host-4N_dup1_problem4.md](2022-host-4N_dup1_problem4.md) | TMA4135 · host 2022 | problem 4 | – |
+| [2022-host-4N_dup1_problem5.md](2022-host-4N_dup1_problem5.md) | TMA4135 · host 2022 | problem 5 | – |
 | [2022-kont-4D-losning_problem9.md](2022-kont-4D-losning_problem9.md) | TMA4135 · kont 2022 | problem 9 (12 p) | (løsningsfil) |
 | [2022-kont-4D_problem9.md](2022-kont-4D_problem9.md) | TMA4135 · kont 2022 | problem 9 (12 p) | [2022-kont-4D-losning_problem9.md](2022-kont-4D-losning_problem9.md) |
 | [2022-sommer-4D_dup1_problem9.md](2022-sommer-4D_dup1_problem9.md) | TMA4135 · sommer 2022 | problem 9 (12 p) | – |
