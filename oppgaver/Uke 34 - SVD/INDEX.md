@@ -7,6 +7,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2015-host-LM-losning_problem3.md](2015-host-LM-losning_problem3.md) | TMA4145 · host 2015 | problem 3 | (løsningsfil) |
 | [2015-host-LM_problem3.md](2015-host-LM_problem3.md) | TMA4145 · host 2015 | problem 3 | [2015-host-LM-losning_problem3.md](2015-host-LM-losning_problem3.md) |
 | [2015-kont-LM_problem4.md](2015-kont-LM_problem4.md) | TMA4145 · kont 2015 | problem 4 | – |
+| [2016-host-LM-losning_problem3.md](2016-host-LM-losning_problem3.md) | TMA4145 · host 2016 | problem 3 | (løsningsfil) |
+| [2016-host-LM_problem3.md](2016-host-LM_problem3.md) | TMA4145 · host 2016 | problem 3 | [2016-host-LM-losning_problem3.md](2016-host-LM-losning_problem3.md) |
 | [2017-host-LM-losning_problem1.md](2017-host-LM-losning_problem1.md) | TMA4145 · host 2017 | problem 1 | (løsningsfil) |
 | [2017-host-LM_problem1.md](2017-host-LM_problem1.md) | TMA4145 · host 2017 | problem 1 | [2017-host-LM-losning_problem1.md](2017-host-LM-losning_problem1.md) |
 | [2017-kont-LM-losning_problem1.md](2017-kont-LM-losning_problem1.md) | TMA4145 · kont 2017 | problem 1 | (løsningsfil) |
