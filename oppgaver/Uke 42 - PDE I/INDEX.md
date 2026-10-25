@@ -9,6 +9,7 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2007-kont-4N_dup1_oppgave1.md](2007-kont-4N_dup1_oppgave1.md) | TMA4130 · kont 2007 | oppgave 1 | – |
 | [2010-kont-4D-losning_oppgave3.md](2010-kont-4D-losning_oppgave3.md) | TMA4135 · kont 2010 | oppgave 3 | (løsningsfil) |
 | [2010-kont-4D_oppgave3.md](2010-kont-4D_oppgave3.md) | TMA4135 · kont 2010 | oppgave 3 | [2010-kont-4D-losning_oppgave3.md](2010-kont-4D-losning_oppgave3.md) |
+| [2010-sommer-4N_dup1_oppgave3.md](2010-sommer-4N_dup1_oppgave3.md) | TMA4130 · sommer 2010 | oppgave 3 | – |
 | [2016-kont-4D-losning_oppgave6.md](2016-kont-4D-losning_oppgave6.md) | TMA4135 · kont 2016 | oppgave 6 | (løsningsfil) |
 | [2016-kont-4D_oppgave6.md](2016-kont-4D_oppgave6.md) | TMA4135 · kont 2016 | oppgave 6 | [2016-kont-4D-losning_oppgave6.md](2016-kont-4D-losning_oppgave6.md) |
 | [2017-kont-4D-losning_oppgave6.md](2017-kont-4D-losning_oppgave6.md) | TMA4135 · kont 2017 | oppgave 6 | (løsningsfil) |

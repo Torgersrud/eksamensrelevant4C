@@ -14,6 +14,7 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2009-host-4N_dup1_oppgave2.md](2009-host-4N_dup1_oppgave2.md) | TMA4130 · host 2009 | oppgave 2 | – |
 | [2010-kont-4D-losning_oppgave2.md](2010-kont-4D-losning_oppgave2.md) | TMA4135 · kont 2010 | oppgave 2 | (løsningsfil) |
 | [2010-kont-4D_oppgave2.md](2010-kont-4D_oppgave2.md) | TMA4135 · kont 2010 | oppgave 2 | [2010-kont-4D-losning_oppgave2.md](2010-kont-4D-losning_oppgave2.md) |
+| [2010-sommer-4N_dup1_oppgave2.md](2010-sommer-4N_dup1_oppgave2.md) | TMA4130 · sommer 2010 | oppgave 2 | – |
 | [2011-var-4N-losning_oppgave1.md](2011-var-4N-losning_oppgave1.md) | TMA4125 · var 2011 | oppgave 1 | (løsningsfil) |
 | [2011-var-4N_oppgave1.md](2011-var-4N_oppgave1.md) | TMA4125 · var 2011 | oppgave 1 | [2011-var-4N-losning_oppgave1.md](2011-var-4N-losning_oppgave1.md) |
 | [2012-host-4N-losning_problem2.md](2012-host-4N-losning_problem2.md) | TMA4130 · host 2012 | problem 2 | (løsningsfil) |
