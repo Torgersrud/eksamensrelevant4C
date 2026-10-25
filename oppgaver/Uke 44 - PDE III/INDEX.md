@@ -60,6 +60,10 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2010-host-4D-losning_oppgave9.md](2010-host-4D-losning_oppgave9.md) | TMA4135 · host 2010 | oppgave 9 | (løsningsfil) |
 | [2010-host-4D_oppgave6.md](2010-host-4D_oppgave6.md) | TMA4135 · host 2010 | oppgave 6 | [2010-host-4D-losning_oppgave6.md](2010-host-4D-losning_oppgave6.md) |
 | [2010-host-4D_oppgave9.md](2010-host-4D_oppgave9.md) | TMA4135 · host 2010 | oppgave 9 | [2010-host-4D-losning_oppgave9.md](2010-host-4D-losning_oppgave9.md) |
+| [2010-host-4N-losning_oppgave6.md](2010-host-4N-losning_oppgave6.md) | TMA4130 · host 2010 | oppgave 6 | (løsningsfil) |
+| [2010-host-4N-losning_oppgave9.md](2010-host-4N-losning_oppgave9.md) | TMA4130 · host 2010 | oppgave 9 | (løsningsfil) |
+| [2010-host-4N_oppgave6.md](2010-host-4N_oppgave6.md) | TMA4130 · host 2010 | oppgave 6 | [2010-host-4N-losning_oppgave6.md](2010-host-4N-losning_oppgave6.md) |
+| [2010-host-4N_oppgave9.md](2010-host-4N_oppgave9.md) | TMA4130 · host 2010 | oppgave 9 | [2010-host-4N-losning_oppgave9.md](2010-host-4N-losning_oppgave9.md) |
 | [2010-kont-4D-losning_oppgave5.md](2010-kont-4D-losning_oppgave5.md) | TMA4135 · kont 2010 | oppgave 5 | (løsningsfil) |
 | [2010-kont-4D_oppgave5.md](2010-kont-4D_oppgave5.md) | TMA4135 · kont 2010 | oppgave 5 | [2010-kont-4D-losning_oppgave5.md](2010-kont-4D-losning_oppgave5.md) |
 | [2010-sommer-4N_dup1_oppgave5.md](2010-sommer-4N_dup1_oppgave5.md) | TMA4130 · sommer 2010 | oppgave 5 | – |

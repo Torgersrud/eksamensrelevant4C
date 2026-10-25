@@ -10,6 +10,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2007-var-4N_oppgave1.md](2007-var-4N_oppgave1.md) | TMA4123 · var 2007 | oppgave 1 | [2007-var-4N-losning_oppgave1.md](2007-var-4N-losning_oppgave1.md) |
 | [2010-host-4D-losning_oppgave4.md](2010-host-4D-losning_oppgave4.md) | TMA4135 · host 2010 | oppgave 4 | (løsningsfil) |
 | [2010-host-4D_oppgave4.md](2010-host-4D_oppgave4.md) | TMA4135 · host 2010 | oppgave 4 | [2010-host-4D-losning_oppgave4.md](2010-host-4D-losning_oppgave4.md) |
+| [2010-host-4N-losning_oppgave4.md](2010-host-4N-losning_oppgave4.md) | TMA4130 · host 2010 | oppgave 4 | (løsningsfil) |
+| [2010-host-4N_oppgave4.md](2010-host-4N_oppgave4.md) | TMA4130 · host 2010 | oppgave 4 | [2010-host-4N-losning_oppgave4.md](2010-host-4N-losning_oppgave4.md) |
 | [2012-host-4D-losning_oppgave3.md](2012-host-4D-losning_oppgave3.md) | TMA4135 · host 2012 | oppgave 3 | (løsningsfil) |
 | [2012-host-4D_oppgave3.md](2012-host-4D_oppgave3.md) | TMA4135 · host 2012 | oppgave 3 | [2012-host-4D-losning_oppgave3.md](2012-host-4D-losning_oppgave3.md) |
 | [2013-var-4N-losning_oppgave2.md](2013-var-4N-losning_oppgave2.md) | TMA4123 · var 2013 | oppgave 2 | (løsningsfil) |
