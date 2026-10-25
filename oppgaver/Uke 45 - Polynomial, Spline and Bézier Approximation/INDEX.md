@@ -10,6 +10,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2016-host-4N_problem6.md](2016-host-4N_problem6.md) | TMA4130 · host 2016 | problem 6 | [2016-host-4N-losning_problem6.md](2016-host-4N-losning_problem6.md) |
 | [2016-kont-4D-losning_oppgave1.md](2016-kont-4D-losning_oppgave1.md) | TMA4135 · kont 2016 | oppgave 1 | (løsningsfil) |
 | [2016-kont-4D_oppgave1.md](2016-kont-4D_oppgave1.md) | TMA4135 · kont 2016 | oppgave 1 | [2016-kont-4D-losning_oppgave1.md](2016-kont-4D-losning_oppgave1.md) |
+| [2016-kont-4N-losning_problem2.md](2016-kont-4N-losning_problem2.md) | TMA4125 · kont 2016 | problem 2 | (løsningsfil) |
+| [2016-kont-4N_problem2.md](2016-kont-4N_problem2.md) | TMA4125 · kont 2016 | problem 2 | [2016-kont-4N-losning_problem2.md](2016-kont-4N-losning_problem2.md) |
 | [2018-host-4D-losning_oppgave5.md](2018-host-4D-losning_oppgave5.md) | TMA4135 · host 2018 | oppgave 5 (10 p) | (løsningsfil) |
 | [2018-host-4D_oppgave5.md](2018-host-4D_oppgave5.md) | TMA4135 · host 2018 | oppgave 5 (10 p) | [2018-host-4D-losning_oppgave5.md](2018-host-4D-losning_oppgave5.md) |
 | [2018-host-4N_dup1_oppgave5.md](2018-host-4N_dup1_oppgave5.md) | TMA4135 · host 2018 | oppgave 5 (10 p) | – |

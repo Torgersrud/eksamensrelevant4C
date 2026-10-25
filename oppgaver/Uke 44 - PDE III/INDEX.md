@@ -12,6 +12,10 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2016-host-4N-losning_problem2.md](2016-host-4N-losning_problem2.md) | TMA4130 · host 2016 | problem 2 | (løsningsfil) |
 | [2016-host-4N_problem10.md](2016-host-4N_problem10.md) | TMA4130 · host 2016 | problem 10 | [2016-host-4N-losning_problem10.md](2016-host-4N-losning_problem10.md) |
 | [2016-host-4N_problem2.md](2016-host-4N_problem2.md) | TMA4130 · host 2016 | problem 2 | [2016-host-4N-losning_problem2.md](2016-host-4N-losning_problem2.md) |
+| [2016-kont-4N-losning_problem7.md](2016-kont-4N-losning_problem7.md) | TMA4125 · kont 2016 | problem 7 | (løsningsfil) |
+| [2016-kont-4N-losning_problem9.md](2016-kont-4N-losning_problem9.md) | TMA4125 · kont 2016 | problem 9 | (løsningsfil) |
+| [2016-kont-4N_problem7.md](2016-kont-4N_problem7.md) | TMA4125 · kont 2016 | problem 7 | [2016-kont-4N-losning_problem7.md](2016-kont-4N-losning_problem7.md) |
+| [2016-kont-4N_problem9.md](2016-kont-4N_problem9.md) | TMA4125 · kont 2016 | problem 9 | [2016-kont-4N-losning_problem9.md](2016-kont-4N-losning_problem9.md) |
 | [2016-var-4N-losning_oppgave5.md](2016-var-4N-losning_oppgave5.md) | TMA4125 · var 2016 | oppgave 5 | (løsningsfil) |
 | [2016-var-4N_oppgave5.md](2016-var-4N_oppgave5.md) | TMA4125 · var 2016 | oppgave 5 | [2016-var-4N-losning_oppgave5.md](2016-var-4N-losning_oppgave5.md) |
 | [2017-host-4D-losning_oppgave6.md](2017-host-4D-losning_oppgave6.md) | TMA4135 · host 2017 | oppgave 6 | (løsningsfil) |
