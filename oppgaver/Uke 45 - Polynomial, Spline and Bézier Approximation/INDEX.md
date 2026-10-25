@@ -31,6 +31,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2023-kont-4D-losning_problem5.md](2023-kont-4D-losning_problem5.md) | TMA4135 · kont 2023 | problem 5 (10 p) | (løsningsfil) |
 | [2023-kont-4D_problem5.md](2023-kont-4D_problem5.md) | TMA4135 · kont 2023 | problem 5 (10 p) | [2023-kont-4D-losning_problem5.md](2023-kont-4D-losning_problem5.md) |
 | [2023-kont-4N_dup1_problem5.md](2023-kont-4N_dup1_problem5.md) | TMA4135 · kont 2023 | problem 5 (10 p) | – |
+| [2023-var-4N-losning_problem2.md](2023-var-4N-losning_problem2.md) | TMA4125 · var 2023 | problem 2 (11 p) | (løsningsfil) |
+| [2023-var-4N_problem2.md](2023-var-4N_problem2.md) | TMA4125 · var 2023 | problem 2 (11 p) | [2023-var-4N-losning_problem2.md](2023-var-4N-losning_problem2.md) |
 | [2024-host-4D-losning_problem4.md](2024-host-4D-losning_problem4.md) | TMA4135 · host 2024 | problem 4 (10 p) | (løsningsfil) |
 | [2024-host-4D_problem4.md](2024-host-4D_problem4.md) | TMA4135 · host 2024 | problem 4 (10 p) | [2024-host-4D-losning_problem4.md](2024-host-4D-losning_problem4.md) |
 | [2024-host-4N_dup1_problem4.md](2024-host-4N_dup1_problem4.md) | TMA4135 · host 2024 | problem 4 (10 p) | – |
