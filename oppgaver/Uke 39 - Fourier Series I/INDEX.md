@@ -11,6 +11,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2010-kont-4D-losning_oppgave2.md](2010-kont-4D-losning_oppgave2.md) | TMA4135 · kont 2010 | oppgave 2 | (løsningsfil) |
 | [2010-kont-4D_oppgave2.md](2010-kont-4D_oppgave2.md) | TMA4135 · kont 2010 | oppgave 2 | [2010-kont-4D-losning_oppgave2.md](2010-kont-4D-losning_oppgave2.md) |
 | [2012-host-4N-losning_problem2.md](2012-host-4N-losning_problem2.md) | TMA4130 · host 2012 | problem 2 | (løsningsfil) |
+| [2012-var-4N-losning_oppgave2.md](2012-var-4N-losning_oppgave2.md) | TMA4125 · var 2012 | oppgave 2 | (løsningsfil) |
+| [2012-var-4N_oppgave2.md](2012-var-4N_oppgave2.md) | TMA4125 · var 2012 | oppgave 2 | [2012-var-4N-losning_oppgave2.md](2012-var-4N-losning_oppgave2.md) |
 | [2013-host-4N-losning_oppgave1.md](2013-host-4N-losning_oppgave1.md) | TMA4130 · host 2013 | oppgave 1 | (løsningsfil) |
 | [2013-host-4N_oppgave1.md](2013-host-4N_oppgave1.md) | TMA4130 · host 2013 | oppgave 1 | [2013-host-4N-losning_oppgave1.md](2013-host-4N-losning_oppgave1.md) |
 | [2013-kont-4D-losning_oppgave3.md](2013-kont-4D-losning_oppgave3.md) | TMA4135 · kont 2013 | oppgave 3 | (løsningsfil) |

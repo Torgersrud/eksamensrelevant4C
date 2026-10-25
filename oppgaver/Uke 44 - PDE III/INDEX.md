@@ -54,6 +54,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2012-kont-4D-losning_oppgave6.md](2012-kont-4D-losning_oppgave6.md) | TMA4135 · kont 2012 | oppgave 6 | (løsningsfil) |
 | [2012-kont-4D_oppgave4.md](2012-kont-4D_oppgave4.md) | TMA4135 · kont 2012 | oppgave 4 | [2012-kont-4D-losning_oppgave4.md](2012-kont-4D-losning_oppgave4.md) |
 | [2012-kont-4D_oppgave6.md](2012-kont-4D_oppgave6.md) | TMA4135 · kont 2012 | oppgave 6 | [2012-kont-4D-losning_oppgave6.md](2012-kont-4D-losning_oppgave6.md) |
+| [2012-var-4N-losning_oppgave3.md](2012-var-4N-losning_oppgave3.md) | TMA4125 · var 2012 | oppgave 3 | (løsningsfil) |
+| [2012-var-4N_oppgave3.md](2012-var-4N_oppgave3.md) | TMA4125 · var 2012 | oppgave 3 | [2012-var-4N-losning_oppgave3.md](2012-var-4N-losning_oppgave3.md) |
 | [2013-host-4D-losning_oppgave3.md](2013-host-4D-losning_oppgave3.md) | TMA4135 · host 2013 | oppgave 3 | (løsningsfil) |
 | [2013-host-4D-losning_oppgave6.md](2013-host-4D-losning_oppgave6.md) | TMA4135 · host 2013 | oppgave 6 | (løsningsfil) |
 | [2013-host-4D_oppgave3.md](2013-host-4D_oppgave3.md) | TMA4135 · host 2013 | oppgave 3 | [2013-host-4D-losning_oppgave3.md](2013-host-4D-losning_oppgave3.md) |
