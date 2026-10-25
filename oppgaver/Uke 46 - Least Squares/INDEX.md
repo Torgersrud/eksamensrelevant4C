@@ -6,6 +6,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 |---|---|---|---|
 | [2015-host-M3-losning_oppgave9.md](2015-host-M3-losning_oppgave9.md) | TMA4110 · host 2015 | oppgave 9 | (løsningsfil) |
 | [2015-host-M3_oppgave9.md](2015-host-M3_oppgave9.md) | TMA4110 · host 2015 | oppgave 9 | [2015-host-M3-losning_oppgave9.md](2015-host-M3-losning_oppgave9.md) |
+| [2017-host-M3-losning_oppgave7.md](2017-host-M3-losning_oppgave7.md) | TMA4110 · host 2017 | oppgave 7 | (løsningsfil) |
+| [2017-host-M3_oppgave7.md](2017-host-M3_oppgave7.md) | TMA4110 · host 2017 | oppgave 7 | [2017-host-M3-losning_oppgave7.md](2017-host-M3-losning_oppgave7.md) |
 | [2018-host-LM-losning_problem5.md](2018-host-LM-losning_problem5.md) | TMA4145 · host 2018 | problem 5 | (løsningsfil) |
 | [2018-host-LM_problem5.md](2018-host-LM_problem5.md) | TMA4145 · host 2018 | problem 5 | [2018-host-LM-losning_problem5.md](2018-host-LM-losning_problem5.md) |
 | [2019-host-LM-losning_problem2.md](2019-host-LM-losning_problem2.md) | TMA4145 · host 2019 | problem 2 | (løsningsfil) |
