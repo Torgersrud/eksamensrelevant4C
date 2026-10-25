@@ -16,6 +16,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2019-kont-4D-losning_oppgave5.md](2019-kont-4D-losning_oppgave5.md) | TMA4135 · kont 2019 | oppgave 5 | (løsningsfil) |
 | [2019-kont-4D_oppgave5.md](2019-kont-4D_oppgave5.md) | TMA4135 · kont 2019 | oppgave 5 | [2019-kont-4D-losning_oppgave5.md](2019-kont-4D-losning_oppgave5.md) |
 | [2019-kont-4N_dup1_oppgave5.md](2019-kont-4N_dup1_oppgave5.md) | TMA4135 · kont 2019 | oppgave 5 | – |
+| [2019-var-4N-losning_oppgave5.md](2019-var-4N-losning_oppgave5.md) | TMA4125 · var 2019 | oppgave 5 | (løsningsfil) |
+| [2019-var-4N_oppgave5.md](2019-var-4N_oppgave5.md) | TMA4125 · var 2019 | oppgave 5 | [2019-var-4N-losning_oppgave5.md](2019-var-4N-losning_oppgave5.md) |
 | [2020-host-4D-losning_problem7.md](2020-host-4D-losning_problem7.md) | TMA4135 · host 2020 | problem 7 (10 p) | (løsningsfil) |
 | [2020-host-4D_problem7.md](2020-host-4D_problem7.md) | TMA4135 · host 2020 | problem 7 (10 p) | [2020-host-4D-losning_problem7.md](2020-host-4D-losning_problem7.md) |
 | [2020-host-4N_dup1_problem7.md](2020-host-4N_dup1_problem7.md) | TMA4135 · host 2020 | problem 7 (10 p) | – |
