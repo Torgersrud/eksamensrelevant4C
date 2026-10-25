@@ -23,6 +23,10 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2022-kont-4D-losning_problem7.md](2022-kont-4D-losning_problem7.md) | TMA4135 · kont 2022 | problem 7 (8 p) | (løsningsfil) |
 | [2022-kont-4D_problem7.md](2022-kont-4D_problem7.md) | TMA4135 · kont 2022 | problem 7 (8 p) | [2022-kont-4D-losning_problem7.md](2022-kont-4D-losning_problem7.md) |
 | [2022-sommer-4D_dup1_problem7.md](2022-sommer-4D_dup1_problem7.md) | TMA4135 · sommer 2022 | problem 7 (8 p) | – |
+| [2022-var-4N-losning_problem6.md](2022-var-4N-losning_problem6.md) | TMA4125 · var 2022 | problem 6 (8 p) | (løsningsfil) |
+| [2022-var-4N-losning_problem7.md](2022-var-4N-losning_problem7.md) | TMA4125 · var 2022 | problem 7 (8 p) | (løsningsfil) |
+| [2022-var-4N_problem6.md](2022-var-4N_problem6.md) | TMA4125 · var 2022 | problem 6 (8 p) | [2022-var-4N-losning_problem6.md](2022-var-4N-losning_problem6.md) |
+| [2022-var-4N_problem7.md](2022-var-4N_problem7.md) | TMA4125 · var 2022 | problem 7 (8 p) | [2022-var-4N-losning_problem7.md](2022-var-4N-losning_problem7.md) |
 | [2023-host-4D-losning_problem7.md](2023-host-4D-losning_problem7.md) | TMA4135 · host 2023 | problem 7 (10 p) | (løsningsfil) |
 | [2023-host-4D_problem7.md](2023-host-4D_problem7.md) | TMA4135 · host 2023 | problem 7 (10 p) | [2023-host-4D-losning_problem7.md](2023-host-4D-losning_problem7.md) |
 | [2023-host-4N-losning_problem7.md](2023-host-4N-losning_problem7.md) | TMA4135 · host 2023 | problem 7 (10 p) | (løsningsfil) |
