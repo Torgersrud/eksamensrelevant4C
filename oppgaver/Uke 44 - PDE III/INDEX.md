@@ -60,6 +60,10 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2013-kont-4D_oppgave7.md](2013-kont-4D_oppgave7.md) | TMA4135 · kont 2013 | oppgave 7 | [2013-kont-4D-losning_oppgave7.md](2013-kont-4D-losning_oppgave7.md) |
 | [2014-host-4D-losning_oppgave5.md](2014-host-4D-losning_oppgave5.md) | TMA4135 · host 2014 | oppgave 5 | (løsningsfil) |
 | [2014-host-4D_oppgave5.md](2014-host-4D_oppgave5.md) | TMA4135 · host 2014 | oppgave 5 | [2014-host-4D-losning_oppgave5.md](2014-host-4D-losning_oppgave5.md) |
+| [2014-host-4N-losning_problem4.md](2014-host-4N-losning_problem4.md) | TMA4130 · host 2014 | problem 4 | (løsningsfil) |
+| [2014-host-4N-losning_problem6.md](2014-host-4N-losning_problem6.md) | TMA4130 · host 2014 | problem 6 | (løsningsfil) |
+| [2014-host-4N_problem4.md](2014-host-4N_problem4.md) | TMA4130 · host 2014 | problem 4 | [2014-host-4N-losning_problem4.md](2014-host-4N-losning_problem4.md) |
+| [2014-host-4N_problem6.md](2014-host-4N_problem6.md) | TMA4130 · host 2014 | problem 6 | [2014-host-4N-losning_problem6.md](2014-host-4N-losning_problem6.md) |
 | [2014-kont-4D-losning_oppgave6.md](2014-kont-4D-losning_oppgave6.md) | TMA4135 · kont 2014 | oppgave 6 | (løsningsfil) |
 | [2014-kont-4D_oppgave6.md](2014-kont-4D_oppgave6.md) | TMA4135 · kont 2014 | oppgave 6 | [2014-kont-4D-losning_oppgave6.md](2014-kont-4D-losning_oppgave6.md) |
 | [2015-host-4D-losning_oppgave5.md](2015-host-4D-losning_oppgave5.md) | TMA4135 · host 2015 | oppgave 5 | (løsningsfil) |
