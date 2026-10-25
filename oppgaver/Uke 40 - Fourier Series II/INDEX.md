@@ -4,4 +4,5 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 
 | Fil | Kildesett | Oppgave | Løsningsfil |
 |---|---|---|---|
-*Tom for Oppgaver ena.*
+| [2023-kont-4D-losning_problem3.md](2023-kont-4D-losning_problem3.md) | TMA4135 · kont 2023 | problem 3 (10 p) | (løsningsfil) |
+| [2023-kont-4D_problem3.md](2023-kont-4D_problem3.md) | TMA4135 · kont 2023 | problem 3 (10 p) | [2023-kont-4D-losning_problem3.md](2023-kont-4D-losning_problem3.md) |
