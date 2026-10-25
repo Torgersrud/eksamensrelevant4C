@@ -26,6 +26,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2011-host-4D_oppgave3.md](2011-host-4D_oppgave3.md) | TMA4135 · host 2011 | oppgave 3 | [2011-host-4D-losning_oppgave3.md](2011-host-4D-losning_oppgave3.md) |
 | [2011-kont-4D-losning_oppgave2.md](2011-kont-4D-losning_oppgave2.md) | TMA4135 · kont 2011 | oppgave 2 | (løsningsfil) |
 | [2011-kont-4D_oppgave2.md](2011-kont-4D_oppgave2.md) | TMA4135 · kont 2011 | oppgave 2 | [2011-kont-4D-losning_oppgave2.md](2011-kont-4D-losning_oppgave2.md) |
+| [2011-var-4N-losning_oppgave2.md](2011-var-4N-losning_oppgave2.md) | TMA4125 · var 2011 | oppgave 2 | (løsningsfil) |
+| [2011-var-4N_oppgave2.md](2011-var-4N_oppgave2.md) | TMA4125 · var 2011 | oppgave 2 | [2011-var-4N-losning_oppgave2.md](2011-var-4N-losning_oppgave2.md) |
 | [2012-host-4D-losning_oppgave5.md](2012-host-4D-losning_oppgave5.md) | TMA4135 · host 2012 | oppgave 5 | (løsningsfil) |
 | [2012-host-4D_oppgave5.md](2012-host-4D_oppgave5.md) | TMA4135 · host 2012 | oppgave 5 | [2012-host-4D-losning_oppgave5.md](2012-host-4D-losning_oppgave5.md) |
 | [2012-host-4N-losning_problem3.md](2012-host-4N-losning_problem3.md) | TMA4130 · host 2012 | problem 3 | (løsningsfil) |
