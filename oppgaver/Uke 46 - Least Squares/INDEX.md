@@ -30,6 +30,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2021-kont-M3-losning_oppgave9.md](2021-kont-M3-losning_oppgave9.md) | TMA4110 · kont 2021 | oppgave 9 | (løsningsfil) |
 | [2021-kont-M3_oppgave8.md](2021-kont-M3_oppgave8.md) | TMA4110 · kont 2021 | oppgave 8 | [2021-kont-M3-losning_oppgave8.md](2021-kont-M3-losning_oppgave8.md) |
 | [2021-kont-M3_oppgave9.md](2021-kont-M3_oppgave9.md) | TMA4110 · kont 2021 | oppgave 9 | [2021-kont-M3-losning_oppgave9.md](2021-kont-M3-losning_oppgave9.md) |
+| [2022-host-M3-losning_oppgave3.md](2022-host-M3-losning_oppgave3.md) | TMA4110 · host 2022 | oppgave 3 | (løsningsfil) |
+| [2022-host-M3_oppgave3.md](2022-host-M3_oppgave3.md) | TMA4110 · host 2022 | oppgave 3 | [2022-host-M3-losning_oppgave3.md](2022-host-M3-losning_oppgave3.md) |
 | [2022-kont-M3-losning_oppgave4.md](2022-kont-M3-losning_oppgave4.md) | TMA4110 · kont 2022 | oppgave 4 | (løsningsfil) |
 | [2022-kont-M3-losning_oppgave8.md](2022-kont-M3-losning_oppgave8.md) | TMA4110 · kont 2022 | oppgave 8 | (løsningsfil) |
 | [2022-kont-M3_oppgave4.md](2022-kont-M3_oppgave4.md) | TMA4110 · kont 2022 | oppgave 4 | [2022-kont-M3-losning_oppgave4.md](2022-kont-M3-losning_oppgave4.md) |
