@@ -10,6 +10,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2019-host-4D_problem3.md](2019-host-4D_problem3.md) | TMA4135 · host 2019 | problem 3 (6 p) | [2019-host-4D-losning_problem3.md](2019-host-4D-losning_problem3.md) |
 | [2020-host-4D-losning_problem4.md](2020-host-4D-losning_problem4.md) | TMA4135 · host 2020 | problem 4 (5 p) | (løsningsfil) |
 | [2020-host-4D_problem4.md](2020-host-4D_problem4.md) | TMA4135 · host 2020 | problem 4 (5 p) | [2020-host-4D-losning_problem4.md](2020-host-4D-losning_problem4.md) |
+| [2020-kont-4N-losning_problem4.md](2020-kont-4N-losning_problem4.md) | TMA4135 · kont 2020 | problem 4 (6 p) | (løsningsfil) |
+| [2020-kont-4N_problem4.md](2020-kont-4N_problem4.md) | TMA4135 · kont 2020 | problem 4 (6 p) | [2020-kont-4N-losning_problem4.md](2020-kont-4N-losning_problem4.md) |
 | [2020-var-4N-losning_problem4.md](2020-var-4N-losning_problem4.md) | TMA4125 · var 2020 | problem 4 | (løsningsfil) |
 | [2020-var-4N_problem4.md](2020-var-4N_problem4.md) | TMA4125 · var 2020 | problem 4 | [2020-var-4N-losning_problem4.md](2020-var-4N-losning_problem4.md) |
 | [2021-host-4N-losning_problem4.md](2021-host-4N-losning_problem4.md) | TMA4130 · host 2021 | problem 4 (10 p) | (løsningsfil) |

@@ -14,6 +14,7 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2019-kont-4D_oppgave2.md](2019-kont-4D_oppgave2.md) | TMA4135 · kont 2019 | oppgave 2 | [2019-kont-4D-losning_oppgave2.md](2019-kont-4D-losning_oppgave2.md) |
 | [2020-kont-4D-losning_problem2.md](2020-kont-4D-losning_problem2.md) | TMA4135 · kont 2020 | problem 2 (10 p) | (løsningsfil) |
 | [2020-kont-4D_problem2.md](2020-kont-4D_problem2.md) | TMA4135 · kont 2020 | problem 2 (10 p) | [2020-kont-4D-losning_problem2.md](2020-kont-4D-losning_problem2.md) |
+| [2020-kont-4N_dup1_problem2.md](2020-kont-4N_dup1_problem2.md) | TMA4135 · kont 2020 | problem 2 (10 p) | – |
 | [2020-var-4N-losning_problem2.md](2020-var-4N-losning_problem2.md) | TMA4125 · var 2020 | problem 2 | (løsningsfil) |
 | [2020-var-4N_problem2.md](2020-var-4N_problem2.md) | TMA4125 · var 2020 | problem 2 | [2020-var-4N-losning_problem2.md](2020-var-4N-losning_problem2.md) |
 | [2021-host-4N-losning_problem2.md](2021-host-4N-losning_problem2.md) | TMA4130 · host 2021 | problem 2 (15 p) | (løsningsfil) |
