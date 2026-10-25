@@ -64,7 +64,7 @@ Automatisk tabell — regeneration med `python3 scripts/check_repo.py index`.
 <!-- TELL-TABELL:START -->
 | Uke | Emneknutepunkt | Oppgaver | Løsningsfiler |
 |---|---|---|---|
-| 34 | [SVD](oppgaver/Uke%2034%20-%20SVD/INDEX.md) | 12 | 11 |
+| 34 | [SVD](oppgaver/Uke%2034%20-%20SVD/INDEX.md) | 13 | 12 |
 | 35 | [Tensors and Tensor Decomposition](oppgaver/Uke%2035%20-%20Tensors%20and%20Tensor%20Decomposition/INDEX.md) | 4 | 4 |
 | 36 | [Parametrised Curves and Surfaces](oppgaver/Uke%2036%20-%20Parametrised%20Curves%20and%20Surfaces/INDEX.md) | 1 | 1 |
 | 37 | [Vector Functions I](oppgaver/Uke%2037%20-%20Vector%20Functions%20I/INDEX.md) | 40 | 32 |
@@ -76,8 +76,8 @@ Automatisk tabell — regeneration med `python3 scripts/check_repo.py index`.
 | 43 | [PDE II](oppgaver/Uke%2043%20-%20PDE%20II/INDEX.md) | 22 | 19 |
 | 44 | [PDE III](oppgaver/Uke%2044%20-%20PDE%20III/INDEX.md) | 90 | 72 |
 | 45 | [Polynomial, Spline and Bézier Approximation](oppgaver/Uke%2045%20-%20Polynomial,%20Spline%20and%20Bézier%20Approximation/INDEX.md) | 49 | 40 |
-| 46 | [Least Squares](oppgaver/Uke%2046%20-%20Least%20Squares/INDEX.md) | 36 | 33 |
-| **Sum** | | 388 | 322 |
+| 46 | [Least Squares](oppgaver/Uke%2046%20-%20Least%20Squares/INDEX.md) | 37 | 34 |
+| **Sum** | | 390 | 324 |
 <!-- TELL-TABELL:SLUTT -->
 
 ## Validering
