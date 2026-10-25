@@ -71,13 +71,13 @@ Automatisk tabell — regeneration med `python3 scripts/check_repo.py index`.
 | 38 | [Vector Functions II (Optimization)](oppgaver/Uke%2038%20-%20Vector%20Functions%20II%20(Optimization)/INDEX.md) | 1 | 1 |
 | 39 | [Fourier Series I](oppgaver/Uke%2039%20-%20Fourier%20Series%20I/INDEX.md) | 42 | 36 |
 | 40 | [Fourier Series II](oppgaver/Uke%2040%20-%20Fourier%20Series%20II/INDEX.md) | 29 | 22 |
-| 41 | [DFT, FFT and Fourier Transform](oppgaver/Uke%2041%20-%20DFT,%20FFT%20and%20Fourier%20Transform/INDEX.md) | 67 | 57 |
+| 41 | [DFT, FFT and Fourier Transform](oppgaver/Uke%2041%20-%20DFT,%20FFT%20and%20Fourier%20Transform/INDEX.md) | 68 | 57 |
 | 42 | [PDE I](oppgaver/Uke%2042%20-%20PDE%20I/INDEX.md) | 15 | 12 |
 | 43 | [PDE II](oppgaver/Uke%2043%20-%20PDE%20II/INDEX.md) | 22 | 19 |
-| 44 | [PDE III](oppgaver/Uke%2044%20-%20PDE%20III/INDEX.md) | 108 | 87 |
-| 45 | [Polynomial, Spline and Bézier Approximation](oppgaver/Uke%2045%20-%20Polynomial,%20Spline%20and%20Bézier%20Approximation/INDEX.md) | 60 | 51 |
+| 44 | [PDE III](oppgaver/Uke%2044%20-%20PDE%20III/INDEX.md) | 110 | 87 |
+| 45 | [Polynomial, Spline and Bézier Approximation](oppgaver/Uke%2045%20-%20Polynomial,%20Spline%20and%20Bézier%20Approximation/INDEX.md) | 61 | 51 |
 | 46 | [Least Squares](oppgaver/Uke%2046%20-%20Least%20Squares/INDEX.md) | 38 | 35 |
-| **Sum** | | 441 | 370 |
+| **Sum** | | 445 | 370 |
 <!-- TELL-TABELL:SLUTT -->
 
 ## Validering

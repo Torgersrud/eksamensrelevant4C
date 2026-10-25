@@ -35,6 +35,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2008-host-4D-losning_oppgave5.md](2008-host-4D-losning_oppgave5.md) | TMA4135 · host 2008 | oppgave 5 | (løsningsfil) |
 | [2008-host-4D_oppgave2.md](2008-host-4D_oppgave2.md) | TMA4135 · host 2008 | oppgave 2 | [2008-host-4D-losning_oppgave2.md](2008-host-4D-losning_oppgave2.md) |
 | [2008-host-4D_oppgave5.md](2008-host-4D_oppgave5.md) | TMA4135 · host 2008 | oppgave 5 | [2008-host-4D-losning_oppgave5.md](2008-host-4D-losning_oppgave5.md) |
+| [2008-host-4N_dup1_oppgave2.md](2008-host-4N_dup1_oppgave2.md) | TMA4130 · host 2008 | oppgave 2 | – |
+| [2008-host-4N_dup1_oppgave4.md](2008-host-4N_dup1_oppgave4.md) | TMA4130 · host 2008 | oppgave 4 | – |
 | [2008-kont-4D-losning_oppgave2.md](2008-kont-4D-losning_oppgave2.md) | TMA4135 · kont 2008 | oppgave 2 | (løsningsfil) |
 | [2008-kont-4D-losning_oppgave7.md](2008-kont-4D-losning_oppgave7.md) | TMA4135 · kont 2008 | oppgave 7 | (løsningsfil) |
 | [2008-kont-4D_oppgave2.md](2008-kont-4D_oppgave2.md) | TMA4135 · kont 2008 | oppgave 2 | [2008-kont-4D-losning_oppgave2.md](2008-kont-4D-losning_oppgave2.md) |
