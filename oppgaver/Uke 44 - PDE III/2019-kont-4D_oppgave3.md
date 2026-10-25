@@ -12,4 +12,4 @@ og initialkrav
 
 $$u(x,0)=\sin x,\quad u_t(x,0)=0.$$
 
-Kildesett: course=TMA4135 term=var year=2019 problem=3 file=tma4125-30-35-k19-bm.pdf
+Kildesett: course=TMA4135 term=kont year=2019 problem=3 file=tma4125-30-35-k19-bm.pdf

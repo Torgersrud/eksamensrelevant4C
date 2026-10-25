@@ -12,4 +12,4 @@ på hele $x$-aksen med initialkrav
 
 $$u(x,0)=f(x).$$
 
-Kildesett: course=TMA4135 term=var year=2019 problem=4 file=tma4125-30-35-k19-bm.pdf
+Kildesett: course=TMA4135 term=kont year=2019 problem=4 file=tma4125-30-35-k19-bm.pdf

@@ -66,4 +66,4 @@ $$u(t,x)=\frac{1}{\sqrt{2\pi t}}(f\star e^{\frac{-x^2}{2t}})=\int_{-\infty}^{\in
 
 i.e. the solution $u(t,x)$ is given by convolution of the initial temperature distribution with the heat kernel.
 
-Kildesett: course=TMA4135 term=sommer year=2019 problem=4 file=tma4135_s19_bm_3.pdf
+Kildesett: course=TMA4135 term=kont year=2019 problem=4 file=tma4125-30-35-k19-bm.pdf

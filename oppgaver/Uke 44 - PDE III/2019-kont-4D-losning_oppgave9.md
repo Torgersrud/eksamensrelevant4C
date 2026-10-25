@@ -52,4 +52,4 @@ Algoritmen kan skrives som Python-kode:
         for i in range(1,M):
             U[i,n+1] = U[i,n] + r*(U[i+1,n]-2*U[i,n]+U[i-1,n])
 
-Kildesett: course=TMA4135 term=var year=2019 problem=9 file=tma4125-30-35-k19-bm.pdf
+Kildesett: course=TMA4135 term=kont year=2019 problem=9 file=tma4125-30-35-k19-bm.pdf

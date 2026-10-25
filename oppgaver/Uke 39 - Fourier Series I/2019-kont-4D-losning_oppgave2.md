@@ -6,7 +6,7 @@ $$f(x)=\sin(3x)+\sin(x)+1$$
 
 already gives the Fourier series of $f$.
 
-**b)** Compute
+**c)** Compute
 
 $$u_x=y+2e^{2x},\quad u_y=x+2y+\cos y,$$
 
@@ -14,4 +14,4 @@ the gradient of $u$ can be written as
 
 $$(y+2e^{2x},x+2y+\cos y).$$
 
-Kildesett: course=TMA4135 term=sommer year=2019 problem=2 file=tma4135_s19_bm_3.pdf
+Kildesett: course=TMA4135 term=kont year=2019 problem=2 file=tma4125-30-35-k19-bm.pdf

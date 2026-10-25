@@ -10,4 +10,4 @@ $$\Big|f''(x)-\frac{f(x+h)-2f(x)+f(x-h)}{h^2}\Big|<\frac{C}{12}h^2.$$
 
 Tilnærmelsen er av orden 2.
 
-Kildesett: course=TMA4135 term=sommer year=2019 problem=6 file=tma4135_s19_bm_3.pdf
+Kildesett: course=TMA4135 term=kont year=2019 problem=6 file=tma4125-30-35-k19-bm.pdf

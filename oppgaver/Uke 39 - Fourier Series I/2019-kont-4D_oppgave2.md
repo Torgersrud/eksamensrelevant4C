@@ -6,10 +6,10 @@ $$f(x)=\sin(3x)+\sin(x)+1$$
 
 på intervallet $[-\pi,\pi]$.
 
-**b)** Gitt funksjonen
+**c)** **KUN 4D:** Gitt funksjonen
 
 $$u(x,y)=xy+y^2+e^{2x}+\sin y.$$
 
 Beregn gradienten til $u$.
 
-Kildesett: course=TMA4135 term=sommer year=2019 problem=2 file=tma4135_s19_bm_3.pdf
+Kildesett: course=TMA4135 term=kont year=2019 problem=2 file=tma4125-30-35-k19-bm.pdf
