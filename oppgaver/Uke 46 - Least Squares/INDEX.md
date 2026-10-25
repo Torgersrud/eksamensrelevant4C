@@ -24,6 +24,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2010-kont-LM_problem2.md](2010-kont-LM_problem2.md) | TMA4145 · kont 2010 | problem 2 (8 p) | [2010-kont-LM-losning_problem2.md](2010-kont-LM-losning_problem2.md) |
 | [2011-host-LM-losning_problem4.md](2011-host-LM-losning_problem4.md) | TMA4145 · host 2011 | problem 4 | (løsningsfil) |
 | [2011-host-LM_problem4.md](2011-host-LM_problem4.md) | TMA4145 · host 2011 | problem 4 | [2011-host-LM-losning_problem4.md](2011-host-LM-losning_problem4.md) |
+| [2011-host-M3-losning_oppgave5.md](2011-host-M3-losning_oppgave5.md) | TMA4110 · host 2011 | oppgave 5 | (løsningsfil) |
+| [2011-host-M3_oppgave5.md](2011-host-M3_oppgave5.md) | TMA4110 · host 2011 | oppgave 5 | [2011-host-M3-losning_oppgave5.md](2011-host-M3-losning_oppgave5.md) |
 | [2011-kont-LM_problem4.md](2011-kont-LM_problem4.md) | TMA4145 · kont 2011 | problem 4 | – |
 | [2012-host-LM-losning_problem4.md](2012-host-LM-losning_problem4.md) | TMA4145 · host 2012 | problem 4 | (løsningsfil) |
 | [2012-host-LM_problem4.md](2012-host-LM_problem4.md) | TMA4145 · host 2012 | problem 4 | [2012-host-LM-losning_problem4.md](2012-host-LM-losning_problem4.md) |
