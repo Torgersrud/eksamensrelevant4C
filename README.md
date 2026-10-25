@@ -35,9 +35,12 @@ prefikset `synthetic-` — se [ADR 0002](docs/adr/0002-gap-policy.md).
 
 ## Filnavn
 
-    <year>-<term>-<tag>[-losning][_dupN]_problem|oppgave<N>.md
+    <year>-<term>[-<a-z>]-<tag>[-losning][_dupN]_problem|oppgave<N>.md
 
 - `year`: eksamensåret, `term` ∈ `host`, `var`, `kont`, `sommer`, `test`
+- liten bokstav etter terminen: skil fleire Kildesett i same år+term (t.d. to
+  sensensur av same eksamen); det første Kildesettjen har vanleg namn, det
+  andre får `-b`, det tredje `-c`, osv. — rekkefølgja følgjer Kildesettnummeret
 - `tag` ∈ `4N`, `4D`, `LM`, `M3`, `4C` (4C er forbeholdt testeksamen, `2026-test-4C`)
 - ordet er `problem` på engelske sett, `oppgave` på norske — uten understrek før nummeret
 - `-losning`: løsningsfil, må bare eksistere hvis Kildesettet er løst ifølge manifestet
@@ -66,15 +69,15 @@ Automatisk tabell — regeneration med `python3 scripts/check_repo.py index`.
 | 36 | [Parametrised Curves and Surfaces](oppgaver/Uke%2036%20-%20Parametrised%20Curves%20and%20Surfaces/INDEX.md) | 1 | 1 |
 | 37 | [Vector Functions I](oppgaver/Uke%2037%20-%20Vector%20Functions%20I/INDEX.md) | 17 | 16 |
 | 38 | [Vector Functions II (Optimization)](oppgaver/Uke%2038%20-%20Vector%20Functions%20II%20(Optimization)/INDEX.md) | 1 | 1 |
-| 39 | [Fourier Series I](oppgaver/Uke%2039%20-%20Fourier%20Series%20I/INDEX.md) | 13 | 13 |
+| 39 | [Fourier Series I](oppgaver/Uke%2039%20-%20Fourier%20Series%20I/INDEX.md) | 14 | 14 |
 | 40 | [Fourier Series II](oppgaver/Uke%2040%20-%20Fourier%20Series%20II/INDEX.md) | 13 | 12 |
-| 41 | [DFT, FFT and Fourier Transform](oppgaver/Uke%2041%20-%20DFT,%20FFT%20and%20Fourier%20Transform/INDEX.md) | 18 | 17 |
+| 41 | [DFT, FFT and Fourier Transform](oppgaver/Uke%2041%20-%20DFT,%20FFT%20and%20Fourier%20Transform/INDEX.md) | 19 | 18 |
 | 42 | [PDE I](oppgaver/Uke%2042%20-%20PDE%20I/INDEX.md) | 8 | 8 |
-| 43 | [PDE II](oppgaver/Uke%2043%20-%20PDE%20II/INDEX.md) | 12 | 12 |
+| 43 | [PDE II](oppgaver/Uke%2043%20-%20PDE%20II/INDEX.md) | 13 | 13 |
 | 44 | [PDE III](oppgaver/Uke%2044%20-%20PDE%20III/INDEX.md) | 28 | 27 |
-| 45 | [Polynomial, Spline and Bézier Approximation](oppgaver/Uke%2045%20-%20Polynomial,%20Spline%20and%20Bézier%20Approximation/INDEX.md) | 22 | 21 |
+| 45 | [Polynomial, Spline and Bézier Approximation](oppgaver/Uke%2045%20-%20Polynomial,%20Spline%20and%20Bézier%20Approximation/INDEX.md) | 23 | 22 |
 | 46 | [Least Squares](oppgaver/Uke%2046%20-%20Least%20Squares/INDEX.md) | 2 | 2 |
-| **Sum** | | 150 | 144 |
+| **Sum** | | 154 | 148 |
 <!-- TELL-TABELL:SLUTT -->
 
 ## Validering

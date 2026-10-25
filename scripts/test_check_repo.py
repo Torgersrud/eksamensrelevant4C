@@ -169,6 +169,21 @@ class TestFilnavnGrammatikk(ValidatorTestCase):
             encoding="utf-8")
         self.assertViolates("FILGRAMMATIKK")
 
+    def test_set_letter_after_term_is_valid(self):
+        # Two Kildesetter i same år+term (t.d. to sensensurar): den andre
+        # får ein liten bokstav etter terminen.
+        (self.repo / "oppgaver" / "Uke 39 - Fourier Series I" / "2022-kont-b-4D_oppgave7.md").write_text(
+            "yy\n\n" + footer("TMA4135", "kont", "2022", "7", "4d2022kont.pdf"),
+            encoding="utf-8")
+        self.index()
+        self.assertOk()
+
+    def test_two_letter_set_names_filgrammatikk(self):
+        (self.repo / "oppgaver" / "Uke 39 - Fourier Series I" / "2022-kont-bb-4D_oppgave7.md").write_text(
+            "yy\n\n" + footer("TMA4135", "kont", "2022", "7", "4d2022kont.pdf"),
+            encoding="utf-8")
+        self.assertViolates("FILGRAMMATIKK")
+
 
 class TestProvensfot(ValidatorTestCase):
     def test_missing_footer_names_fotspor(self):

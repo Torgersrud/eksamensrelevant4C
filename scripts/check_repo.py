@@ -35,7 +35,7 @@ TELL_START = "<!-- TELL-TABELL:START -->"
 TELL_SLUTT = "<!-- TELL-TABELL:SLUTT -->"
 
 NAME_RE = re.compile(
-    r"(?P<year>\d{4})-(?P<term>host|var|kont|sommer|test)-(?P<tag>4N|4D|LM|M3|4C)"
+    r"(?P<year>\d{4})-(?P<term>host|var|kont|sommer|test)(?:-(?P<set>[a-z]))?-(?P<tag>4N|4D|LM|M3|4C)"
     r"(?P<los>-losning)?(?:_dup(?P<dup>[1-9][0-9]*))?"
     r"_(?P<word>problem|oppgave)(?P<num>[1-9][0-9]*)\.md$"
 )
@@ -74,7 +74,7 @@ def fil_info(navn):
     return {"syntetisk": synt, "losning": m["los"] is not None,
             "dup": int(m["dup"]) if m["dup"] else None,
             "mester_navn": navn.replace(f"_dup{m['dup']}_", "_", 1) if m["dup"] else navn,
-            "year": m["year"], "term": m["term"], "tag": m["tag"],
+            "year": m["year"], "term": m["term"], "set": m["set"], "tag": m["tag"],
             "word": m["word"], "num": int(m["num"])}
 
 
@@ -205,7 +205,7 @@ def sjekk(repo):
         for p in md_filer(mappe):
             if fil_info(p.name) is None:
                 krenske.append(("FILGRAMMATIKK", f"oppgaver/{mappenavn}/{p.name}",
-                                "fylgjer ikkje <year>-<term>-<tag>[-losning][_dupN]_problem|oppgave<N>.md"
+                                "fylgjer ikkje <year>-<term>[-a-z][-losning][_dupN]_problem|oppgave<N>.md"
                                 " (evt. med synthetic- framfor)"))
     krenske += sjekk_fotspor(repo)
     krenske += sjekk_duplikat(repo)
