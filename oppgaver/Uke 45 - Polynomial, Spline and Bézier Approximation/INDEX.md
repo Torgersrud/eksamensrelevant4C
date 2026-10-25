@@ -9,6 +9,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2006-host-4N_dup1_oppgave4.md](2006-host-4N_dup1_oppgave4.md) | TMA4130 · host 2006 | oppgave 4 | – |
 | [2006-kont-4N-losning_oppgave4.md](2006-kont-4N-losning_oppgave4.md) | TMA4125 · kont 2006 | oppgave 4 | (løsningsfil) |
 | [2006-kont-4N_oppgave4.md](2006-kont-4N_oppgave4.md) | TMA4125 · kont 2006 | oppgave 4 | [2006-kont-4N-losning_oppgave4.md](2006-kont-4N-losning_oppgave4.md) |
+| [2006-var-4N-losning_oppgave5.md](2006-var-4N-losning_oppgave5.md) | TMA4125 · var 2006 | oppgave 5 | (løsningsfil) |
+| [2006-var-4N_oppgave5.md](2006-var-4N_oppgave5.md) | TMA4125 · var 2006 | oppgave 5 | [2006-var-4N-losning_oppgave5.md](2006-var-4N-losning_oppgave5.md) |
 | [2008-host-4D-losning_oppgave6.md](2008-host-4D-losning_oppgave6.md) | TMA4135 · host 2008 | oppgave 6 | (løsningsfil) |
 | [2008-host-4D_oppgave6.md](2008-host-4D_oppgave6.md) | TMA4135 · host 2008 | oppgave 6 | [2008-host-4D-losning_oppgave6.md](2008-host-4D-losning_oppgave6.md) |
 | [2008-kont-4D-losning_oppgave6.md](2008-kont-4D-losning_oppgave6.md) | TMA4135 · kont 2008 | oppgave 6 | (løsningsfil) |
