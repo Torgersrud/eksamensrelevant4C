@@ -60,17 +60,17 @@ Automatisk tabell — regeneration med `python3 scripts/check_repo.py index`.
 | 34 | [SVD](oppgaver/Uke%2034%20-%20SVD/INDEX.md) | 1 | 1 |
 | 35 | [Tensors and Tensor Decomposition](oppgaver/Uke%2035%20-%20Tensors%20and%20Tensor%20Decomposition/INDEX.md) | 1 | 1 |
 | 36 | [Parametrised Curves and Surfaces](oppgaver/Uke%2036%20-%20Parametrised%20Curves%20and%20Surfaces/INDEX.md) | 1 | 1 |
-| 37 | [Vector Functions I](oppgaver/Uke%2037%20-%20Vector%20Functions%20I/INDEX.md) | 2 | 2 |
+| 37 | [Vector Functions I](oppgaver/Uke%2037%20-%20Vector%20Functions%20I/INDEX.md) | 3 | 3 |
 | 38 | [Vector Functions II (Optimization)](oppgaver/Uke%2038%20-%20Vector%20Functions%20II%20(Optimization)/INDEX.md) | 1 | 1 |
 | 39 | [Fourier Series I](oppgaver/Uke%2039%20-%20Fourier%20Series%20I/INDEX.md) | 4 | 4 |
-| 40 | [Fourier Series II](oppgaver/Uke%2040%20-%20Fourier%20Series%20II/INDEX.md) | 2 | 2 |
-| 41 | [DFT, FFT and Fourier Transform](oppgaver/Uke%2041%20-%20DFT,%20FFT%20and%20Fourier%20Transform/INDEX.md) | 4 | 4 |
-| 42 | [PDE I](oppgaver/Uke%2042%20-%20PDE%20I/INDEX.md) | 3 | 3 |
+| 40 | [Fourier Series II](oppgaver/Uke%2040%20-%20Fourier%20Series%20II/INDEX.md) | 3 | 3 |
+| 41 | [DFT, FFT and Fourier Transform](oppgaver/Uke%2041%20-%20DFT,%20FFT%20and%20Fourier%20Transform/INDEX.md) | 5 | 5 |
+| 42 | [PDE I](oppgaver/Uke%2042%20-%20PDE%20I/INDEX.md) | 4 | 4 |
 | 43 | [PDE II](oppgaver/Uke%2043%20-%20PDE%20II/INDEX.md) | 3 | 3 |
-| 44 | [PDE III](oppgaver/Uke%2044%20-%20PDE%20III/INDEX.md) | 2 | 2 |
-| 45 | [Polynomial, Spline and Bézier Approximation](oppgaver/Uke%2045%20-%20Polynomial,%20Spline%20and%20Bézier%20Approximation/INDEX.md) | 4 | 4 |
+| 44 | [PDE III](oppgaver/Uke%2044%20-%20PDE%20III/INDEX.md) | 3 | 3 |
+| 45 | [Polynomial, Spline and Bézier Approximation](oppgaver/Uke%2045%20-%20Polynomial,%20Spline%20and%20Bézier%20Approximation/INDEX.md) | 5 | 5 |
 | 46 | [Least Squares](oppgaver/Uke%2046%20-%20Least%20Squares/INDEX.md) | 0 | 0 |
-| **Sum** | | 28 | 28 |
+| **Sum** | | 34 | 34 |
 <!-- TELL-TABELL:SLUTT -->
 
 ## Validering
