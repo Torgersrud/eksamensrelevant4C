@@ -41,6 +41,10 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2008-kont-4D-losning_oppgave7.md](2008-kont-4D-losning_oppgave7.md) | TMA4135 · kont 2008 | oppgave 7 | (løsningsfil) |
 | [2008-kont-4D_oppgave2.md](2008-kont-4D_oppgave2.md) | TMA4135 · kont 2008 | oppgave 2 | [2008-kont-4D-losning_oppgave2.md](2008-kont-4D-losning_oppgave2.md) |
 | [2008-kont-4D_oppgave7.md](2008-kont-4D_oppgave7.md) | TMA4135 · kont 2008 | oppgave 7 | [2008-kont-4D-losning_oppgave7.md](2008-kont-4D-losning_oppgave7.md) |
+| [2008-var-4N-losning_oppgave3.md](2008-var-4N-losning_oppgave3.md) | TMA4125 · var 2008 | oppgave 3 | (løsningsfil) |
+| [2008-var-4N-losning_oppgave4.md](2008-var-4N-losning_oppgave4.md) | TMA4125 · var 2008 | oppgave 4 | (løsningsfil) |
+| [2008-var-4N_oppgave3.md](2008-var-4N_oppgave3.md) | TMA4125 · var 2008 | oppgave 3 | [2008-var-4N-losning_oppgave3.md](2008-var-4N-losning_oppgave3.md) |
+| [2008-var-4N_oppgave4.md](2008-var-4N_oppgave4.md) | TMA4125 · var 2008 | oppgave 4 | [2008-var-4N-losning_oppgave4.md](2008-var-4N-losning_oppgave4.md) |
 | [2009-host-4D-losning_oppgave3.md](2009-host-4D-losning_oppgave3.md) | TMA4135 · host 2009 | oppgave 3 | (løsningsfil) |
 | [2009-host-4D-losning_oppgave5.md](2009-host-4D-losning_oppgave5.md) | TMA4135 · host 2009 | oppgave 5 | (løsningsfil) |
 | [2009-host-4D-losning_oppgave6.md](2009-host-4D-losning_oppgave6.md) | TMA4135 · host 2009 | oppgave 6 | (løsningsfil) |
