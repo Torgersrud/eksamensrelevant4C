@@ -22,6 +22,10 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2020-host-M3_oppgave3.md](2020-host-M3_oppgave3.md) | TMA4110 · host 2020 | oppgave 3 | [2020-host-M3-losning_oppgave3.md](2020-host-M3-losning_oppgave3.md) |
 | [2020-kont-M3-losning_oppgave31.md](2020-kont-M3-losning_oppgave31.md) | TMA4110 · kont 2020 | oppgave 31 | (løsningsfil) |
 | [2020-kont-M3_oppgave31.md](2020-kont-M3_oppgave31.md) | TMA4110 · kont 2020 | oppgave 31 | [2020-kont-M3-losning_oppgave31.md](2020-kont-M3-losning_oppgave31.md) |
+| [2021-host-M3-losning_oppgave2.md](2021-host-M3-losning_oppgave2.md) | TMA4110 · host 2021 | oppgave 2 | (løsningsfil) |
+| [2021-host-M3-losning_oppgave5.md](2021-host-M3-losning_oppgave5.md) | TMA4110 · host 2021 | oppgave 5 | (løsningsfil) |
+| [2021-host-M3_oppgave2.md](2021-host-M3_oppgave2.md) | TMA4110 · host 2021 | oppgave 2 | [2021-host-M3-losning_oppgave2.md](2021-host-M3-losning_oppgave2.md) |
+| [2021-host-M3_oppgave5.md](2021-host-M3_oppgave5.md) | TMA4110 · host 2021 | oppgave 5 | [2021-host-M3-losning_oppgave5.md](2021-host-M3-losning_oppgave5.md) |
 | [2021-kont-M3-losning_oppgave8.md](2021-kont-M3-losning_oppgave8.md) | TMA4110 · kont 2021 | oppgave 8 | (løsningsfil) |
 | [2021-kont-M3-losning_oppgave9.md](2021-kont-M3-losning_oppgave9.md) | TMA4110 · kont 2021 | oppgave 9 | (løsningsfil) |
 | [2021-kont-M3_oppgave8.md](2021-kont-M3_oppgave8.md) | TMA4110 · kont 2021 | oppgave 8 | [2021-kont-M3-losning_oppgave8.md](2021-kont-M3-losning_oppgave8.md) |
