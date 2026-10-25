@@ -35,6 +35,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2014-host-M3-losning_oppgave5.md](2014-host-M3-losning_oppgave5.md) | TMA4110 · host 2014 | oppgave 5 | (løsningsfil) |
 | [2014-host-M3_oppgave5.md](2014-host-M3_oppgave5.md) | TMA4110 · host 2014 | oppgave 5 | [2014-host-M3-losning_oppgave5.md](2014-host-M3-losning_oppgave5.md) |
 | [2014-kont-LM_problem3.md](2014-kont-LM_problem3.md) | TMA4145 · kont 2014 | problem 3 | – |
+| [2014-kont-M3-losning_oppgave5.md](2014-kont-M3-losning_oppgave5.md) | TMA4110 · kont 2014 | oppgave 5 | (løsningsfil) |
+| [2014-kont-M3_oppgave5.md](2014-kont-M3_oppgave5.md) | TMA4110 · kont 2014 | oppgave 5 | [2014-kont-M3-losning_oppgave5.md](2014-kont-M3-losning_oppgave5.md) |
 | [2015-host-M3-losning_oppgave9.md](2015-host-M3-losning_oppgave9.md) | TMA4110 · host 2015 | oppgave 9 | (løsningsfil) |
 | [2015-host-M3_oppgave9.md](2015-host-M3_oppgave9.md) | TMA4110 · host 2015 | oppgave 9 | [2015-host-M3-losning_oppgave9.md](2015-host-M3-losning_oppgave9.md) |
 | [2017-host-M3-losning_oppgave7.md](2017-host-M3-losning_oppgave7.md) | TMA4110 · host 2017 | oppgave 7 | (løsningsfil) |
