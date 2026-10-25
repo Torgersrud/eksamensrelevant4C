@@ -4,6 +4,10 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 
 | Fil | Kildesett | Oppgave | Løsningsfil |
 |---|---|---|---|
+| [2012-host-4D-losning_oppgave4.md](2012-host-4D-losning_oppgave4.md) | TMA4135 · host 2012 | oppgave 4 | (løsningsfil) |
+| [2012-host-4D-losning_oppgave6.md](2012-host-4D-losning_oppgave6.md) | TMA4135 · host 2012 | oppgave 6 | (løsningsfil) |
+| [2012-host-4D_oppgave4.md](2012-host-4D_oppgave4.md) | TMA4135 · host 2012 | oppgave 4 | [2012-host-4D-losning_oppgave4.md](2012-host-4D-losning_oppgave4.md) |
+| [2012-host-4D_oppgave6.md](2012-host-4D_oppgave6.md) | TMA4135 · host 2012 | oppgave 6 | [2012-host-4D-losning_oppgave6.md](2012-host-4D-losning_oppgave6.md) |
 | [2015-host-4D-losning_oppgave5.md](2015-host-4D-losning_oppgave5.md) | TMA4135 · host 2015 | oppgave 5 | (løsningsfil) |
 | [2015-host-4D_oppgave5.md](2015-host-4D_oppgave5.md) | TMA4135 · host 2015 | oppgave 5 | [2015-host-4D-losning_oppgave5.md](2015-host-4D-losning_oppgave5.md) |
 | [2015-host-4N-losning_oppgave6.md](2015-host-4N-losning_oppgave6.md) | TMA4130 · host 2015 | oppgave 6 | (løsningsfil) |
