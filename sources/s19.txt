@@ -1,0 +1,561 @@
+Institutt for matematiske fag
+
+
+
+
+Eksamensoppgave i TMA4125/30/35 Matematikk 4D
+
+
+
+
+Faglig kontakt under eksamen:
+Tlf:
+
+
+
+
+Eksamensdato:
+Eksamenstid (fra–til):
+Hjelpemiddelkode/Tillatte hjelpemidler: Kode C:
+Bestemt, enkel kalkulator
+Et stemplet gult A5-ark med egne håndskrevne notater og formler (begge sider)
+Vedlagt formelark
+
+
+Annen informasjon:
+Alle svar må begrunnes og skal inneholde nok detaljer til at det kommer klart fram svar har fram-
+kommet.
+Lykke til!
+
+
+
+
+Målform/språk: bokmål
+Antall sider: 10
+Antall sider vedlegg: 1
+
+                                                                                              Kontrollert av:
+Informasjon om trykking av eksamensoppgave
+Originalen er:
+1-sidig         2-sidig 
+sort/hvit       farger                                                Dato                Sign
+skal ha flervalgskjema 
+
+
+Merk! Studenter finner sensur i Studentweb. Har du spørsmål om din sensur må du kontakte instituttet ditt. Eksa-
+menskontoret vil ikke kunne svare på slike spørsmål.
+TMA4135 Mathematics 4 N/D, August 2019                                                      Side 1 av 10
+
+
+Oppgave 1           La u være heavisidefunksjonen
+                                            
+                                            0       for t < 0
+                                   u(t) =
+                                            1       for t ≥ 0
+  a) Vis at
+                                                e−as
+                                  L(u(t − a)) =      ,             for a ≥ 0.
+                                                 s
+  b) Løs initialverdiproblemet
+                          y 00 (t) + y(t) = u(t − 1)           y(0) = y 0 (0) = 0
+       og skisser løsningen.
+
+
+Forslag til løsning:
+                                  Z ∞                          Z ∞
+                                                                                   e−as
+                  L(u(t − a)) =         u(t − a)e−ts dt =              e−ts dt =        .
+                                   0                               a                s
+Now apply L.T. to b) we get
+                                                       e−s
+                                        s2 Y + Y =         ,
+                                                        s
+thus
+                                                  e−s
+                                         Y =             .
+                                               s(s2 + 1)
+Notice that
+                                                1    s+i
+                                   L(eit ) =       = 2
+                                               s−i  s +1
+and the Euler formula together give
+                                                       1
+                                        L(sin t) =             ,
+                                                     s2 + 1
+thus
+                                  Y = L(u(t − 1)) · L(sin t),
+which implies that
+                                       
+            Z t                        0                                                   if t < 1,
+   y(t) =       u(t − τ − 1) sin τ dτ = R t−1
+              0                              sin τ dτ = 1 − cos(t − 1)
+                                                 0                                          if t ≥ 1.
+Thus
+                             y(t) = u(t − 1)(1 − cos(t − 1)).
+Side 2 av 10                            TMA4135 Mathematics 4 N/D, August 2019
+
+
+Oppgave 2        Denne teller som totalt en deloppgave.
+
+  a) Finn fourierrekken til funksjonen
+
+                                  f (x) = sin(3x) + sin(x) + 1
+
+      på intervallet [−π, π].
+
+  b) Find something trivial for 4N. Gitt funksjonen
+
+                                u(x, y) = xy + y 2 + e2x + sin y.
+
+      Beregn gradienten til u.
+
+
+
+Forslag til løsning:
+
+Since Fourier series of a 2π periodic function is an orthogonal decomposition wrt
+the orthogonal basis {1, cos nt, sin nt}n≥1 , we know that
+
+                             f (x) = sin(3x) + sin(x) + 1
+
+already gives the Fourier series of f .
+
+Compute
+                        ux = y + 2e2x , uy = x + 2y + cos y,
+the gradient of u can be written as
+
+                                (y + 2e2x , x + 2y + cos y).
+
+
+
+
+Oppgave 3        The answer to this may be written down on the yellow sheet, so
+it should be given some twist.
+Could we give the Laplace equation instead? It has not been lectured, but the
+technique is exactly the same.
+Morten: If you want to keep the wave equation: One initial value is missing.
+
+Finn løsningen til bølgelikningen
+
+                                        utt = uxx ,
+TMA4135 Mathematics 4 N/D, August 2019                                            Side 3 av 10
+
+
+for 0 ≤ x ≤ π og t ≥ 0 med randkrav
+
+                                   u(0, t) = u(π, t) = 0
+
+og initialkrav
+                             u(x, 0) = sin x, ut (x, 0) = 0.
+
+
+
+Forslag til løsning:
+
+It is easy to check that
+                                   u(x, t) = sin x cos t
+is the solution.
+
+
+Oppgave 4           Utled løsningsformelen
+                                          Z ∞
+                                  1                      −(x−v)2
+                     u(x, t) =    √             f (v)e     4c2 t   dv,   t > 0,
+                                 2c πt    −∞
+
+for varmelikningen
+                                          ut = c2 uxx ,
+på hele x-aksen med initialkrav
+
+                                      u(x, 0) = f (x).
+
+
+
+Forslag til løsning:
+
+Apply a change of variable 2c2 t = s, it is enough to prove the case that 2c2 = 1.
+Consider Fourier transform of ut with respect to the x variable
+                                         1 Z∞
+                               ct (w) = √
+                      F(ut ) = u                ut (t, x)e−ixw dx.
+                                          2π −∞
+Then we have
+                              1        1 Z∞ 1
+                                     
+                   F(ut ) = F   uxx = √         uxx (t, x)e−ixw dx.
+                              2         2π −∞ 2
+Side 4 av 10                                        TMA4135 Mathematics 4 N/D, August 2019
+
+
+
+Recall that if u is smooth and rapidly decreasing with respect to x then
+  Z ∞                          Z ∞                           Z ∞                            Z ∞
+                 −ixw                    −ixw                               −ixw
+         uxx e          dx =         e          d(ux ) = −         ux d(e          ) = iw         ux e−ixw dx,
+   −∞                           −∞                           −∞                             −∞
+
+the same computation for u gives
+                                Z ∞                           Z ∞
+                                         ux e−ixw dx = iw           ue−ixw dx,
+                                 −∞                            −∞
+
+thus we have
+                                −w2                1 Z∞
+                   F(ut ) =         F(u), F(u) := √       u(t, x)e−ixw dx
+                                 2                  2π −∞
+Notice that we also have
+                                                F(ut ) = (F(u))t .
+Thus F(u) satisfies the following ODE.
+
+                                                           −w2
+                                               (F(u))t =       F(u).
+                                                            2
+The general solution is
+                                                                    −w2
+                                           F(u)(t, w) = c(w)e 2 t .
+Notice that our initial condition implies
+                                       1 Z∞
+                         F(u)(0, w) = √       f (x)e−ixw dx = F(f ).
+                                        2π −∞
+Thus
+                                                  c(w) = F(f ).
+Now we have
+                                                                     −w2
+                                         F(u)(t, w) = F(f ) · e 2 t .
+Recall that
+                                         −u2     1 Z ∞ −y2 −iyu
+                                     e    2    =√       e 2 e   dy.
+                                                  2π −∞
+Take                                                 √       x
+                                                u = w t, y = √ ,
+                                                              t
+we get
+                          −w2             1 Z ∞ −x2 −ixw      1    −x2
+                         e 2 t=√                 e 2t e  dx = √ F(e 2t ).
+                                          2πt −∞               t
+           TMA4135 Mathematics 4 N/D, August 2019                                   Side 5 av 10
+
+
+
+           Thus                                                         !
+                                                          1    −x2
+                                     F(u)(t, w) = F(f ) · √ F(e 2t )
+                                                           t
+           and the Fourier convolution formula gives
+                                                    Z ∞
+                                     1         −x2              1    −(x−p)2
+                         u(t, x) = √     (f ? e ) =
+                                                2t      f (p) √     e 2t dp,
+                                     2πt             −∞         2πt
+           i.e. the solution u(t, x) is given by convolution of the initial temperature distribu-
+           tion with the heat kernel.
+
+
+           Oppgave 5       Finn polynomet av grad 3 som interpolerer f (x) = ex i punktene
+           x = 0, x = 1, x = 2 og x = 3.
+
+Forslag til løsning: Laplace interpolasjon:
+
+        (x − 1) · (x − 2) · (x − 3) x(x − 2)(x − 3)     x · (x − 1) · (x − 3) 2 x · (x − 1) · (x − 2) 3
+p3 (x) =                           +                 e+                      e +                     e
+           (−1) · (−2) · (−3)        1 · (−1) · (−2)         2 · 1 · (−1)              3·2·1
+        −x3 + 6x2 − 11x + 6 x3 − 5x2 + 6x          −x3 + 4x2 − 3x 2 x3 − 3x2 + 2x 3
+      =                         +               e+                   e +              e.
+                   6                   2                 6                     6
+
+
+
+
+           Oppgave 6        Vis at
+
+                                        f (x + h) − f (x) + f (x − h)
+                                                     h2
+           er en andre ordens approksimasjon til f 00 (x). Hint: Bruk Taylor-rekker. Du kan
+           forutsette at f er tilstrekkelig glatt.
+    Side 6 av 10                             TMA4135 Mathematics 4 N/D, August 2019
+
+
+
+Forslag til løsning: Taylor-utvikler f (x ± h) rundt x:
+
+f (x + h) − 2f (x) + f (x − h) 1              0       h2 00       h3 000       h4 (4)
+                              =    f (x) + hf   (x) +   f   (x) +    f   (x) +    f (ξ1 )
+             h2                 h2                    2           3!           4!
+                                − 2f (x)
+                                                                                           !
+                                                          h2             h3       h4
+                                    + f (x) − hf (x) + f 00 (x) − f 000 (x) + f (4) (ξ2 )
+                                                    0
+                                                           2              3!       4!
+                                               h2  (4)                 
+                                   =f 00 (x) +     f (ξ1 ) + f (4) (ξ2 )     (Middelverdisetningen)
+                                               4!
+                                               h2
+                                   =f 00 (x) + f (4) (ξ).
+                                               12
+Her er x − h < ξ1 < x, x < ξ2 < x + h og ξ1 < ξ < ξ2 , så x − h < ξ < x + h.
+Forutsatt at f (4) (x) er kontinuerlig i et område rundt x så finnes en konstant C
+slik at |f (4) | < C i området, og
+
+                                f (x + h) − 2f (x) + f (x − h)  C
+                   f 00 (x) −                   2
+                                                               < h2 .
+                                             h                  12
+Tilnærmelsen er av orden 2.
+
+
+
+    Oppgave 7          La Q[f ] være en kvadraturregel som beregner en tilnærmelse til
+    integralet                                     Z b
+                                         I[f ] =         f (x)dx.
+                                                    a
+
+
+    Om denne kvadraturregelen vet vi følgende: Det finnes en s ∈ (a, b) slik at
+
+                                                        (b − a)5 (4)
+                                  I[f ] − Q[f ] = −             f (s).
+                                                          6480
+    Forklar hva en kvadraturregels presisjonsgrad er, og finn presisjonsgraden til oven-
+    nevnte kvadraturregel. Svaret skal begrunnes.
+
+    Forslag til løsning: En kvardaturregel har presisjonsgrad d dersom
+
+                                  I[p] = Q[p],           for alle p ∈ Pd .
+TMA4135 Mathematics 4 N/D, August 2019                                   Side 7 av 10
+
+
+
+Et polynom av grad q er gitt ved
+
+                      pq (x) = aq xq + aq−1 xq−1 + · · · + a1 x + a0 .
+
+Dermed er p(q+1) (x) = 0, mens p(q) (x) 6= 0 hvis aq 6= 0.
+Og vi kan konkludere med at kvadraturformelen over har presisjonsgrad 3.
+
+
+
+Oppgave 8
+
+  a) Gitt ligningen
+                                            √
+                                     y0 =       y,   y(0) = 1.
+     Skriv ned en fullstending algoritme for å finne en tilnærmelse til y(2) ved
+     bruk av implisitt (baklengs) Eulers metode, med steglengde h = 1/N .
+     Utfør et steg med algoritmen med h = 0.1, dvs. finn en tilnærmelse til y(0.1).
+     NB! Algoritmen må gjerne skrives i form av kode i f.eks. MATLAB eller
+     Python. Den skal uansett være tilstrekkelig detaljert til at den kan imple-
+     menteres.
+
+     Forslag til løsning: En passende python-kode kan være:
+     from numpy import sqrt
+
+     N = 20        # Given the number of steps
+     h = 2/ N      # or the stepsize
+     y = 1         # and the initial value
+
+     for n in range ( N ):
+         y = y + h * sqrt ( y ) # The Euler steps
+     print ( ’y (2) is approximately ’ , y )
+
+     Et skritt med metoden er:
+                                        √
+                             y1 = y0 + h y0 = 1 + 0.1 · 1 = 1.1.
+
+
+
+  b) Vi antar nå at ligningen over løses med en ikke oppgitt metode. Feilen eN =
+     |y(2)−yN | er målt for ulike skrittlengder h = 2/N , og resultatet er presentert
+     i følgende konvergensplott:
+Side 8 av 10                                TMA4135 Mathematics 4 N/D, August 2019
+
+
+                                               Convergence plot
+
+
+
+                                10−3
+
+                                10−4
+                     Error eN
+
+
+                                10−5
+
+                                10−6
+
+                                10−7
+                                                 10−2           10−1
+                                                         h
+
+     Hva mener vi med en metodes orden, og hvordan kan ordenen leses av et
+     konvergensplott som dette?
+     Hva er denne metodens orden?
+
+     Forslag til løsning: Metoden er av orden p dersom det fins en konstant
+     C > 0 slik at
+                           |eN | = |yN − y(2)| ≤ Chp ,
+     hvor N h = 2 i dette eksemepelet. Når h er tilstrekkelig liten, vil man i praksis
+     observere at
+
+                   |eN | ≈ Chp             ⇒       log |eN | = p log h + log C.
+
+     I et logaratimisk plott vil altså feilen som funksjon av h bli en rett linje med
+     stigningstall p. Her ser vi at når skrittlengden reduseres med en faktor 10
+     vil feilen reduseres med en faktor ca. 100 (fra ca. 8 · 10−3 til ca. 8 · 10−5 ).
+     Metodens orden er altså 2.
+
+
+
+Oppgave 9       Vi skal løse varmeligningen
+
+                                            ut = uxx ,
+
+for 0 ≤ x ≤ 1 og t ≥ 0 med randkrav
+
+                                       u(0, t) = u(1, t) = 0
+TMA4135 Mathematics 4 N/D, August 2019                                          Side 9 av 10
+
+
+og initialkrav
+                                     u(x, 0) = x − x2
+Skriv en fullstendig algoritme, eventuelt i form av kode, som løser problemet nu-
+merisk med et eksplisitt skjema for t ∈ [0, 1]. Bruk skrittlengder h = 1/M og
+k = 1/N i henholdsvis x− og t−retning.
+
+La h = 0.2 og k = 0.02 og finn en approximasjon til løsningen u(0.4, 0.02).
+
+Anta at du bruker algoritmen med steglengder h = k. Hvordan vil du forvente at
+den numeriske løsningen oppfører seg over tid? Begrunn svaret.
+
+
+Forslag til løsning: Velg h og k (eller M og N ), la xi = ih og tn = kh. For å
+tilnærme ligningen i et punkt (xi , tn ), bruk en foroverdifferanse i t−retningen og
+en sentraldifferanse i x−retningen. Dvs:
+
+        u(xi , tn + k) − u(xi , tn )   u(xi + h, tn ) − 2u(xi , tn ) + u(xi − h, tn )
+                                     ≈
+                     k                                     h2
+La Uin ≈ u(xi , tn ) og differenseskjemaet kan skrives som
+
+                          Uin+1 − Uin  U n − 2Uin + Ui−1
+                                                     n
+                                      = i+1              .
+                               k              h2
+
+Ved å inkudere start- og rand-betingelser kan algoritmen skrives som
+
+Oppgi M og N .
+Sett h = 1/M , k = 1/N og r = k/h2 .
+Sett inn startverdiene: Ui0 = ih(1 − ih),          i = 0, 1, . . . , M.
+For n = 0, 1, . . . , N − 1:
+
+            U0n+1 = 0,    UMn+1
+                                = 0,
+              n+1
+            Ui    = Ui + r(Ui+1 − 2Uin + Ui−1
+                       n     n            n
+                                              ),            i = 1, 2 . . . , M − 1
+
+
+Med de oppgitte steglengdene har vi u(0.4, 0.02) ≈ U21 . Vi vet at
+
+                      U10 = 0.16,       U20 = 0.24,       U30 = 0.24,
+
+og
+                         U21 = U20 + r(U30 − 2U20 + U10 ) = 0.2.
+Side 10 av 10                        TMA4135 Mathematics 4 N/D, August 2019
+
+
+
+Med h = k vil r = k/h2 = 1/h > 1. Vi vet at løsningen er ustabil for r > 0.5, så i
+det tilfellet vil den numeriske løsningen eksplodere.
+
+Algoritmen kan skrives som Python-kode:
+
+import numpy as np
+
+N = 50       # Number of steps in the t - direction
+M = 5        # Number of steps in the x - direction
+
+h = 1/ M
+k = 1/ N
+r = k / h **2
+
+U = np . zeros (( M +1 , N +1))
+# Array to store the solution
+
+# Initial conditions
+for i in range ( M +1):
+    xi = i * h
+    U [i ,0] = xi *(1 - xi )
+
+# Time - stepping algorithm
+for n in range ( N ):
+    for i in range (1 , M ):
+          U [i , n +1] = U [i , n ] + r *( U [ i +1 , n ] -2* U [i , n ]+ U [i -1 , n ])
+TMA4135 Mathematics 4 N/D, August 2019                                          Side i av i
+
+
+Fourier Transform
+                1 Z∞ ˆ                         ˆ        1 Z∞
+       f (x) = √       f (w)eiwx dw            f (w) = √       f (x)e−iwx dx
+                 2π −∞                                   2π −∞
+                          2                               1    2
+                      e−ax                              √ e−w /4a
+                                                          2a
+                                                                s
+                                                                    2    a
+                      e−a|x|
+                                                                    π w + a2
+                                                                       2
+
+                         1                                           π e−a|w|
+                                                                 r
+
+                      x + a2
+                       2                                             2 a
+                                                                s
+                1 for |x| < a                                       2 sin wa
+                0 otherwise                                         π w
+
+
+Laplace Transform
+                                                 Z ∞
+                             f (t)   F (s) =            e−st f (t) dt
+                                                   0
+                                                   s
+                         cos(ωt)
+                                                s2 + ω 2
+                                                   ω
+                         sin(ωt)
+                                                s2 + ω 2
+                                                   s
+                        cosh(ωt)
+                                                s − ω2
+                                                 2
+                                                   ω
+                         sinh(ωt)
+                                                s − ω2
+                                                 2
+
+                                               Γ(n + 1)
+                               tn                        ,
+                                                 sn+1
+                                     for n = 0, 1, 2, . . ., Γ(n + 1) = n!
+
+                                                   1
+                               eat
+                                                  s−a
+                         δ(t − a)                 e−as
+
+
+            Z
+                  n          1 n         n Z n−1
+              x cos ax dx = x sin ax −       x   sin ax dx
+                             a           a Z
+            Z
+                               1           n
+              xn sin ax dx = − xn cos ax +     xn−1 cos ax dx
+                               a           a
+

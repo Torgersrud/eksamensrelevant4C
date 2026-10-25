@@ -10,6 +10,14 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2019-kont-4D_problem4.md](2019-kont-4D_problem4.md) | TMA4135 · kont 2019 | problem 4 | – |
 | [2019-kont-4D_problem6.md](2019-kont-4D_problem6.md) | TMA4135 · kont 2019 | problem 6 | – |
 | [2019-kont-4D_problem9.md](2019-kont-4D_problem9.md) | TMA4135 · kont 2019 | problem 9 | – |
+| [2019-sommer-4D-losning_oppgave3.md](2019-sommer-4D-losning_oppgave3.md) | TMA4135 · sommer 2019 | oppgave 3 | (løsningsfil) |
+| [2019-sommer-4D-losning_oppgave4.md](2019-sommer-4D-losning_oppgave4.md) | TMA4135 · sommer 2019 | oppgave 4 | (løsningsfil) |
+| [2019-sommer-4D-losning_oppgave6.md](2019-sommer-4D-losning_oppgave6.md) | TMA4135 · sommer 2019 | oppgave 6 | (løsningsfil) |
+| [2019-sommer-4D-losning_oppgave9.md](2019-sommer-4D-losning_oppgave9.md) | TMA4135 · sommer 2019 | oppgave 9 | (løsningsfil) |
+| [2019-sommer-4D_oppgave3.md](2019-sommer-4D_oppgave3.md) | TMA4135 · sommer 2019 | oppgave 3 | [2019-sommer-4D-losning_oppgave3.md](2019-sommer-4D-losning_oppgave3.md) |
+| [2019-sommer-4D_oppgave4.md](2019-sommer-4D_oppgave4.md) | TMA4135 · sommer 2019 | oppgave 4 | [2019-sommer-4D-losning_oppgave4.md](2019-sommer-4D-losning_oppgave4.md) |
+| [2019-sommer-4D_oppgave6.md](2019-sommer-4D_oppgave6.md) | TMA4135 · sommer 2019 | oppgave 6 | [2019-sommer-4D-losning_oppgave6.md](2019-sommer-4D-losning_oppgave6.md) |
+| [2019-sommer-4D_oppgave9.md](2019-sommer-4D_oppgave9.md) | TMA4135 · sommer 2019 | oppgave 9 | [2019-sommer-4D-losning_oppgave9.md](2019-sommer-4D-losning_oppgave9.md) |
 | [2019-var-4D-losning_oppgave3.md](2019-var-4D-losning_oppgave3.md) | TMA4135 · var 2019 | oppgave 3 | (løsningsfil) |
 | [2019-var-4D-losning_oppgave4.md](2019-var-4D-losning_oppgave4.md) | TMA4135 · var 2019 | oppgave 4 | (løsningsfil) |
 | [2019-var-4D-losning_oppgave6.md](2019-var-4D-losning_oppgave6.md) | TMA4135 · var 2019 | oppgave 6 | (løsningsfil) |
