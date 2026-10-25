@@ -6,6 +6,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 |---|---|---|---|
 | [2018-host-LM-losning_problem4.md](2018-host-LM-losning_problem4.md) | TMA4145 · host 2018 | problem 4 | (løsningsfil) |
 | [2018-host-LM_problem4.md](2018-host-LM_problem4.md) | TMA4145 · host 2018 | problem 4 | [2018-host-LM-losning_problem4.md](2018-host-LM-losning_problem4.md) |
+| [2018-kont-LM-losning_problem6.md](2018-kont-LM-losning_problem6.md) | TMA4145 · kont 2018 | problem 6 | (løsningsfil) |
+| [2018-kont-LM_problem6.md](2018-kont-LM_problem6.md) | TMA4145 · kont 2018 | problem 6 | [2018-kont-LM-losning_problem6.md](2018-kont-LM-losning_problem6.md) |
 | [2019-host-LM-losning_problem1.md](2019-host-LM-losning_problem1.md) | TMA4145 · host 2019 | problem 1 | (løsningsfil) |
 | [2019-host-LM_problem1.md](2019-host-LM_problem1.md) | TMA4145 · host 2019 | problem 1 | [2019-host-LM-losning_problem1.md](2019-host-LM-losning_problem1.md) |
 | [2020-host-LM-losning_problem6.md](2020-host-LM-losning_problem6.md) | TMA4145 · host 2020 | problem 6 | (løsningsfil) |
