@@ -14,6 +14,10 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2018-host-M3_oppgave4.md](2018-host-M3_oppgave4.md) | TMA4110 · host 2018 | oppgave 4 | [2018-host-M3-losning_oppgave4.md](2018-host-M3-losning_oppgave4.md) |
 | [2019-host-LM-losning_problem2.md](2019-host-LM-losning_problem2.md) | TMA4145 · host 2019 | problem 2 | (løsningsfil) |
 | [2019-host-LM_problem2.md](2019-host-LM_problem2.md) | TMA4145 · host 2019 | problem 2 | [2019-host-LM-losning_problem2.md](2019-host-LM-losning_problem2.md) |
+| [2019-kont-M3-losning_oppgave2.md](2019-kont-M3-losning_oppgave2.md) | TMA4110 · kont 2019 | oppgave 2 | (løsningsfil) |
+| [2019-kont-M3-losning_oppgave7.md](2019-kont-M3-losning_oppgave7.md) | TMA4110 · kont 2019 | oppgave 7 | (løsningsfil) |
+| [2019-kont-M3_oppgave2.md](2019-kont-M3_oppgave2.md) | TMA4110 · kont 2019 | oppgave 2 | [2019-kont-M3-losning_oppgave2.md](2019-kont-M3-losning_oppgave2.md) |
+| [2019-kont-M3_oppgave7.md](2019-kont-M3_oppgave7.md) | TMA4110 · kont 2019 | oppgave 7 | [2019-kont-M3-losning_oppgave7.md](2019-kont-M3-losning_oppgave7.md) |
 | [2023-host-M3-losning_oppgave7.md](2023-host-M3-losning_oppgave7.md) | TMA4110 · host 2023 | oppgave 7 | (løsningsfil) |
 | [2023-host-M3_oppgave7.md](2023-host-M3_oppgave7.md) | TMA4110 · host 2023 | oppgave 7 | [2023-host-M3-losning_oppgave7.md](2023-host-M3-losning_oppgave7.md) |
 | [2024-host-M3-losning_oppgave5.md](2024-host-M3-losning_oppgave5.md) | TMA4110 · host 2024 | oppgave 5 | (løsningsfil) |
