@@ -50,6 +50,9 @@ README_TEXT = """# testrepo
 
 PDF_TEST = b"fake-kildesett: official 4C test exam\n"
 PDF_4D = b"fake-kildesett: 4D host 2019\n"
+PDF_4D_VAR = b"fake-kildesett: 4D var 2019\n"
+PDF_4D_KONT22 = b"fake-kildesett: 4D kont 2022 (aug-resit 4D-fil)\n"
+PDF_4N_SOMMER22 = b"fake-kildesett: 4N sommer 2022 (aug-resit 4N-fil)\n"
 
 
 def sha(data: bytes) -> str:
@@ -75,10 +78,16 @@ def make_repo(root: Path):
     sources.mkdir()
     (sources / "testexam.pdf").write_bytes(PDF_TEST)
     (sources / "4d2019host.pdf").write_bytes(PDF_4D)
+    (sources / "4d2019var.pdf").write_bytes(PDF_4D_VAR)
+    (sources / "4d2022kont.pdf").write_bytes(PDF_4D_KONT22)
+    (sources / "4n2022sommer.pdf").write_bytes(PDF_4N_SOMMER22)
     (sources / "MANIFEST.csv").write_text(
         MANIFEST_HEADER + "\n"
         f"TMA4432,2026,test,test,testexam.pdf,https://example.test/testexam.pdf,{sha(PDF_TEST)},yes\n"
-        f"TMA4135,2019,host,eksamen,4d2019host.pdf,https://example.test/4d2019host.pdf,{sha(PDF_4D)},no\n",
+        f"TMA4135,2019,host,eksamen,4d2019host.pdf,https://example.test/4d2019host.pdf,{sha(PDF_4D)},no\n"
+        f"TMA4135,2019,var,eksamen,4d2019var.pdf,https://example.test/4d2019var.pdf,{sha(PDF_4D_VAR)},no\n"
+        f"TMA4135,2022,kont,kont,4d2022kont.pdf,https://example.test/4d2022kont.pdf,{sha(PDF_4D_KONT22)},yes\n"
+        f"TMA4135,2022,sommer,kont,4n2022sommer.pdf,https://example.test/4n2022sommer.pdf,{sha(PDF_4N_SOMMER22)},yes\n",
         encoding="utf-8")
     readme = root / "README.md"
     readme.write_text(README_TEXT, encoding="utf-8")
@@ -238,6 +247,104 @@ class TestDuplikat(ValidatorTestCase):
         self.dup("Uke 36 - Parametrised Curves and Surfaces").write_text(
             "x\n\n" + footer("TMA4135", "host", "2019", "3", "4d2019host.pdf"), encoding="utf-8")
         self.assertViolates("DUPLIKAT")
+
+
+class TestDuplikatPaaTversAvSett(ValidatorTestCase):
+    """RULES DUP-1: a later occurrence of an identical problem from ANOTHER
+    Kildesett (e.g. a shared 4N/4D exam re-published under 4N) is a Duplikat
+    on its OWN stem: the master is the non-dup file whose normalized full
+    text (whitespace/case-insensitive, proven footer excluded) is identical,
+    with (year, term-seq) not later than the dup's. The stems may differ
+    entirely (cross-tag: 4D-tagged master, 4N-tagged dup)."""
+
+    MAPPE = "Uke 40 - Fourier Series II"
+    TEKST = ("### **Oppgave 8** Delte fellestonar\n\n"
+             "Grensene for den felles eksamensfila er gjevne.\n")
+
+    def fil(self, navn, tekst, problem="8", pdf="4d2019host.pdf"):
+        (self.repo / "oppgaver" / self.MAPPE / navn).write_text(
+            tekst + "\n" + footer("TMA4135", self.term_av(navn), self.year_av(navn),
+                                  problem, pdf),
+            encoding="utf-8")
+
+    @staticmethod
+    def term_av(navn):
+        return navn.split("-")[1]
+
+    @staticmethod
+    def year_av(navn):
+        return navn.split("-")[0]
+
+    def test_kryss_tag_dup_mot_4d_mester_er_gyldig(self):
+        # 4D master from the 2019 exam, 4N-tagged dup of the shared sitting.
+        self.fil("2019-host-4D_oppgave8.md", self.TEKST)
+        self.fil("2019-host-4N_dup1_oppgave8.md", self.TEKST)
+        self.index()
+        self.assertOk()
+
+    def test_dup_tidlegare_enn_mester_names_duplikat(self):
+        # The var sitting (term-seq earlier in 2019) cannot be a dup of the
+        # later host exam: the earliest identical occurrence is the master.
+        self.fil("2019-host-4D_oppgave8.md", self.TEKST)
+        self.fil("2019-var-4N_dup1_oppgave8.md", self.TEKST, pdf="4d2019var.pdf")
+        self.index()
+        self.assertViolates("DUPLIKAT")
+
+    def test_kont_mester_sommer_dup_er_gyldig(self):
+        # RULES DUP-1 item 2 verbatim (the shared August-2022 resit case):
+        # master `2022-kont-4D_problemN`, dup `2022-sommer-4D_dup1_problemN`.
+        self.fil("2022-kont-4D_problem1.md", self.TEKST, problem="1", pdf="4d2022kont.pdf")
+        self.fil("2022-sommer-4D_dup1_problem1.md", self.TEKST, problem="1",
+                 pdf="4n2022sommer.pdf")
+        self.index()
+        self.assertOk()
+
+    def test_kopiar_nummarast_etter_term_rekkje(self):
+        # Two dups of the 2019 host master in 2022: kont (seq 2) comes before
+        # sommer (seq 3), so kont must be _dup1 and sommer _dup2.
+        self.fil("2019-host-4D_oppgave8.md", self.TEKST)
+        (self.repo / "oppgaver" / self.MAPPE / "2022-kont-4N_dup2_oppgave8.md").write_text(
+            self.TEKST + "\n" + footer("TMA4135", "kont", "2022", "8", "4d2022kont.pdf"),
+            encoding="utf-8")
+        (self.repo / "oppgaver" / self.MAPPE / "2022-sommer-4N_dup1_oppgave8.md").write_text(
+            self.TEKST + "\n" + footer("TMA4135", "sommer", "2022", "8", "4n2022sommer.pdf"),
+            encoding="utf-8")
+        self.index()
+        self.assertViolates("DUPLIKAT")
+
+    def test_to_kopiar_av_same_mester_1_2_er_gyldig(self):
+        # Same pair, correctly numbered: kont _dup1, sommer _dup2.
+        self.fil("2019-host-4D_oppgave8.md", self.TEKST)
+        (self.repo / "oppgaver" / self.MAPPE / "2022-kont-4N_dup1_oppgave8.md").write_text(
+            self.TEKST + "\n" + footer("TMA4135", "kont", "2022", "8", "4d2022kont.pdf"),
+            encoding="utf-8")
+        (self.repo / "oppgaver" / self.MAPPE / "2022-sommer-4N_dup2_oppgave8.md").write_text(
+            self.TEKST + "\n" + footer("TMA4135", "sommer", "2022", "8", "4n2022sommer.pdf"),
+            encoding="utf-8")
+        self.index()
+        self.assertOk()
+
+    def test_dup_utan_noka_mester_names_duplikat(self):
+        # A _dupN whose normalized text matches no non-dup file at all has no
+        # master to resolve to.
+        self.fil("2022-sommer-4N_dup1_oppgave8.md",
+                 "### **Oppgave 8** Heilt eineståande tekst\n\nInga anna fil har dette.\n",
+                 pdf="4n2022sommer.pdf")
+        self.index()
+        self.assertViolates("DUPLIKAT")
+
+    def test_dup_med_to_like_mestarar_names_duplikat(self):
+        # "Exactly one master": two identical non-dup files make the master
+        # ambiguous and must be named.
+        self.fil("2022-kont-4D_problem1.md", self.TEKST, problem="1", pdf="4d2022kont.pdf")
+        self.fil("2022-sommer-4D_problem1.md", self.TEKST, problem="1", pdf="4n2022sommer.pdf")
+        self.fil("2022-sommer-4N_dup1_problem1.md", self.TEKST, problem="1",
+                 pdf="4n2022sommer.pdf")
+        self.index()
+        res = self.check()
+        self.assertNotEqual(res.returncode, 0, msg=res.stdout)
+        self.assertIn("DUPLIKAT", res.stdout, msg=res.stdout)
+        self.assertIn("fleire mogelege mestarar", res.stdout, msg=res.stdout)
 
 
 class TestLosningPaaLosetSett(ValidatorTestCase):

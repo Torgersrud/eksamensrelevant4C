@@ -38,11 +38,18 @@ manifestet.
 
 ## Duplikat
 
-En fulltekstkopi av en Oppgave som er plassert i ytterligere et Emneknutepunkt, markert med
-`_dupN` i filnavnet (`_dup1` er den første kopien, `_dup2` den andre, …). Mesteren er den
-tidligste forekomsten: mappen med lavest ukenummer har filen uten `_dupN`, og kopiene
-nummereres i stigende uke­rekkefølge. Hver `_dupN` må ha mesteren sin i en mappe med
-lavere ukenummer.
+Ein fulltekstkopi av ein Oppgave, markert med `_dupN` i filnavnet (`_dup1` er
+den første kopien, `_dup2` den andre, …). Duplikat finst i to variantar: same
+Oppgave plassert i ytterligare eit Emneknutepunkt (kopi med same stamn), og
+same Oppgave som er gått på ny i eit seinare Kildesett — delte 4N/4D-examen
+og gjenbrukte kontinuasjonssett gjer ei førekome med eigen stamn (eige år og
+term) til kopi av ein tidlegare mester. Mesteren er alltid den tidlegaste
+førekomsten: for fleirfold-mapper kopier står fila utan `_dupN` i mappa med
+lågast ukenummer, og for kryss-sett-kopier er mesteren den fila med normalisert
+fulltekst (kvitrydd og i liten bokstav, provensfoten utelaten) identisk med
+kopiens og (year, term) ikkje seinare enn kopien sin. Kopiar av same mester
+nummerast 1..k samanhengande: på tvers av mapper i uke-rekkefølgje, på tvers
+av sett i (year, term)-rekkefølgje (var < kont < sommer < host, test først).
 
 ## Relevansregel
 

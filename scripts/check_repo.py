@@ -297,33 +297,98 @@ def sjekk_readme(repo):
     return []
 
 
+# Rekkefølgje innanfor eitt år (RULES DUP-1): terminen sin plass i årssyklusen.
+# `kont` tel tidleg (janar-kontinuasjon), `test` (testeksamen) sorterar først.
+TERM_SEQ = {"test": 0, "var": 1, "kont": 2, "sommer": 3, "host": 4}
+
+
+def tidspunkt(info):
+    return (int(info["year"]), TERM_SEQ[info["term"]])
+
+
+def normalisert_tekst(p):
+    """Fulltekst for dup-samanlikning (RULES DUP-1): provensfoten utelaten,
+    all kvitrydd samankastra, alt i liten bokstav."""
+    linjer = p.read_text(encoding="utf-8").splitlines()
+    for i in range(len(linjer) - 1, -1, -1):
+        if linjer[i].strip():
+            if FOT_RE.match(linjer[i].strip()):
+                linjer = linjer[:i]
+            break
+    return re.sub(r"\s+", " ", " ".join(linjer)).casefold().strip()
+
+
+def tekstmestarar(ikkje_dup, dupfil, dup_info):
+    """DUP-1: dei ikkje-dup-filene med normalisert fulltekst identisk med
+    dupfila og (year, term-seg) ikkje seinare enn dupet."""
+    tekst = normalisert_tekst(dupfil)
+    dup_tid = tidspunkt(dup_info)
+    return [(p, info) for p, info in ikkje_dup
+            if normalisert_tekst(p) == tekst and tidspunkt(info) <= dup_tid]
+
+
 def sjekk_duplikat(repo):
-    """Alle _dupN må ha mesteren sin (fila utan dup-merke) i ei mappe med
-    lågare ukenummer; kopiene nummarast i stigande uke-rekkefølgje."""
+    """Duplikatreglane, to variantar:
+    (a) Same-stem kopiar (plassering i fleire Emneknutepunkt): same namn utan
+        _dupN må liggja i mappe med lågare ukenummer enn kopiane, kopiane
+        nummarast i stigande uke-rekkefølgje.
+    (b) Krysssett-førekomstar (RULES DUP-1): kvar _dupN must løyse til nøyaktig
+        éin mester — ei ikkje-dup-fil med normalisert fulltekst (kvitrydd og
+        med liten bokstav, provensfoten utelaten) identisk med dupfila si og
+        (year, term-seg) ikkje seinare enn dupet. Kopier per mester nummarast
+        1..k samanhengande i stigande (year, term-seg)-rekkjefølgje."""
     krenske = []
-    grupper = {}
+    alle = []
     for mappenavn in TAXONOMY:
         mappe = repo / "oppgaver" / mappenavn
         if not mappe.is_dir():
             continue
         for p in md_filer(mappe):
             info = fil_info(p.name)
-            if info is None:
-                continue
-            grupper.setdefault(info["mester_navn"], []).append(
-                (uke_av(mappenavn), info["dup"], f"oppgaver/{mappenavn}/{p.name}"))
+            if info is not None and not info["syntetisk"]:
+                alle.append((p, info, uke_av(mappenavn), f"oppgaver/{mappenavn}/{p.name}"))
+    ikkje_dup = [(p, info) for p, info, _, _ in alle if info["dup"] is None]
+    grupper = {}
+    kopiar_per_mester = {}
+    for p, info, uke, merke in alle:
+        grupper.setdefault(info["mester_navn"], []).append((uke, info["dup"], merke))
+        if info["dup"] is None:
+            continue
+        mestrar = tekstmestarar(ikkje_dup, p, info)
+        if len(mestrar) == 1:
+            mester_p, mester_info = mestrar[0]
+            kopiar_per_mester.setdefault(str(mester_p.resolve()), []).append(
+                (tidspunkt(info), p.name, merke))
+        elif not mestrar:
+            tidlegare = [q for q, qi in ikkje_dup
+                         if normalisert_tekst(q) == normalisert_tekst(p)]
+            if tidlegare:
+                krenske.append(("DUPLIKAT", merke,
+                                f"{p.name}: _dup{info['dup']} er tidlegare enn alle like "
+                                "mestarførekomstar — tidlegaste førekomst er mester"))
+            else:
+                krenske.append(("DUPLIKAT", merke,
+                                f"{p.name}: _dup{info['dup']} har ingen mester (ingen "
+                                "ikkje-dup-fil med same normaliserte fulltekst)"))
+        else:
+            krenske.append(("DUPLIKAT", merke,
+                            f"{p.name}: _dup{info['dup']} har fleire mogelege mestarar "
+                            f"({', '.join(sorted(q.name for q, _ in mestrar))}) — "
+                            "normalisert fulltekst må vera unik"))
+    for kopiar in sorted(kopiar_per_mester.values()):
+        for forventa, (tid, navn, merke) in enumerate(sorted(kopiar), 1):
+            tal = int(fil_info(navn)["dup"])
+            if tal != forventa:
+                krenske.append(("DUPLIKAT", merke,
+                                f"{navn}: kopiar per mester nummarast 1..k etter "
+                                f"(year, term-seg), forventa _dup{forventa}"))
     for navn, forekomstar in sorted(grupper.items()):
-        merke = forekomstar[0][2]
         if len({p for _, _, p in forekomstar}) < len(forekomstar):
-            krenske.append(("DUPLIKAT", merke, "same filnamn i fleire mapper utan dup-merke"))
+            krenske.append(("DUPLIKAT", forekomstar[0][2],
+                            "same filnamn i fleire mapper utan dup-merke"))
         kopiar = sorted([f for f in forekomstar if f[1] is not None])
         mestrar = [f for f in forekomstar if f[1] is None]
-        if not kopiar:
-            continue
-        if not mestrar:
-            for uke, dup, merke in kopiar:
-                krenske.append(("DUPLIKAT", merke,
-                                f"{navn}: _dup{dup} har ingen mester (fil utan dup-merke)"))
+        if not kopiar or not mestrar:
             continue
         mester_uke = min(f[0] for f in mestrar)
         for uke, dup, merke in kopiar:

@@ -41,8 +41,12 @@ prefikset `synthetic-` — se [ADR 0002](docs/adr/0002-gap-policy.md).
 - `tag` ∈ `4N`, `4D`, `LM`, `M3`, `4C` (4C er forbeholdt testeksamen, `2026-test-4C`)
 - ordet er `problem` på engelske sett, `oppgave` på norske — uten understrek før nummeret
 - `-losning`: løsningsfil, må bare eksistere hvis Kildesettet er løst ifølge manifestet
-- `_dupN`: kopi av en Oppgave som også ligger i en annen ukes mappe; mesteren (filen uten
-  `_dupN`) står i mappen med lavest ukenummer, første kopi er `_dup1`, osv.
+- `_dupN`: fulltekstkopi av ein Oppgave — anten ein kopi som òg ligg i ein
+  annan ukes mappe (mesteren, fila utan `_dupN`, står i mappa med lågast
+  ukenummer), eller ei førekomst som er gått på nytt i eit seinare Kildesett
+  (mesteren er fila med identisk normalisert heilttekst og ikkje seinare
+  år/term — dømes 4N-kopi av ein 4D-mester frå eit delt 4N/4D-examen); første
+  kopi er `_dup1`, osv.
 - `synthetic-` helt foran: forfattet øvelse, unntatt fra manifestet — prefikset er
   obligatorisk for alt som ikke står i `sources/MANIFEST.csv`
 
