@@ -69,15 +69,15 @@ Automatisk tabell — regeneration med `python3 scripts/check_repo.py index`.
 | 36 | [Parametrised Curves and Surfaces](oppgaver/Uke%2036%20-%20Parametrised%20Curves%20and%20Surfaces/INDEX.md) | 1 | 1 |
 | 37 | [Vector Functions I](oppgaver/Uke%2037%20-%20Vector%20Functions%20I/INDEX.md) | 37 | 29 |
 | 38 | [Vector Functions II (Optimization)](oppgaver/Uke%2038%20-%20Vector%20Functions%20II%20(Optimization)/INDEX.md) | 1 | 1 |
-| 39 | [Fourier Series I](oppgaver/Uke%2039%20-%20Fourier%20Series%20I/INDEX.md) | 35 | 29 |
+| 39 | [Fourier Series I](oppgaver/Uke%2039%20-%20Fourier%20Series%20I/INDEX.md) | 36 | 30 |
 | 40 | [Fourier Series II](oppgaver/Uke%2040%20-%20Fourier%20Series%20II/INDEX.md) | 27 | 20 |
-| 41 | [DFT, FFT and Fourier Transform](oppgaver/Uke%2041%20-%20DFT,%20FFT%20and%20Fourier%20Transform/INDEX.md) | 53 | 44 |
-| 42 | [PDE I](oppgaver/Uke%2042%20-%20PDE%20I/INDEX.md) | 13 | 11 |
+| 41 | [DFT, FFT and Fourier Transform](oppgaver/Uke%2041%20-%20DFT,%20FFT%20and%20Fourier%20Transform/INDEX.md) | 54 | 45 |
+| 42 | [PDE I](oppgaver/Uke%2042%20-%20PDE%20I/INDEX.md) | 14 | 12 |
 | 43 | [PDE II](oppgaver/Uke%2043%20-%20PDE%20II/INDEX.md) | 22 | 19 |
-| 44 | [PDE III](oppgaver/Uke%2044%20-%20PDE%20III/INDEX.md) | 87 | 69 |
-| 45 | [Polynomial, Spline and Bézier Approximation](oppgaver/Uke%2045%20-%20Polynomial,%20Spline%20and%20Bézier%20Approximation/INDEX.md) | 47 | 38 |
+| 44 | [PDE III](oppgaver/Uke%2044%20-%20PDE%20III/INDEX.md) | 88 | 70 |
+| 45 | [Polynomial, Spline and Bézier Approximation](oppgaver/Uke%2045%20-%20Polynomial,%20Spline%20and%20Bézier%20Approximation/INDEX.md) | 48 | 39 |
 | 46 | [Least Squares](oppgaver/Uke%2046%20-%20Least%20Squares/INDEX.md) | 22 | 22 |
-| **Sum** | | 360 | 297 |
+| **Sum** | | 365 | 302 |
 <!-- TELL-TABELL:SLUTT -->
 
 ## Validering
