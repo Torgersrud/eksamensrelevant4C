@@ -53,6 +53,8 @@ PDF_4D = b"fake-kildesett: 4D host 2019\n"
 PDF_4D_VAR = b"fake-kildesett: 4D var 2019\n"
 PDF_4D_KONT22 = b"fake-kildesett: 4D kont 2022 (aug-resit 4D-fil)\n"
 PDF_4N_SOMMER22 = b"fake-kildesett: 4N sommer 2022 (aug-resit 4N-fil)\n"
+PDF_M2_KONT23 = b"fake-kildesett: M2 kont 2023 (TMA4105 aug-resit)\n"
+PDF_M2_HOST24 = b"fake-kildesett: M2 host 2024 (TMA4105 eksamen, unsolved)\n"
 
 
 def sha(data: bytes) -> str:
@@ -81,13 +83,17 @@ def make_repo(root: Path):
     (sources / "4d2019var.pdf").write_bytes(PDF_4D_VAR)
     (sources / "4d2022kont.pdf").write_bytes(PDF_4D_KONT22)
     (sources / "4n2022sommer.pdf").write_bytes(PDF_4N_SOMMER22)
+    (sources / "m22023kont.pdf").write_bytes(PDF_M2_KONT23)
+    (sources / "m22024host.pdf").write_bytes(PDF_M2_HOST24)
     (sources / "MANIFEST.csv").write_text(
         MANIFEST_HEADER + "\n"
         f"TMA4432,2026,test,test,testexam.pdf,https://example.test/testexam.pdf,{sha(PDF_TEST)},yes\n"
         f"TMA4135,2019,host,eksamen,4d2019host.pdf,https://example.test/4d2019host.pdf,{sha(PDF_4D)},no\n"
         f"TMA4135,2019,var,eksamen,4d2019var.pdf,https://example.test/4d2019var.pdf,{sha(PDF_4D_VAR)},no\n"
         f"TMA4135,2022,kont,kont,4d2022kont.pdf,https://example.test/4d2022kont.pdf,{sha(PDF_4D_KONT22)},yes\n"
-        f"TMA4135,2022,sommer,kont,4n2022sommer.pdf,https://example.test/4n2022sommer.pdf,{sha(PDF_4N_SOMMER22)},yes\n",
+        f"TMA4135,2022,sommer,kont,4n2022sommer.pdf,https://example.test/4n2022sommer.pdf,{sha(PDF_4N_SOMMER22)},yes\n"
+        f"TMA4105,2023,kont,kont,m22023kont.pdf,https://example.test/m22023kont.pdf,{sha(PDF_M2_KONT23)},yes\n"
+        f"TMA4105,2024,host,eksamen,m22024host.pdf,https://example.test/m22024host.pdf,{sha(PDF_M2_HOST24)},no\n",
         encoding="utf-8")
     readme = root / "README.md"
     readme.write_text(README_TEXT, encoding="utf-8")
@@ -181,6 +187,25 @@ class TestFilnavnGrammatikk(ValidatorTestCase):
     def test_two_letter_set_names_filgrammatikk(self):
         (self.repo / "oppgaver" / "Uke 39 - Fourier Series I" / "2022-kont-bb-4D_oppgave7.md").write_text(
             "yy\n\n" + footer("TMA4135", "kont", "2022", "7", "4d2022kont.pdf"),
+            encoding="utf-8")
+        self.assertViolates("FILGRAMMATIKK")
+
+    def test_M2_tag_is_valid(self):
+        # Corpus extension (ADR 0004): the tag vocabulary gains M2 for the
+        # TMA4105 Matematikk 2 Kildesetter.
+        (self.repo / "oppgaver" / "Uke 36 - Parametrised Curves and Surfaces" /
+         "2023-kont-M2_oppgave4.md").write_text(
+            "x\n\n" + footer("TMA4105", "kont", "2023", "4", "m22023kont.pdf"),
+            encoding="utf-8")
+        self.index()
+        self.assertOk()
+
+    def test_unknown_tag_still_names_filgrammatikk(self):
+        # M2 enters the tag vocabulary; nothing else does. An invented tag
+        # must stay rejected.
+        (self.repo / "oppgaver" / "Uke 36 - Parametrised Curves and Surfaces" /
+         "2023-kont-XX_oppgave4.md").write_text(
+            "x\n\n" + footer("TMA4105", "kont", "2023", "4", "m22023kont.pdf"),
             encoding="utf-8")
         self.assertViolates("FILGRAMMATIKK")
 
@@ -374,6 +399,14 @@ class TestLosningPaaLosetSett(ValidatorTestCase):
             "x\n\n" + footer("TMA4135", "host", "2019", "5", "4d2019host.pdf"), encoding="utf-8")
         self.assertViolates("LOSNING_ULOST")
 
+    def test_M2_losning_on_unsolved_set_names_losning_ulost(self):
+        # Grammar extension notwithstanding: the fixture's M2-2024 row is
+        # solved=no, so an M2-tagged Løsningsfil under it stays illegal.
+        (self.repo / "oppgaver" / "Uke 38 - Vector Functions II (Optimization)" /
+         "2024-host-M2-losning_oppgave3.md").write_text(
+            "x\n\n" + footer("TMA4105", "host", "2024", "3", "m22024host.pdf"), encoding="utf-8")
+        self.assertViolates("LOSNING_ULOST")
+
 
 class TestLosningKrevdOppgave(ValidatorTestCase):
     def test_losning_without_problem_sibling_names_orpa(self):
@@ -393,6 +426,14 @@ class TestLosningKrevdOppgave(ValidatorTestCase):
             "y\n\n" + footer("TMA4135", "kont", "2022", "7", "4d2022kont.pdf"), encoding="utf-8")
         self.index()
         self.assertOk()
+
+    def test_synthetic_M2_losning_without_problem_sibling_names_orpa(self):
+        # Unchanged by the grammar extension: also for M2-tagged synthetics a
+        # lone Løsningsfil without its Oppgave is named (the pairing rule).
+        (self.repo / "oppgaver" / "Uke 36 - Parametrised Curves and Surfaces" /
+         "synthetic-2026-test-M2-losning_oppgave2.md").write_text("x\n", encoding="utf-8")
+        self.index()
+        self.assertViolates("ORPA")
 
 
 class TestManifestHash(ValidatorTestCase):
