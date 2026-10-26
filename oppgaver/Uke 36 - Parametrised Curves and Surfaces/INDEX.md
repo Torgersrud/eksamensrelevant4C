@@ -4,6 +4,10 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 
 | Fil | Kildesett | Oppgave | Løsningsfil |
 |---|---|---|---|
+| [2016-sommer-M2-losning_oppgave1.md](2016-sommer-M2-losning_oppgave1.md) | TMA4105 · sommer 2016 | oppgave 1 | (løsningsfil) |
+| [2016-sommer-M2-losning_oppgave3.md](2016-sommer-M2-losning_oppgave3.md) | TMA4105 · sommer 2016 | oppgave 3 | (løsningsfil) |
+| [2016-sommer-M2_oppgave1.md](2016-sommer-M2_oppgave1.md) | TMA4105 · sommer 2016 | oppgave 1 | [2016-sommer-M2-losning_oppgave1.md](2016-sommer-M2-losning_oppgave1.md) |
+| [2016-sommer-M2_oppgave3.md](2016-sommer-M2_oppgave3.md) | TMA4105 · sommer 2016 | oppgave 3 | [2016-sommer-M2-losning_oppgave3.md](2016-sommer-M2-losning_oppgave3.md) |
 | [2016-var-M2-losning_oppgave1.md](2016-var-M2-losning_oppgave1.md) | TMA4105 · var 2016 | oppgave 1 | (løsningsfil) |
 | [2016-var-M2_oppgave1.md](2016-var-M2_oppgave1.md) | TMA4105 · var 2016 | oppgave 1 | [2016-var-M2-losning_oppgave1.md](2016-var-M2-losning_oppgave1.md) |
 | [2017-sommer-M2-losning_oppgave3.md](2017-sommer-M2-losning_oppgave3.md) | TMA4105 · sommer 2017 | oppgave 3 | (løsningsfil) |
