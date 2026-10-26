@@ -14,6 +14,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2008-host-LM_problem5.md](2008-host-LM_problem5.md) | TMA4145 · host 2008 | problem 5 | [2008-host-LM-losning_problem5.md](2008-host-LM-losning_problem5.md) |
 | [2009-host-LM-losning_problem4.md](2009-host-LM-losning_problem4.md) | TMA4145 · host 2009 | problem 4 | (løsningsfil) |
 | [2009-host-LM_problem4.md](2009-host-LM_problem4.md) | TMA4145 · host 2009 | problem 4 | [2009-host-LM-losning_problem4.md](2009-host-LM-losning_problem4.md) |
+| [2009-host-M3-losning_oppgave4.md](2009-host-M3-losning_oppgave4.md) | TMA4110 · host 2009 | oppgave 4 | (løsningsfil) |
+| [2009-host-M3_oppgave4.md](2009-host-M3_oppgave4.md) | TMA4110 · host 2009 | oppgave 4 | [2009-host-M3-losning_oppgave4.md](2009-host-M3-losning_oppgave4.md) |
 | [2009-kont-LM-losning_problem4.md](2009-kont-LM-losning_problem4.md) | TMA4145 · kont 2009 | problem 4 | (løsningsfil) |
 | [2009-kont-LM-losning_problem5.md](2009-kont-LM-losning_problem5.md) | TMA4145 · kont 2009 | problem 5 | (løsningsfil) |
 | [2009-kont-LM_problem4.md](2009-kont-LM_problem4.md) | TMA4145 · kont 2009 | problem 4 | [2009-kont-LM-losning_problem4.md](2009-kont-LM-losning_problem4.md) |
