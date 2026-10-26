@@ -102,6 +102,9 @@ Kjør `check` (gjerne sammen med testene) før hver commit.
 - [ADR 0002](docs/adr/0002-gap-policy.md) — kvifor `synthetic-`-filer finnes
 - [ADR 0003](docs/adr/0003-legacy-course-codes.md) — delte 4M/4N-eksamen under eldre kurskoder
 
+Litteraturforkortningar — nemnd for referanse: **AH** = Hole, **QSS** =
+Quarteroni/Sacco/Saleri, **PPST** = Plonka et al., **Kr** = Kreyszig.
+
 Bruk og/eller misbruk etter egen vilje.
 
 Lykke til med eksamen!
