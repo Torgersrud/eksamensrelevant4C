@@ -211,6 +211,10 @@ class TestSyntetisk(ValidatorTestCase):
         (self.repo / "oppgaver" / "Uke 35 - Tensors and Tensor Decomposition" /
          "synthetic-2026-test-4C_oppgave1.md").write_text(
             "### **Oppgave 1** (CP-dekomposisjon)\n\n...\n", encoding="utf-8")
+        # Production stems (ticket 27 rename): same exemption for the -host- stem.
+        (self.repo / "oppgaver" / "Uke 35 - Tensors and Tensor Decomposition" /
+         "synthetic-2026-host-4C_oppgave2.md").write_text(
+            "### **Oppgave 2** (TUCKER)\n\n...\n", encoding="utf-8")
         self.index()
         self.assertOk()
 
