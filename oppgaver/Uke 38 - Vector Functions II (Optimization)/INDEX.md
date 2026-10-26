@@ -4,6 +4,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 
 | Fil | Kildesett | Oppgave | Løsningsfil |
 |---|---|---|---|
+| [2022-sommer-M2-losning_oppgave1.md](2022-sommer-M2-losning_oppgave1.md) | TMA4105 · sommer 2022 | oppgave 1 | (løsningsfil) |
+| [2022-sommer-M2_oppgave1.md](2022-sommer-M2_oppgave1.md) | TMA4105 · sommer 2022 | oppgave 1 | [2022-sommer-M2-losning_oppgave1.md](2022-sommer-M2-losning_oppgave1.md) |
 | [2022-var-M2-losning_oppgave1.md](2022-var-M2-losning_oppgave1.md) | TMA4105 · var 2022 | oppgave 1 | (løsningsfil) |
 | [2022-var-M2_oppgave1.md](2022-var-M2_oppgave1.md) | TMA4105 · var 2022 | oppgave 1 | [2022-var-M2-losning_oppgave1.md](2022-var-M2-losning_oppgave1.md) |
 | [2023-sommer-M2-losning_oppgave1.md](2023-sommer-M2-losning_oppgave1.md) | TMA4105 · sommer 2023 | oppgave 1 | (løsningsfil) |
