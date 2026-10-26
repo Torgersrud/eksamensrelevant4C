@@ -4,6 +4,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 
 | Fil | Kildesett | Oppgave | Løsningsfil |
 |---|---|---|---|
+| [2013-var-M2-losning_oppgave4.md](2013-var-M2-losning_oppgave4.md) | TMA4105 · var 2013 | oppgave 4 | (løsningsfil) |
+| [2013-var-M2_oppgave4.md](2013-var-M2_oppgave4.md) | TMA4105 · var 2013 | oppgave 4 | [2013-var-M2-losning_oppgave4.md](2013-var-M2-losning_oppgave4.md) |
 | [2014-sommer-M2-losning_oppgave3.md](2014-sommer-M2-losning_oppgave3.md) | TMA4105 · sommer 2014 | oppgave 3 | (løsningsfil) |
 | [2014-sommer-M2_oppgave3.md](2014-sommer-M2_oppgave3.md) | TMA4105 · sommer 2014 | oppgave 3 | [2014-sommer-M2-losning_oppgave3.md](2014-sommer-M2-losning_oppgave3.md) |
 | [2014-var-M2-losning_oppgave3.md](2014-var-M2-losning_oppgave3.md) | TMA4105 · var 2014 | oppgave 3 | (løsningsfil) |
