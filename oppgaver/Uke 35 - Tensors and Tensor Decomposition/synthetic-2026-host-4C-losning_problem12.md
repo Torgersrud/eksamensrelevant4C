@@ -12,7 +12,7 @@ b) With the first remaining index fastest,
 
 $$G^{(1)}=\begin{pmatrix}6&0&0&0\\ 0&0&0&3\\ 0&0&2&0\end{pmatrix},\quad
 G^{(2)}=\begin{pmatrix}6&0&0&0&0&2\\ 0&0&0&0&3&0\end{pmatrix},\quad
-G^{(3)}=\begin{pmatrix}6&0&0&0&3&0\\ 0&0&2&0&3&0\end{pmatrix},$$
+G^{(3)}=\begin{pmatrix}6&0&0&0&0&0\\ 0&0&2&0&3&0\end{pmatrix},$$
 
 each of rank $2$: the multilinear rank of $\mathbf{G}$ is $(2,2,2)$, and multiplying by the invertible (orthogonal) factors does not change unfolding ranks, so $\mathbf{T}$ has multilinear rank $(2,2,2)$ too. Further $G^{(1)}G^{(1)\top}=\operatorname{diag}(36,9,4)$. Since $\mathbf{T}^{(1)}=U\,G^{(1)}(W\odot V)^{\top}$ and $(W\odot V)^{\top}(W\odot V)=(W^{\top}W)\circ(V^{\top}V)=I_2\circ I_2=I_2$, the Gram of $\mathbf{T}^{(1)}\mathbf{T}^{(1)\top}=U\operatorname{diag}(36,9,4)U^{\top}$ has eigenvalues $36,9,4$, so the singular values of $\mathbf{T}^{(1)}$ are $\sigma_1=6$, $\sigma_2=3$, $\sigma_3=2$. (2 P.)
 
