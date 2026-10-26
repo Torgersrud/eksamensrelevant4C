@@ -4,16 +4,46 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 
 | Fil | Kildesett | Oppgave | Løsningsfil |
 |---|---|---|---|
+| [2000-sommer-M2-losning_oppgave3.md](2000-sommer-M2-losning_oppgave3.md) | SIF5005 · sommer 2000 | oppgave 3 | (løsningsfil) |
+| [2000-sommer-M2_oppgave3.md](2000-sommer-M2_oppgave3.md) | SIF5005 · sommer 2000 | oppgave 3 | [2000-sommer-M2-losning_oppgave3.md](2000-sommer-M2-losning_oppgave3.md) |
+| [2000-var-M2-losning_oppgave3.md](2000-var-M2-losning_oppgave3.md) | SIF5005 · var 2000 | oppgave 3 | (løsningsfil) |
+| [2000-var-M2_oppgave3.md](2000-var-M2_oppgave3.md) | SIF5005 · var 2000 | oppgave 3 | [2000-var-M2-losning_oppgave3.md](2000-var-M2-losning_oppgave3.md) |
+| [2001-var-M2-losning_oppgave3.md](2001-var-M2-losning_oppgave3.md) | SIF5005 · var 2001 | oppgave 3 | (løsningsfil) |
+| [2001-var-M2-losning_oppgave5.md](2001-var-M2-losning_oppgave5.md) | SIF5005 · var 2001 | oppgave 5 | (løsningsfil) |
+| [2001-var-M2_oppgave3.md](2001-var-M2_oppgave3.md) | SIF5005 · var 2001 | oppgave 3 | [2001-var-M2-losning_oppgave3.md](2001-var-M2-losning_oppgave3.md) |
+| [2001-var-M2_oppgave5.md](2001-var-M2_oppgave5.md) | SIF5005 · var 2001 | oppgave 5 | [2001-var-M2-losning_oppgave5.md](2001-var-M2-losning_oppgave5.md) |
+| [2002-sommer-M2-losning_oppgave1.md](2002-sommer-M2-losning_oppgave1.md) | SIF5005 · sommer 2002 | oppgave 1 | (løsningsfil) |
+| [2002-sommer-M2_oppgave1.md](2002-sommer-M2_oppgave1.md) | SIF5005 · sommer 2002 | oppgave 1 | [2002-sommer-M2-losning_oppgave1.md](2002-sommer-M2-losning_oppgave1.md) |
+| [2002-var-M2-losning_oppgave2.md](2002-var-M2-losning_oppgave2.md) | SIF5005 · var 2002 | oppgave 2 | (løsningsfil) |
+| [2002-var-M2-losning_oppgave8.md](2002-var-M2-losning_oppgave8.md) | SIF5005 · var 2002 | oppgave 8 | (løsningsfil) |
+| [2002-var-M2_oppgave2.md](2002-var-M2_oppgave2.md) | SIF5005 · var 2002 | oppgave 2 | [2002-var-M2-losning_oppgave2.md](2002-var-M2-losning_oppgave2.md) |
+| [2002-var-M2_oppgave8.md](2002-var-M2_oppgave8.md) | SIF5005 · var 2002 | oppgave 8 | [2002-var-M2-losning_oppgave8.md](2002-var-M2-losning_oppgave8.md) |
+| [2003-sommer-M2-losning_oppgave5.md](2003-sommer-M2-losning_oppgave5.md) | SIF5005 · sommer 2003 | oppgave 5 | (løsningsfil) |
+| [2003-sommer-M2_oppgave5.md](2003-sommer-M2_oppgave5.md) | SIF5005 · sommer 2003 | oppgave 5 | [2003-sommer-M2-losning_oppgave5.md](2003-sommer-M2-losning_oppgave5.md) |
+| [2004-sommer-M2-losning_oppgave5.md](2004-sommer-M2-losning_oppgave5.md) | TMA4105 · sommer 2004 | oppgave 5 | (løsningsfil) |
+| [2004-sommer-M2_oppgave5.md](2004-sommer-M2_oppgave5.md) | TMA4105 · sommer 2004 | oppgave 5 | [2004-sommer-M2-losning_oppgave5.md](2004-sommer-M2-losning_oppgave5.md) |
+| [2004-var-M2-losning_oppgave1.md](2004-var-M2-losning_oppgave1.md) | TMA4105 · var 2004 | oppgave 1 | (løsningsfil) |
+| [2004-var-M2_oppgave1.md](2004-var-M2_oppgave1.md) | TMA4105 · var 2004 | oppgave 1 | [2004-var-M2-losning_oppgave1.md](2004-var-M2-losning_oppgave1.md) |
+| [2005-var-M2-losning_oppgave5.md](2005-var-M2-losning_oppgave5.md) | TMA4105 · var 2005 | oppgave 5 | (løsningsfil) |
+| [2005-var-M2_oppgave5.md](2005-var-M2_oppgave5.md) | TMA4105 · var 2005 | oppgave 5 | [2005-var-M2-losning_oppgave5.md](2005-var-M2-losning_oppgave5.md) |
 | [2006-kont-4D-losning_oppgave4.md](2006-kont-4D-losning_oppgave4.md) | TMA4135 · kont 2006 | oppgave 4 | (løsningsfil) |
 | [2006-kont-4D_oppgave4.md](2006-kont-4D_oppgave4.md) | TMA4135 · kont 2006 | oppgave 4 | [2006-kont-4D-losning_oppgave4.md](2006-kont-4D-losning_oppgave4.md) |
+| [2006-sommer-M2-losning_oppgave1.md](2006-sommer-M2-losning_oppgave1.md) | TMA4105 · sommer 2006 | oppgave 1 | (løsningsfil) |
+| [2006-sommer-M2_oppgave1.md](2006-sommer-M2_oppgave1.md) | TMA4105 · sommer 2006 | oppgave 1 | [2006-sommer-M2-losning_oppgave1.md](2006-sommer-M2-losning_oppgave1.md) |
+| [2006-var-M2-losning_oppgave1.md](2006-var-M2-losning_oppgave1.md) | TMA4105 · var 2006 | oppgave 1 | (løsningsfil) |
+| [2006-var-M2_oppgave1.md](2006-var-M2_oppgave1.md) | TMA4105 · var 2006 | oppgave 1 | [2006-var-M2-losning_oppgave1.md](2006-var-M2-losning_oppgave1.md) |
 | [2007-host-4D-losning_oppgave5.md](2007-host-4D-losning_oppgave5.md) | TMA4135 · host 2007 | oppgave 5 | (løsningsfil) |
 | [2007-host-4D_oppgave5.md](2007-host-4D_oppgave5.md) | TMA4135 · host 2007 | oppgave 5 | [2007-host-4D-losning_oppgave5.md](2007-host-4D-losning_oppgave5.md) |
+| [2007-var-M2-losning_oppgave1.md](2007-var-M2-losning_oppgave1.md) | TMA4105 · var 2007 | oppgave 1 | (løsningsfil) |
+| [2007-var-M2_oppgave1.md](2007-var-M2_oppgave1.md) | TMA4105 · var 2007 | oppgave 1 | [2007-var-M2-losning_oppgave1.md](2007-var-M2-losning_oppgave1.md) |
 | [2008-host-4D-losning_oppgave4.md](2008-host-4D-losning_oppgave4.md) | TMA4135 · host 2008 | oppgave 4 | (løsningsfil) |
 | [2008-host-4D_oppgave4.md](2008-host-4D_oppgave4.md) | TMA4135 · host 2008 | oppgave 4 | [2008-host-4D-losning_oppgave4.md](2008-host-4D-losning_oppgave4.md) |
 | [2008-kont-4D-losning_oppgave4.md](2008-kont-4D-losning_oppgave4.md) | TMA4135 · kont 2008 | oppgave 4 | (løsningsfil) |
 | [2008-kont-4D_oppgave4.md](2008-kont-4D_oppgave4.md) | TMA4135 · kont 2008 | oppgave 4 | [2008-kont-4D-losning_oppgave4.md](2008-kont-4D-losning_oppgave4.md) |
 | [2009-kont-4D-losning_oppgave4.md](2009-kont-4D-losning_oppgave4.md) | TMA4135 · kont 2009 | oppgave 4 | (løsningsfil) |
 | [2009-kont-4D_oppgave4.md](2009-kont-4D_oppgave4.md) | TMA4135 · kont 2009 | oppgave 4 | [2009-kont-4D-losning_oppgave4.md](2009-kont-4D-losning_oppgave4.md) |
+| [2009-sommer-M2-losning_oppgave6.md](2009-sommer-M2-losning_oppgave6.md) | TMA4105 · sommer 2009 | oppgave 6 | (løsningsfil) |
+| [2009-sommer-M2_oppgave6.md](2009-sommer-M2_oppgave6.md) | TMA4105 · sommer 2009 | oppgave 6 | [2009-sommer-M2-losning_oppgave6.md](2009-sommer-M2-losning_oppgave6.md) |
 | [2010-host-4D-losning_oppgave3.md](2010-host-4D-losning_oppgave3.md) | TMA4135 · host 2010 | oppgave 3 | (løsningsfil) |
 | [2010-host-4D-losning_oppgave8.md](2010-host-4D-losning_oppgave8.md) | TMA4135 · host 2010 | oppgave 8 | (løsningsfil) |
 | [2010-host-4D_oppgave3.md](2010-host-4D_oppgave3.md) | TMA4135 · host 2010 | oppgave 3 | [2010-host-4D-losning_oppgave3.md](2010-host-4D-losning_oppgave3.md) |
