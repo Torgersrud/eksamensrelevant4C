@@ -24,6 +24,10 @@ Ett eksamenssett (PDF) som Oppgaver er hentet fra — en ekte eksamen (ordinær 
 kontinuasjon) eller den offisielle testeksamen for TMA4432. Hvert Kildesett har en rad i
 `sources/MANIFEST.csv` med course, year, term, set_type, filename, url, sha256 og solved.
 Selve PDF-en ligger i gitignored `sources/`; bare manifestet er committet.
+Et løsningsforslag (LF) som er utgitt som egen PDF, kan ligge i `sources/` uten egen
+manifestrad når fotene i filene peker på eksamensraden: raden representerer settet, og
+LF-et er bare utfyllingskilden vi transkriberer løsninger fra. Når LF-et er den eneste
+publiserte kilden til oppgaveteksten også, markeres det med *Kjeldevarsel* i filene.
 
 ## Emneknutepunkt
 
@@ -37,7 +41,9 @@ vanskelighetsgrad). Uke 47 (repetisjon) har ingen mappe.
 
 Vennindefilen til en Oppgave, med `-losning` inn i filnavnet etter taggen
 (f.eks. `2026-test-4C-losning_problem1.md`). Inneholder løsningsforslaget fra Kildesettet.
-En Løsningsfil må bare eksistere hvis Kildesettets manifestrad er markert `solved=yes`.
+En Løsningsfil må bare eksistere hvis Kildesettets manifestrad er markert `solved=yes`,
+og den må alltid ha sin Oppgave i samme Emneknutepunkt-mappe — en løsning uten oppgave er
+ikke en bladbar oppgave.
 
 ## Syntetisk oppgave
 
