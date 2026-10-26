@@ -94,6 +94,38 @@ Alt gate'es av én enkeltstående tool (ren standardbibliotek-Python):
 
 Kjør `check` (gjerne sammen med testene) før hver commit.
 
+## Legg til nye Kildesett (neste år)
+
+Pipelinen er kursårsuavhengig. En ny kursår (t.d. 2027h) — og det ekte 2026-eksamen
+når den blir publisert — er én **batch per Kildesett**, ikke et nytt prosjekt.
+Slik gjør du det, steg for steg:
+
+1. **Last ned PDF-en** til `sources/` — eksamensarket og, hvis publisert,
+   løsningsarket (LF-en). PDF-er er gitignored; `sources/*.pdf` committes ALDRI.
+2. **Regn ut sjekksummen:** `sha256sum sources/<filnavn>.pdf`.
+3. **Legg til én rad i** `sources/MANIFEST.csv`. Schema:
+   `course,year,term,set_type,filename,url,sha256,solved` — `course` = emnekode i
+   eksamenshovudet, `year` = eksamensåret, `term` ∈ `host|var|kont|sommer|test`,
+   `set_type` ∈ `ordinar|kont|test`, `filename` = nøyaktig filnavn på disk,
+   `url` = der PDF-en fantes, `sha256` = fra steg 2, `solved` = `yes` bare når
+   det finnes et løsningsforslag (Løsningsfiler må ikke skrives ellers).
+   Skilles flere Kildesett i samme år+term, får filnavnene suffiks `-b`, `-c`, …
+   (se Filnavn). Ei LF-utgivelse som egen PDF ligger i `sources/` uten egen rad —
+   raden representerer settet, se [GLOSSARY.md](GLOSSARY.md).
+4. **Transkriber** de relevante Oppgavene etter Relevansregelen og filnavns-
+   grammatikken over: én fil per Oppgave i riktig Emneknutepunkt, ordrett på
+   originalspråket, provensfot på siste linje som peker på manifestraden, og
+   *Kjeldevarsel* bare til de tre vedtatte provenansformålene. Deretter en
+   fulltekstskann (normalisert heilttekst) mot hele korpuset etter byte-identiske
+   gjentak — treff føres som `_dupN`-kopier av mesteren, og Duplikater får ikke
+   egen Løsningsfil.
+5. **Regenerer indeksen:** `python3 scripts/check_repo.py index` — skriver alle
+   `INDEX.md`-er og Uke-tabellen over, slik at tallene alltid treffer filene.
+6. **Gate:** `python3 scripts/check_repo.py check` og
+   `python3 scripts/test_check_repo.py` må begge være grønne.
+7. **Commit** batchen: manifestrad, Oppgave- og Løsningsfiler, INDEX-er og
+   README i samme commit — én commit per Kildesett.
+
 ## Mer
 
 - [GLOSSARY.md](GLOSSARY.md) — de vedtatte begrepene: Oppgave, Kildesett, Emneknutepunkt,
