@@ -28,6 +28,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2011-sommer-M2-losning_oppgave4.md](2011-sommer-M2-losning_oppgave4.md) | TMA4105 · sommer 2011 | oppgave 4 | (løsningsfil) |
 | [2011-sommer-M2_oppgave2.md](2011-sommer-M2_oppgave2.md) | TMA4105 · sommer 2011 | oppgave 2 | [2011-sommer-M2-losning_oppgave2.md](2011-sommer-M2-losning_oppgave2.md) |
 | [2011-sommer-M2_oppgave4.md](2011-sommer-M2_oppgave4.md) | TMA4105 · sommer 2011 | oppgave 4 | [2011-sommer-M2-losning_oppgave4.md](2011-sommer-M2-losning_oppgave4.md) |
+| [2011-var-M2-losning_oppgave4.md](2011-var-M2-losning_oppgave4.md) | TMA4105 · var 2011 | oppgave 4 | (løsningsfil) |
+| [2011-var-M2_oppgave4.md](2011-var-M2_oppgave4.md) | TMA4105 · var 2011 | oppgave 4 | [2011-var-M2-losning_oppgave4.md](2011-var-M2-losning_oppgave4.md) |
 | [2012-kont-4D-losning_oppgave3.md](2012-kont-4D-losning_oppgave3.md) | TMA4135 · kont 2012 | oppgave 3 | (løsningsfil) |
 | [2012-kont-4D-losning_oppgave7.md](2012-kont-4D-losning_oppgave7.md) | TMA4135 · kont 2012 | oppgave 7 | (løsningsfil) |
 | [2012-kont-4D_oppgave3.md](2012-kont-4D_oppgave3.md) | TMA4135 · kont 2012 | oppgave 3 | [2012-kont-4D-losning_oppgave3.md](2012-kont-4D-losning_oppgave3.md) |
@@ -38,7 +40,9 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2014-kont-4D-losning_oppgave5.md](2014-kont-4D-losning_oppgave5.md) | TMA4135 · kont 2014 | oppgave 5 | (løsningsfil) |
 | [2014-kont-4D_oppgave2.md](2014-kont-4D_oppgave2.md) | TMA4135 · kont 2014 | oppgave 2 | [2014-kont-4D-losning_oppgave2.md](2014-kont-4D-losning_oppgave2.md) |
 | [2014-kont-4D_oppgave5.md](2014-kont-4D_oppgave5.md) | TMA4135 · kont 2014 | oppgave 5 | [2014-kont-4D-losning_oppgave5.md](2014-kont-4D-losning_oppgave5.md) |
+| [2014-sommer-M2-losning_oppgave1.md](2014-sommer-M2-losning_oppgave1.md) | TMA4105 · sommer 2014 | oppgave 1 | (løsningsfil) |
 | [2014-sommer-M2-losning_oppgave2.md](2014-sommer-M2-losning_oppgave2.md) | TMA4105 · sommer 2014 | oppgave 2 | (løsningsfil) |
+| [2014-sommer-M2_oppgave1.md](2014-sommer-M2_oppgave1.md) | TMA4105 · sommer 2014 | oppgave 1 | [2014-sommer-M2-losning_oppgave1.md](2014-sommer-M2-losning_oppgave1.md) |
 | [2014-sommer-M2_oppgave2.md](2014-sommer-M2_oppgave2.md) | TMA4105 · sommer 2014 | oppgave 2 | [2014-sommer-M2-losning_oppgave2.md](2014-sommer-M2-losning_oppgave2.md) |
 | [2014-var-M2-losning_oppgave1.md](2014-var-M2-losning_oppgave1.md) | TMA4105 · var 2014 | oppgave 1 | (løsningsfil) |
 | [2014-var-M2_oppgave1.md](2014-var-M2_oppgave1.md) | TMA4105 · var 2014 | oppgave 1 | [2014-var-M2-losning_oppgave1.md](2014-var-M2-losning_oppgave1.md) |
