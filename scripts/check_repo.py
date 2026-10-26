@@ -36,7 +36,7 @@ TELL_START = "<!-- TELL-TABELL:START -->"
 TELL_SLUTT = "<!-- TELL-TABELL:SLUTT -->"
 
 NAME_RE = re.compile(
-    r"(?P<year>\d{4})-(?P<term>host|var|kont|sommer|test)(?:-(?P<set>[a-z]))?-(?P<tag>4N|4D|LM|M3|4C)"
+    r"(?P<year>\d{4})-(?P<term>host|var|kont|sommer|test)(?:-(?P<set>[a-z]))?-(?P<tag>4N|4D|LM|M2|M3|4C)"
     r"(?P<los>-losning)?(?:_dup(?P<dup>[1-9][0-9]*))?"
     r"_(?P<word>problem|oppgave)(?P<num>[1-9][0-9]*)\.md$"
 )
