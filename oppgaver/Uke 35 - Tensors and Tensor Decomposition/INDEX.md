@@ -1,6 +1,6 @@
 # Uke 35 - Tensors and Tensor Decomposition
 
-Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand.
+# Synthetics er skrevet av KI, så de kan være svært rare, det var dritvannskelig å finne oppgaver på temaet
 
 | Fil | Kildesett | Oppgave | Løsningsfil |
 |---|---|---|---|
