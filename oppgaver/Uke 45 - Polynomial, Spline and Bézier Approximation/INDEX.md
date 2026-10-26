@@ -13,8 +13,6 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2006-var-4N_oppgave5.md](2006-var-4N_oppgave5.md) | TMA4125 · var 2006 | oppgave 5 | [2006-var-4N-losning_oppgave5.md](2006-var-4N-losning_oppgave5.md) |
 | [2007-host-4N-losning_problem5.md](2007-host-4N-losning_problem5.md) | TMA4130 · host 2007 | problem 5 | (løsningsfil) |
 | [2007-host-4N_problem5.md](2007-host-4N_problem5.md) | TMA4130 · host 2007 | problem 5 | [2007-host-4N-losning_problem5.md](2007-host-4N-losning_problem5.md) |
-| [2007-var-4N-losning_oppgave6.md](2007-var-4N-losning_oppgave6.md) | TMA4123 · var 2007 | oppgave 6 | (løsningsfil) |
-| [2007-var-4N_oppgave6.md](2007-var-4N_oppgave6.md) | TMA4123 · var 2007 | oppgave 6 | [2007-var-4N-losning_oppgave6.md](2007-var-4N-losning_oppgave6.md) |
 | [2008-host-4D-losning_oppgave6.md](2008-host-4D-losning_oppgave6.md) | TMA4135 · host 2008 | oppgave 6 | (løsningsfil) |
 | [2008-host-4D_oppgave6.md](2008-host-4D_oppgave6.md) | TMA4135 · host 2008 | oppgave 6 | [2008-host-4D-losning_oppgave6.md](2008-host-4D-losning_oppgave6.md) |
 | [2008-host-4N_dup1_oppgave5.md](2008-host-4N_dup1_oppgave5.md) | TMA4130 · host 2008 | oppgave 5 | – |

@@ -6,8 +6,6 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 |---|---|---|---|
 | [2007-host-4D-losning_oppgave2.md](2007-host-4D-losning_oppgave2.md) | TMA4135 · host 2007 | oppgave 2 | (løsningsfil) |
 | [2007-host-4D_oppgave2.md](2007-host-4D_oppgave2.md) | TMA4135 · host 2007 | oppgave 2 | [2007-host-4D-losning_oppgave2.md](2007-host-4D-losning_oppgave2.md) |
-| [2007-var-4N-losning_oppgave1.md](2007-var-4N-losning_oppgave1.md) | TMA4123 · var 2007 | oppgave 1 | (løsningsfil) |
-| [2007-var-4N_oppgave1.md](2007-var-4N_oppgave1.md) | TMA4123 · var 2007 | oppgave 1 | [2007-var-4N-losning_oppgave1.md](2007-var-4N-losning_oppgave1.md) |
 | [2010-host-4D-losning_oppgave4.md](2010-host-4D-losning_oppgave4.md) | TMA4135 · host 2010 | oppgave 4 | (løsningsfil) |
 | [2010-host-4D_oppgave4.md](2010-host-4D_oppgave4.md) | TMA4135 · host 2010 | oppgave 4 | [2010-host-4D-losning_oppgave4.md](2010-host-4D-losning_oppgave4.md) |
 | [2010-host-4N-losning_oppgave4.md](2010-host-4N-losning_oppgave4.md) | TMA4130 · host 2010 | oppgave 4 | (løsningsfil) |
