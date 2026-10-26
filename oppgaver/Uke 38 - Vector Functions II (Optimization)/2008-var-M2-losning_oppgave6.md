@@ -54,6 +54,6 @@ Målene på teltet er derfor (med den valgte notasjonen her):
 
 $$a = 2\sqrt{\frac{5}{3(4 + \pi)}}, \qquad b = 4\sqrt{\frac{5}{3(4 + \pi)}}, \qquad c = 2\sqrt{\frac{5}{3(4 + \pi)}}.$$
 
-*Kjeldevarsel: løsningsforslaget oppgir ikkje ei kontroll av at den kritiske løysinga faktisk gir maksimum (verken andreversjonstest eller kompaktheitsargument); grensetilfella der ei sidelengd går mot null gir volum 0, og overflatelikninga binds av ei kompakt flate, slik at maksimum finst — den eine kritiske løysinga må då vere det.*
+*Kjeldevarsel: løsningsforslaget oppgir ikkje ei kontroll av at den kritiske løysinga faktisk gir maksimum (verken andreversjonstest eller kompaktheitsargument).*
 
 Kildesett: course=TMA4105 term=var year=2008 problem=6 file=tma4105_08v.pdf
