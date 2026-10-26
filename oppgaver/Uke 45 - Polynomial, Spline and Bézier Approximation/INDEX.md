@@ -38,6 +38,7 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2012-host-4D-losning_oppgave1.md](2012-host-4D-losning_oppgave1.md) | TMA4135 · host 2012 | oppgave 1 | (løsningsfil) |
 | [2012-host-4D_oppgave1.md](2012-host-4D_oppgave1.md) | TMA4135 · host 2012 | oppgave 1 | [2012-host-4D-losning_oppgave1.md](2012-host-4D-losning_oppgave1.md) |
 | [2012-host-4N-losning_problem6.md](2012-host-4N-losning_problem6.md) | TMA4130 · host 2012 | problem 6 | (løsningsfil) |
+| [2012-host-4N_problem6.md](2012-host-4N_problem6.md) | TMA4130 · host 2012 | problem 6 | [2012-host-4N-losning_problem6.md](2012-host-4N-losning_problem6.md) |
 | [2012-var-4N-losning_oppgave1.md](2012-var-4N-losning_oppgave1.md) | TMA4125 · var 2012 | oppgave 1 | (løsningsfil) |
 | [2012-var-4N_oppgave1.md](2012-var-4N_oppgave1.md) | TMA4125 · var 2012 | oppgave 1 | [2012-var-4N-losning_oppgave1.md](2012-var-4N-losning_oppgave1.md) |
 | [2013-host-4N-losning_oppgave5.md](2013-host-4N-losning_oppgave5.md) | TMA4130 · host 2013 | oppgave 5 | (løsningsfil) |
