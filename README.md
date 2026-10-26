@@ -75,9 +75,9 @@ Automatisk tabell — regeneration med `python3 scripts/check_repo.py index`.
 | 42 | [PDE I](oppgaver/Uke%2042%20-%20PDE%20I/INDEX.md) | 16 | 12 |
 | 43 | [PDE II](oppgaver/Uke%2043%20-%20PDE%20II/INDEX.md) | 22 | 19 |
 | 44 | [PDE III](oppgaver/Uke%2044%20-%20PDE%20III/INDEX.md) | 116 | 89 |
-| 45 | [Polynomial, Spline and Bézier Approximation](oppgaver/Uke%2045%20-%20Polynomial,%20Spline%20and%20Bézier%20Approximation/INDEX.md) | 65 | 52 |
+| 45 | [Polynomial, Spline and Bézier Approximation](oppgaver/Uke%2045%20-%20Polynomial,%20Spline%20and%20Bézier%20Approximation/INDEX.md) | 66 | 52 |
 | 46 | [Least Squares](oppgaver/Uke%2046%20-%20Least%20Squares/INDEX.md) | 48 | 45 |
-| **Sum** | | 472 | 383 |
+| **Sum** | | 473 | 383 |
 <!-- TELL-TABELL:SLUTT -->
 
 ## Validering
