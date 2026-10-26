@@ -87,6 +87,10 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2022-kont-M3_oppgave8.md](2022-kont-M3_oppgave8.md) | TMA4110 · kont 2022 | oppgave 8 | [2022-kont-M3-losning_oppgave8.md](2022-kont-M3-losning_oppgave8.md) |
 | [2023-host-M3-losning_oppgave7.md](2023-host-M3-losning_oppgave7.md) | TMA4110 · host 2023 | oppgave 7 | (løsningsfil) |
 | [2023-host-M3_oppgave7.md](2023-host-M3_oppgave7.md) | TMA4110 · host 2023 | oppgave 7 | [2023-host-M3-losning_oppgave7.md](2023-host-M3-losning_oppgave7.md) |
+| [2023-kont-M3-losning_oppgave6.md](2023-kont-M3-losning_oppgave6.md) | TMA4110 · kont 2023 | oppgave 6 | (løsningsfil) |
+| [2023-kont-M3-losning_oppgave8.md](2023-kont-M3-losning_oppgave8.md) | TMA4110 · kont 2023 | oppgave 8 | (løsningsfil) |
+| [2023-kont-M3_oppgave6.md](2023-kont-M3_oppgave6.md) | TMA4110 · kont 2023 | oppgave 6 | [2023-kont-M3-losning_oppgave6.md](2023-kont-M3-losning_oppgave6.md) |
+| [2023-kont-M3_oppgave8.md](2023-kont-M3_oppgave8.md) | TMA4110 · kont 2023 | oppgave 8 | [2023-kont-M3-losning_oppgave8.md](2023-kont-M3-losning_oppgave8.md) |
 | [2024-host-M3-losning_oppgave5.md](2024-host-M3-losning_oppgave5.md) | TMA4110 · host 2024 | oppgave 5 | (løsningsfil) |
 | [2024-host-M3-losning_oppgave7.md](2024-host-M3-losning_oppgave7.md) | TMA4110 · host 2024 | oppgave 7 | (løsningsfil) |
 | [2024-host-M3_oppgave5.md](2024-host-M3_oppgave5.md) | TMA4110 · host 2024 | oppgave 5 | [2024-host-M3-losning_oppgave5.md](2024-host-M3-losning_oppgave5.md) |
