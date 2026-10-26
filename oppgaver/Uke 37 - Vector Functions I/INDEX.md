@@ -40,12 +40,18 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2016-host-4D_oppgave6.md](2016-host-4D_oppgave6.md) | TMA4135 · host 2016 | oppgave 6 | [2016-host-4D-losning_oppgave6.md](2016-host-4D-losning_oppgave6.md) |
 | [2017-host-4D-losning_oppgave4.md](2017-host-4D-losning_oppgave4.md) | TMA4135 · host 2017 | oppgave 4 | (løsningsfil) |
 | [2017-host-4D_oppgave4.md](2017-host-4D_oppgave4.md) | TMA4135 · host 2017 | oppgave 4 | [2017-host-4D-losning_oppgave4.md](2017-host-4D-losning_oppgave4.md) |
+| [2018-sommer-M2-losning_oppgave9.md](2018-sommer-M2-losning_oppgave9.md) | TMA4105 · sommer 2018 | oppgave 9 | (løsningsfil) |
+| [2018-sommer-M2_oppgave9.md](2018-sommer-M2_oppgave9.md) | TMA4105 · sommer 2018 | oppgave 9 | [2018-sommer-M2-losning_oppgave9.md](2018-sommer-M2-losning_oppgave9.md) |
 | [2018-var-4D-losning_oppgave4.md](2018-var-4D-losning_oppgave4.md) | TMA4135 · var 2018 | oppgave 4 | (løsningsfil) |
 | [2018-var-4D_oppgave4.md](2018-var-4D_oppgave4.md) | TMA4135 · var 2018 | oppgave 4 | [2018-var-4D-losning_oppgave4.md](2018-var-4D-losning_oppgave4.md) |
 | [2018-var-4N_dup1_oppgave4.md](2018-var-4N_dup1_oppgave4.md) | TMA4135 · var 2018 | oppgave 4 | – |
+| [2018-var-M2-losning_oppgave6.md](2018-var-M2-losning_oppgave6.md) | TMA4105 · var 2018 | oppgave 6 | (løsningsfil) |
+| [2018-var-M2_oppgave6.md](2018-var-M2_oppgave6.md) | TMA4105 · var 2018 | oppgave 6 | [2018-var-M2-losning_oppgave6.md](2018-var-M2-losning_oppgave6.md) |
 | [2019-host-4D-losning_problem7.md](2019-host-4D-losning_problem7.md) | TMA4135 · host 2019 | problem 7 (10 p) | (løsningsfil) |
 | [2019-host-4D_problem7.md](2019-host-4D_problem7.md) | TMA4135 · host 2019 | problem 7 (10 p) | [2019-host-4D-losning_problem7.md](2019-host-4D-losning_problem7.md) |
 | [2019-host-4N_dup1_problem7.md](2019-host-4N_dup1_problem7.md) | TMA4135 · host 2019 | problem 7 (10 p) | – |
+| [2019-var-M2-losning_oppgave2.md](2019-var-M2-losning_oppgave2.md) | TMA4105 · var 2019 | oppgave 2 | (løsningsfil) |
+| [2019-var-M2_oppgave2.md](2019-var-M2_oppgave2.md) | TMA4105 · var 2019 | oppgave 2 | [2019-var-M2-losning_oppgave2.md](2019-var-M2-losning_oppgave2.md) |
 | [2020-host-4D-losning_problem6.md](2020-host-4D-losning_problem6.md) | TMA4135 · host 2020 | problem 6 (10 p) | (løsningsfil) |
 | [2020-host-4D_problem6.md](2020-host-4D_problem6.md) | TMA4135 · host 2020 | problem 6 (10 p) | [2020-host-4D-losning_problem6.md](2020-host-4D-losning_problem6.md) |
 | [2020-host-4N_dup1_problem6.md](2020-host-4N_dup1_problem6.md) | TMA4135 · host 2020 | problem 6 (10 p) | – |
@@ -54,10 +60,16 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2020-kont-4N_dup1_problem10.md](2020-kont-4N_dup1_problem10.md) | TMA4135 · kont 2020 | problem 10 (12 p) | – |
 | [2020-var-4N-losning_problem2.md](2020-var-4N-losning_problem2.md) | TMA4125 · var 2020 | problem 2 (8 p) | (løsningsfil) |
 | [2020-var-4N_problem2.md](2020-var-4N_problem2.md) | TMA4125 · var 2020 | problem 2 (8 p) | [2020-var-4N-losning_problem2.md](2020-var-4N-losning_problem2.md) |
+| [2020-var-M2-losning_oppgave5.md](2020-var-M2-losning_oppgave5.md) | TMA4105 · var 2020 | oppgave 5 | (løsningsfil) |
+| [2020-var-M2_oppgave5.md](2020-var-M2_oppgave5.md) | TMA4105 · var 2020 | oppgave 5 | [2020-var-M2-losning_oppgave5.md](2020-var-M2-losning_oppgave5.md) |
 | [2021-host-4D-losning_problem3.md](2021-host-4D-losning_problem3.md) | TMA4135 · host 2021 | problem 3 | (løsningsfil) |
 | [2021-host-4D_problem3.md](2021-host-4D_problem3.md) | TMA4135 · host 2021 | problem 3 | [2021-host-4D-losning_problem3.md](2021-host-4D-losning_problem3.md) |
 | [2021-kont-4D-losning_problem6.md](2021-kont-4D-losning_problem6.md) | TMA4135 · kont 2021 | problem 6 | (løsningsfil) |
 | [2021-kont-4D_problem6.md](2021-kont-4D_problem6.md) | TMA4135 · kont 2021 | problem 6 | [2021-kont-4D-losning_problem6.md](2021-kont-4D-losning_problem6.md) |
+| [2021-sommer-M2-losning_oppgave10.md](2021-sommer-M2-losning_oppgave10.md) | TMA4105 · sommer 2021 | oppgave 10 | (løsningsfil) |
+| [2021-sommer-M2_oppgave10.md](2021-sommer-M2_oppgave10.md) | TMA4105 · sommer 2021 | oppgave 10 | [2021-sommer-M2-losning_oppgave10.md](2021-sommer-M2-losning_oppgave10.md) |
+| [2021-var-M2-losning_oppgave5.md](2021-var-M2-losning_oppgave5.md) | TMA4105 · var 2021 | oppgave 5 | (løsningsfil) |
+| [2021-var-M2_oppgave5.md](2021-var-M2_oppgave5.md) | TMA4105 · var 2021 | oppgave 5 | [2021-var-M2-losning_oppgave5.md](2021-var-M2-losning_oppgave5.md) |
 | [2022-host-4D-losning_problem7.md](2022-host-4D-losning_problem7.md) | TMA4135 · host 2022 | problem 7 | (løsningsfil) |
 | [2022-host-4D_problem7.md](2022-host-4D_problem7.md) | TMA4135 · host 2022 | problem 7 | [2022-host-4D-losning_problem7.md](2022-host-4D-losning_problem7.md) |
 | [2022-host-4N_dup1_problem7.md](2022-host-4N_dup1_problem7.md) | TMA4135 · host 2022 | problem 7 | – |
@@ -74,6 +86,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2023-sommer-4D-losning_problem1.md](2023-sommer-4D-losning_problem1.md) | TMA4135 · sommer 2023 | problem 1 | (løsningsfil) |
 | [2023-sommer-4D_problem1.md](2023-sommer-4D_problem1.md) | TMA4135 · sommer 2023 | problem 1 | [2023-sommer-4D-losning_problem1.md](2023-sommer-4D-losning_problem1.md) |
 | [2023-sommer-4N_dup1_problem1.md](2023-sommer-4N_dup1_problem1.md) | TMA4135 · sommer 2023 | problem 1 | – |
+| [2024-var-M2-losning_oppgave4.md](2024-var-M2-losning_oppgave4.md) | TMA4105 · var 2024 | oppgave 4 | (løsningsfil) |
+| [2024-var-M2_oppgave4.md](2024-var-M2_oppgave4.md) | TMA4105 · var 2024 | oppgave 4 | [2024-var-M2-losning_oppgave4.md](2024-var-M2-losning_oppgave4.md) |
 | [2025-sommer-M2-losning_oppgave6.md](2025-sommer-M2-losning_oppgave6.md) | TMA4105 · sommer 2025 | oppgave 6 | (løsningsfil) |
 | [2025-sommer-M2_oppgave6.md](2025-sommer-M2_oppgave6.md) | TMA4105 · sommer 2025 | oppgave 6 | [2025-sommer-M2-losning_oppgave6.md](2025-sommer-M2-losning_oppgave6.md) |
 | [2026-test-4C-losning_problem4.md](2026-test-4C-losning_problem4.md) | TMA4432 · test 2026 | problem 4 (7 p) | (løsningsfil) |
