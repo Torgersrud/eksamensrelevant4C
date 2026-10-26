@@ -43,6 +43,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2018-var-4D-losning_oppgave4.md](2018-var-4D-losning_oppgave4.md) | TMA4135 · var 2018 | oppgave 4 | (løsningsfil) |
 | [2018-var-4D_oppgave4.md](2018-var-4D_oppgave4.md) | TMA4135 · var 2018 | oppgave 4 | [2018-var-4D-losning_oppgave4.md](2018-var-4D-losning_oppgave4.md) |
 | [2018-var-4N_dup1_oppgave4.md](2018-var-4N_dup1_oppgave4.md) | TMA4135 · var 2018 | oppgave 4 | – |
+| [2018-var-M2-losning_oppgave6.md](2018-var-M2-losning_oppgave6.md) | TMA4105 · var 2018 | oppgave 6 | (løsningsfil) |
+| [2018-var-M2_oppgave6.md](2018-var-M2_oppgave6.md) | TMA4105 · var 2018 | oppgave 6 | [2018-var-M2-losning_oppgave6.md](2018-var-M2-losning_oppgave6.md) |
 | [2019-host-4D-losning_problem7.md](2019-host-4D-losning_problem7.md) | TMA4135 · host 2019 | problem 7 (10 p) | (løsningsfil) |
 | [2019-host-4D_problem7.md](2019-host-4D_problem7.md) | TMA4135 · host 2019 | problem 7 (10 p) | [2019-host-4D-losning_problem7.md](2019-host-4D-losning_problem7.md) |
 | [2019-host-4N_dup1_problem7.md](2019-host-4N_dup1_problem7.md) | TMA4135 · host 2019 | problem 7 (10 p) | – |
