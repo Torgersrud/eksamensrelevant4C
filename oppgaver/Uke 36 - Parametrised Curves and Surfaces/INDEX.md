@@ -4,6 +4,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 
 | Fil | Kildesett | Oppgave | Løsningsfil |
 |---|---|---|---|
+| [2002-sommer-M2-losning_oppgave4.md](2002-sommer-M2-losning_oppgave4.md) | SIF5005 · sommer 2002 | oppgave 4 | (løsningsfil) |
+| [2002-sommer-M2_oppgave4.md](2002-sommer-M2_oppgave4.md) | SIF5005 · sommer 2002 | oppgave 4 | [2002-sommer-M2-losning_oppgave4.md](2002-sommer-M2-losning_oppgave4.md) |
 | [2002-var-M2-losning_oppgave4.md](2002-var-M2-losning_oppgave4.md) | SIF5005 · var 2002 | oppgave 4 | (løsningsfil) |
 | [2002-var-M2_oppgave4.md](2002-var-M2_oppgave4.md) | SIF5005 · var 2002 | oppgave 4 | [2002-var-M2-losning_oppgave4.md](2002-var-M2-losning_oppgave4.md) |
 | [2003-sommer-M2-losning_oppgave1.md](2003-sommer-M2-losning_oppgave1.md) | SIF5005 · sommer 2003 | oppgave 1 | (løsningsfil) |
