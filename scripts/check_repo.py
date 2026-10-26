@@ -12,6 +12,7 @@ import csv
 import hashlib
 import re
 import sys
+from collections import namedtuple
 from pathlib import Path
 
 # Emneknutepunkten — vedtatt taxonomy (uke 34–46 i TMA4432-pensumsplanen).
@@ -51,6 +52,15 @@ def uke_av(mappenavn):
 
 def md_filer(mappe):
     return sorted(p for p in mappe.glob("*.md") if p.name != "INDEX.md")
+
+
+def ukekataloger(repo):
+    """Gangen rundt TAXONOMY: (mappenavn, mappe, md-filer) for kvar eksisterande
+    vedteken uke-mappe — eitt einaste staden som veit kor filene ligg."""
+    for mappenavn in TAXONOMY:
+        mappe = repo / "oppgaver" / mappenavn
+        if mappe.is_dir():
+            yield mappenavn, mappe, md_filer(mappe)
 
 
 def les_manifest(repo):
@@ -140,10 +150,7 @@ def oppgave_celle(p, info):
 
 
 def generer_index(repo):
-    for mappenavn in TAXONOMY:
-        mappe = repo / "oppgaver" / mappenavn
-        if not mappe.is_dir():
-            continue
+    for mappenavn, mappe, _ in ukekataloger(repo):
         (mappe / "INDEX.md").write_text(indekstabel(mappe), encoding="utf-8")
     oppdater_tell_tabell(repo)
 
@@ -151,9 +158,9 @@ def generer_index(repo):
 def tell_tabell(repo):
     linjer = ["| Uke | Emneknutepunkt | Oppgaver | Løsningsfiler |", "|---|---|---|---|"]
     tot_o = tot_l = 0
+    filer_i = {mappenavn: filer for mappenavn, _, filer in ukekataloger(repo)}
     for mappenavn in TAXONOMY:
-        mappe = repo / "oppgaver" / mappenavn
-        filer = md_filer(mappe) if mappe.is_dir() else []
+        filer = filer_i.get(mappenavn, [])
         infoar = [fil_info(p.name) for p in filer]
         o = sum(1 for i in infoar if i and not i["losning"])
         l = sum(1 for i in infoar if i and i["losning"])
@@ -198,19 +205,18 @@ def sjekk(repo):
     for mappenavn in TAXONOMY:
         if not (oppgaver / mappenavn).is_dir():
             krenske.append(("TAXONOMI", f"oppgaver/{mappenavn}/", "vedteken mappe manglar"))
-    for mappenavn in TAXONOMY:
-        mappe = oppgaver / mappenavn
-        if not mappe.is_dir():
-            continue
-        for p in md_filer(mappe):
+    for mappenavn, _, filer in ukekataloger(repo):
+        for p in filer:
             if fil_info(p.name) is None:
                 krenske.append(("FILGRAMMATIKK", f"oppgaver/{mappenavn}/{p.name}",
                                 "fylgjer ikkje <year>-<term>[-a-z][-losning][_dupN]_problem|oppgave<N>.md"
                                 " (evt. med synthetic- framfor)"))
-    krenske += sjekk_fotspor(repo)
+    manifest = manifest_hvis_finst(repo)
+    krenske += sjekk_fotspor(repo, manifest)
     krenske += sjekk_duplikat(repo)
-    krenske += sjekk_losning(repo)
-    krenske += sjekk_sha256(repo)
+    krenske += sjekk_losning(repo, manifest)
+    krenske += sjekk_oppgavevenn(repo)
+    krenske += sjekk_sha256(repo, manifest)
     krenske += sjekk_indeksar(repo)
     krenske += sjekk_readme(repo)
     return krenske
@@ -224,17 +230,13 @@ def manifest_hvis_finst(repo):
     return les_manifest(repo)
 
 
-def sjekk_losning(repo):
+def sjekk_losning(repo, manifest):
     """-losning-filer far berre eksistere for Kildesetter manifestet seier er losde."""
     krenske = []
-    manifest = manifest_hvis_finst(repo)
     if manifest is None:
         return []  # manifest-mangel allereie meldt av FOTSPOR
-    for mappenavn in TAXONOMY:
-        mappe = repo / "oppgaver" / mappenavn
-        if not mappe.is_dir():
-            continue
-        for p in md_filer(mappe):
+    for mappenavn, _, filer in ukekataloger(repo):
+        for p in filer:
             info = fil_info(p.name)
             if info is None or info["syntetisk"] or not info["losning"]:
                 continue
@@ -249,10 +251,25 @@ def sjekk_losning(repo):
     return krenske
 
 
-def sjekk_sha256(repo):
+def sjekk_oppgavevenn(repo):
+    """ORPA: kvar -losning-fil must ha Oppgave-venninna si i same Emneknutepunkt-mappe.
+    Ei laus løysingsfil er ikkje ei bladbar oppgåve — oppgåva må fylgje løysinga."""
+    krenske = []
+    for mappenavn, mappe, filer in ukekataloger(repo):
+        for p in filer:
+            info = fil_info(p.name)
+            if info is None or not info["losning"]:
+                continue
+            venn = p.name.replace("-losning", "", 1)
+            if not (mappe / venn).exists():
+                krenske.append(("ORPA", f"oppgaver/{mappenavn}/{p.name}",
+                                f"losningsfil utan oppgåve — {venn} manglar i Emneknutepunkt-mappa"))
+    return krenske
+
+
+def sjekk_sha256(repo, manifest):
     """PDF-ar som finst pa disk muste matche manifest-radens sha256."""
     krenske = []
-    manifest = manifest_hvis_finst(repo)
     if manifest is None:
         return []
     for filnamn, rad in sorted(manifest.items()):
@@ -269,11 +286,8 @@ def sjekk_sha256(repo):
 def sjekk_indeksar(repo):
     """INDEX.md i kvar mappe muste vera det index-laget skriv i dag, byte for byte."""
     krenske = []
-    for mappenavn in TAXONOMY:
-        mappe = repo / "oppgaver" / mappenavn
+    for mappenavn, mappe, _ in ukekataloger(repo):
         index = mappe / "INDEX.md"
-        if not mappe.is_dir():
-            continue  # meldt av TAXONOMI
         merke = f"oppgaver/{mappenavn}/INDEX.md"
         if not index.is_file():
             krenske.append(("INDEX_UTDATERT", merke, "INDEX.md manglar — kor index-laget"))
@@ -318,13 +332,9 @@ def normalisert_tekst(p):
     return re.sub(r"\s+", " ", " ".join(linjer)).casefold().strip()
 
 
-def tekstmestarar(ikkje_dup, dupfil, dup_info):
-    """DUP-1: dei ikkje-dup-filene med normalisert fulltekst identisk med
-    dupfila og (year, term-seg) ikkje seinare enn dupet."""
-    tekst = normalisert_tekst(dupfil)
-    dup_tid = tidspunkt(dup_info)
-    return [(p, info) for p, info in ikkje_dup
-            if normalisert_tekst(p) == tekst and tidspunkt(info) <= dup_tid]
+Forekomst = namedtuple("Forekomst", "p info uke merke")
+Gruppeinnslag = namedtuple("Gruppeinnslag", "uke dup merke")
+Kopirekke = namedtuple("Kopirekke", "tid navn merke")
 
 
 def sjekk_duplikat(repo):
@@ -339,66 +349,65 @@ def sjekk_duplikat(repo):
         1..k samanhengande i stigande (year, term-seg)-rekkjefølgje."""
     krenske = []
     alle = []
-    for mappenavn in TAXONOMY:
-        mappe = repo / "oppgaver" / mappenavn
-        if not mappe.is_dir():
-            continue
-        for p in md_filer(mappe):
+    for mappenavn, _, filer in ukekataloger(repo):
+        for p in filer:
             info = fil_info(p.name)
             if info is not None and not info["syntetisk"]:
-                alle.append((p, info, uke_av(mappenavn), f"oppgaver/{mappenavn}/{p.name}"))
-    ikkje_dup = [(p, info) for p, info, _, _ in alle if info["dup"] is None]
+                alle.append(Forekomst(p, info, uke_av(mappenavn), f"oppgaver/{mappenavn}/{p.name}"))
+    ikkje_dup = [f for f in alle if f.info["dup"] is None]
+    mestrar_per_tekst = {}  # normalisert fulltekst -> meistrar (éin lesnad per fil)
+    for f in ikkje_dup:
+        mestrar_per_tekst.setdefault(normalisert_tekst(f.p), []).append(f)
     grupper = {}
     kopiar_per_mester = {}
-    for p, info, uke, merke in alle:
-        grupper.setdefault(info["mester_navn"], []).append((uke, info["dup"], merke))
-        if info["dup"] is None:
+    for fb in alle:
+        grupper.setdefault(fb.info["mester_navn"], []).append(
+            Gruppeinnslag(fb.uke, fb.info["dup"], fb.merke))
+        if fb.info["dup"] is None:
             continue
-        mestrar = tekstmestarar(ikkje_dup, p, info)
-        if len(mestrar) == 1:
-            mester_p, mester_info = mestrar[0]
-            kopiar_per_mester.setdefault(str(mester_p.resolve()), []).append(
-                (tidspunkt(info), p.name, merke))
-        elif not mestrar:
-            tidlegare = [q for q, qi in ikkje_dup
-                         if normalisert_tekst(q) == normalisert_tekst(p)]
-            if tidlegare:
-                krenske.append(("DUPLIKAT", merke,
-                                f"{p.name}: _dup{info['dup']} er tidlegare enn alle like "
+        mestrar = mestrar_per_tekst.get(normalisert_tekst(fb.p), [])
+        mogelege = [m for m in mestrar if tidspunkt(m.info) <= tidspunkt(fb.info)]
+        if len(mogelege) == 1:
+            kopiar_per_mester.setdefault(str(mogelege[0].p.resolve()), []).append(
+                Kopirekke(tidspunkt(fb.info), fb.p.name, fb.merke))
+        elif not mogelege:
+            if mestrar:
+                krenske.append(("DUPLIKAT", fb.merke,
+                                f"{fb.p.name}: _dup{fb.info['dup']} er tidlegare enn alle like "
                                 "mestarførekomstar — tidlegaste førekomst er mester"))
             else:
-                krenske.append(("DUPLIKAT", merke,
-                                f"{p.name}: _dup{info['dup']} har ingen mester (ingen "
+                krenske.append(("DUPLIKAT", fb.merke,
+                                f"{fb.p.name}: _dup{fb.info['dup']} har ingen mester (ingen "
                                 "ikkje-dup-fil med same normaliserte fulltekst)"))
         else:
-            krenske.append(("DUPLIKAT", merke,
-                            f"{p.name}: _dup{info['dup']} har fleire mogelege mestarar "
-                            f"({', '.join(sorted(q.name for q, _ in mestrar))}) — "
+            krenske.append(("DUPLIKAT", fb.merke,
+                            f"{fb.p.name}: _dup{fb.info['dup']} har fleire mogelege mestarar "
+                            f"({', '.join(sorted(m.p.name for m in mogelege))}) — "
                             "normalisert fulltekst må vera unik"))
     for kopiar in sorted(kopiar_per_mester.values()):
-        for forventa, (tid, navn, merke) in enumerate(sorted(kopiar), 1):
-            tal = int(fil_info(navn)["dup"])
+        for forventa, kop in enumerate(sorted(kopiar), 1):
+            tal = int(fil_info(kop.navn)["dup"])
             if tal != forventa:
-                krenske.append(("DUPLIKAT", merke,
-                                f"{navn}: kopiar per mester nummarast 1..k etter "
+                krenske.append(("DUPLIKAT", kop.merke,
+                                f"{kop.navn}: kopiar per mester nummarast 1..k etter "
                                 f"(year, term-seg), forventa _dup{forventa}"))
     for navn, forekomstar in sorted(grupper.items()):
-        if len({p for _, _, p in forekomstar}) < len(forekomstar):
-            krenske.append(("DUPLIKAT", forekomstar[0][2],
+        if len({inn.merke for inn in forekomstar}) < len(forekomstar):
+            krenske.append(("DUPLIKAT", forekomstar[0].merke,
                             "same filnamn i fleire mapper utan dup-merke"))
-        kopiar = sorted([f for f in forekomstar if f[1] is not None])
-        mestrar = [f for f in forekomstar if f[1] is None]
+        kopiar = sorted([inn for inn in forekomstar if inn.dup is not None])
+        mestrar = [inn for inn in forekomstar if inn.dup is None]
         if not kopiar or not mestrar:
             continue
-        mester_uke = min(f[0] for f in mestrar)
-        for uke, dup, merke in kopiar:
-            if uke <= mester_uke:
-                krenske.append(("DUPLIKAT", merke,
-                                f"{navn}: tidlegaste førekomst er mester — kopi i uke {uke} "
+        mester_uke = min(inn.uke for inn in mestrar)
+        for inn in kopiar:
+            if inn.uke <= mester_uke:
+                krenske.append(("DUPLIKAT", inn.merke,
+                                f"{navn}: tidlegaste førekomst er mester — kopi i uke {inn.uke} "
                                 f"føre mesteren i uke {mester_uke} er forboden"))
-        for forventa, (uke, dup, merke) in enumerate(sorted(kopiar, key=lambda f: f[0]), 1):
-            if dup != forventa:
-                krenske.append(("DUPLIKAT", merke,
+        for forventa, inn in enumerate(sorted(kopiar, key=lambda innslag: innslag.uke), 1):
+            if inn.dup != forventa:
+                krenske.append(("DUPLIKAT", inn.merke,
                                 f"{navn}: kopier nummarast etter uke-rekkefølgje, forventa _dup{forventa}"))
     return krenske
 
@@ -407,20 +416,13 @@ FOT_KRAVT = ["course", "term", "year", "problem", "file"]
 FOT_LOVLEG = set(FOT_KRAVT) | {"points"}
 
 
-def sjekk_fotspor(repo):
+def sjekk_fotspor(repo, manifest):
     """Provensfoten má finst, kunna lesast og løyse til ei manifest-rad."""
     krenske = []
-    manifestfil = repo / "sources" / "MANIFEST.csv"
-    manifest = {}
-    if manifestfil.is_file():
-        manifest = les_manifest(repo)
-    else:
+    if manifest is None:
         return [("FOTSPOR", "sources/MANIFEST.csv", "manifestet manglar")]
-    for mappenavn in TAXONOMY:
-        mappe = repo / "oppgaver" / mappenavn
-        if not mappe.is_dir():
-            continue
-        for p in md_filer(mappe):
+    for mappenavn, _, filer in ukekataloger(repo):
+        for p in filer:
             info = fil_info(p.name)
             if info is None or info["syntetisk"]:
                 continue  # syntetiske filer er unntatt manifestkravet

@@ -9,7 +9,7 @@ behaviour: exit code plus named violation classes in the report. Nothing
 about internals. Fake PDFs are dummy bytes with known sha256 — no network.
 
 Violation classes (from the spec): TAXONOMI, FILGRAMMATIKK, FOTSPOR,
-DUPLIKAT, LOSNING_ULOST, INDEX_UTDATERT, README_UTDATERT, SHA256.
+DUPLIKAT, LOSNING_ULOST, ORPA, INDEX_UTDATERT, README_UTDATERT, SHA256.
 """
 import hashlib
 import subprocess
@@ -373,6 +373,26 @@ class TestLosningPaaLosetSett(ValidatorTestCase):
          "2019-host-4D-losning_oppgave5.md").write_text(
             "x\n\n" + footer("TMA4135", "host", "2019", "5", "4d2019host.pdf"), encoding="utf-8")
         self.assertViolates("LOSNING_ULOST")
+
+
+class TestLosningKrevdOppgave(ValidatorTestCase):
+    def test_losning_without_problem_sibling_names_orpa(self):
+        # Every Løsningsfil must have its Oppgave-sibling in the same folder —
+        # a lone solution PDF transcription is not a browsable problem entry.
+        (self.repo / "oppgaver" / "Uke 44 - PDE III" /
+         "2022-kont-4D-losning_problem7.md").write_text(
+            "x\n\n" + footer("TMA4135", "kont", "2022", "7", "4d2022kont.pdf"), encoding="utf-8")
+        self.index()
+        self.assertViolates("ORPA")
+
+    def test_losning_with_problem_sibling_is_valid(self):
+        mappe = self.repo / "oppgaver" / "Uke 44 - PDE III"
+        (mappe / "2022-kont-4D_problem7.md").write_text(
+            "x\n\n" + footer("TMA4135", "kont", "2022", "7", "4d2022kont.pdf"), encoding="utf-8")
+        (mappe / "2022-kont-4D-losning_problem7.md").write_text(
+            "y\n\n" + footer("TMA4135", "kont", "2022", "7", "4d2022kont.pdf"), encoding="utf-8")
+        self.index()
+        self.assertOk()
 
 
 class TestManifestHash(ValidatorTestCase):
