@@ -58,6 +58,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2021-host-4D_problem3.md](2021-host-4D_problem3.md) | TMA4135 · host 2021 | problem 3 | [2021-host-4D-losning_problem3.md](2021-host-4D-losning_problem3.md) |
 | [2021-kont-4D-losning_problem6.md](2021-kont-4D-losning_problem6.md) | TMA4135 · kont 2021 | problem 6 | (løsningsfil) |
 | [2021-kont-4D_problem6.md](2021-kont-4D_problem6.md) | TMA4135 · kont 2021 | problem 6 | [2021-kont-4D-losning_problem6.md](2021-kont-4D-losning_problem6.md) |
+| [2021-sommer-M2-losning_oppgave10.md](2021-sommer-M2-losning_oppgave10.md) | TMA4105 · sommer 2021 | oppgave 10 | (løsningsfil) |
+| [2021-sommer-M2_oppgave10.md](2021-sommer-M2_oppgave10.md) | TMA4105 · sommer 2021 | oppgave 10 | [2021-sommer-M2-losning_oppgave10.md](2021-sommer-M2-losning_oppgave10.md) |
 | [2021-var-M2-losning_oppgave5.md](2021-var-M2-losning_oppgave5.md) | TMA4105 · var 2021 | oppgave 5 | (løsningsfil) |
 | [2021-var-M2_oppgave5.md](2021-var-M2_oppgave5.md) | TMA4105 · var 2021 | oppgave 5 | [2021-var-M2-losning_oppgave5.md](2021-var-M2-losning_oppgave5.md) |
 | [2022-host-4D-losning_problem7.md](2022-host-4D-losning_problem7.md) | TMA4135 · host 2022 | problem 7 | (løsningsfil) |
