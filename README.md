@@ -23,7 +23,11 @@ En Oppgave tas med hvis og bare hvis hovedfaget hennes forekommer på
 [pensumsplanen](https://wiki.math.ntnu.no/tma4432/2026h/lecture_plan) til TMA4432 (forelesnings
 uke 34–46). Gamle fagnavn teller når planen dekker emnet — «minste kvadraters metode» → Uke 46,
 Jacobimatrise og flervariabel Newton → Uke 37. Mapjeplassering er det *eneste* uttrykket for
-relevans; ingen kommentarer eller vanskelighetsgrader i filene. Bare ekte eksamenssett
+relevans; ingen kommentarer eller vanskelighetsgrader i filene. Eneste tillatte annotasjon er
+den kursiva *Kjeldevarsel*-linja (se [GLOSSARY.md](GLOSSARY.md)): provenansattestasjon for
+trykkfeiler bevarte ordrett, løsningsarket som oppgavekilde, og skildring av figur/plott i
+kildefila — aldri innholds- eller vanskelighetskommentar; forbudet mot det står ved lag.
+Bare ekte eksamenssett
 (ordinær + kontinuasjon) og den offisielle testeksamen transkriberes; øving/innlevering og
 lærebokoppgaver er utenfor.
 

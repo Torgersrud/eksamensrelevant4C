@@ -8,6 +8,16 @@ En selvstendig eksamensoppgave, transkribert ordrett fra et Kildesett på origin
 alle deloppgaver (a/b/c, …) i samme fil. Én fil per Oppgave, ingen kommentarer eller
 vanskelighetsgrader. Total poengsum føres i provensfoten når Kildesettet oppgir den.
 
+Unntaket er *Kjeldevarsel*: ei henvisningslinje merkt «Kjeldevarsel» (vanlegvis heilt
+kursiv, siste linje før provensfoten) som er den eneste tillatte annotasjonsklassen i
+filene. Den er et
+provenansnotat og brukes til tre ting: (1) errata-/trykkfeil-attestasjon —
+at en feil i kilden er bevart ordrett, med det rette svaret oppgitt, (2)
+LF-som-provenans-markering — når løsningsarket er den eneste publiserte kilden til
+oppgaveteksten, (3) beskrivelse av en figur eller et plot som kilde-PDF-en inneholder.
+En Kjeldevarsel er *ikke* innholds- eller vanskelighetskommentar — forbudet mot
+vanskelighetsgrader og faglige kommentarer står ved lag.
+
 ## Kildesett
 
 Ett eksamenssett (PDF) som Oppgaver er hentet fra — en ekte eksamen (ordinær eller
@@ -19,8 +29,9 @@ Selve PDF-en ligger i gitignored `sources/`; bare manifestet er committet.
 
 En av de 13 mappene under `oppgaver/`, navngitt etter TMA4432-pensumsplanens kalenderuke og
 engelske emneord (f.eks. `Uke 39 - Fourier Series I`). Mapjeplassering er det *eneste*
-uttrykket for relevans — ingen merkelapper eller kommentarer i filene. Uke 47 (repetisjon)
-har ingen mappe.
+uttrykket for relevans — ingen merkelapper eller kommentarer i filene, bortsett fra
+*Kjeldevarsel*-annotasjonen definert under Oppgave (provenans, aldri relevans eller
+vanskelighetsgrad). Uke 47 (repetisjon) har ingen mappe.
 
 ## Løsningsfil
 
