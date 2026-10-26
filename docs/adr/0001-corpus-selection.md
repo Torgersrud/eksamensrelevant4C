@@ -20,8 +20,10 @@ Korpuset er disse fem kursene:
 | TMA4145 | **Lineære metoder** | den virkelige SVD/Moore-Penrose/minste-kvadrater-kilden |
 | TMA4110 | Matematikk **3** | kurver, flater, flervariabel optimalisering |
 
-Unntatt: TMA4140 Diskret matematikk (irrelevant for pensumsplanen), samt TMA4105 (M2) og
-TMA4120 (4K) — innholdet deres er dekket av henholdsvis 4D- og M3-materialet.
+Unntatt: TMA4140 Diskret matematikk (irrelevant for pensumsplanen) og TMA4120 (4K).
+TMA4105 (M2) stod også på unntakslista med premissa om at «innholdet deres er dekket av
+henholdsvis 4D- og M3-materialet» — premissen vart motbevist da uke 36/38 viste seg å
+vere tomme for ekte stoff, og unntaket for M2 er oppheva av ADR 0004.
 
 ## Kursnavn-rettingene
 
