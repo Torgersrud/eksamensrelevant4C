@@ -26,6 +26,6 @@ $$\left(\sqrt{\frac{2}{5}},\; \sqrt{\frac{1}{10}},\; \sqrt{\frac{2}{5}}\right) \
 
 hvor tangentplanet til ellipsoiden er parallelt med planet $x + y + z = 0$.
 
-Kjeldevarsel: Løsningsforslaget skriv i denne oppgåva planet $x + y + z = 1$ (to stader), medan eksamen oppgåveteksten seier $x + y + z = 0$. Parallelleiet berre avheng av normalvektoren, så utrekninga er upåverka.
+*Kjeldevarsel: Løsningsforslaget skriv i denne oppgåva planet $x + y + z = 1$ (to stader), medan eksamen oppgåveteksten seier $x + y + z = 0$. Parallelleiet berre avheng av normalvektoren, så utrekninga er upåverka.*
 
 Kildesett: course=TMA4105 term=var year=2022 problem=2 file=tma4105_2022v.pdf

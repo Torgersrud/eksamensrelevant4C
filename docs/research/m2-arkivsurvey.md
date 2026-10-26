@@ -125,6 +125,7 @@ Structure probe of all 55 downloaded problem PDFs (stream-level inspection): eve
 - **Suggested batch split, newest-first** (one commit per sett regardless): #7: 2026v–2019k (14 sett), #8: 2019v–2012k (14), #9: 2012v–2005k (14), #10: 2005v–1998v incl. SIF5005 (13). Expect the Relevansregel to cut many sett down to 1–3 Oppgaver each (line/surface integrals, flux and multiple integrals stay UT), so batches will not be uniform. 2023k (scan) should be scheduled late and manually.
 - **Politeness:** wiki.math.ntnu.no flood-blocks aggressive clients. All downloads in this survey ran a single-file queue with a custom User-Agent and a 4.5 s sleep between requests; no 403/429 occurred (script had a 30 s backoff-retry built in, unused). Keep that discipline in harvest.
 - **Cached copies:** all 55 problem PDFs + the two 1B samling PDFs are on disk under `/tmp/opencode/pdfs/m2/` with sha256 recorded in the appendix; a harvester can hash-verify without re-downloading. The 55 solution PDFs were only HEAD-verified, not downloaded.
+- **Closing note (2026-10-26, added by code review after ticket 10):** the harvest ended explicitly at SIF5005 2000-kont (row 53); rows 54–55 (SIF5005 Vår 1999 and Vår 1998) are known, probed and hashed above but sit under the ticket-10 floor and were not harvested — they stay documented here as the archive's known-but-out-of-floor tail.
 
 ## Open uncertainties / what I could NOT verify
 
