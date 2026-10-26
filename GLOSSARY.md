@@ -11,10 +11,13 @@ vanskelighetsgrader. Total poengsum føres i provensfoten når Kildesettet oppgi
 Unntaket er *Kjeldevarsel*: ei henvisningslinje merkt «Kjeldevarsel» (vanlegvis heilt
 kursiv, siste linje før provensfoten) som er den eneste tillatte annotasjonsklassen i
 filene. Den er et
-provenansnotat og brukes til tre ting: (1) errata-/trykkfeil-attestasjon —
+provenansnotat og brukes til fire ting: (1) errata-/trykkfeil-attestasjon —
 at en feil i kilden er bevart ordrett, med det rette svaret oppgitt, (2)
 LF-som-provenans-markering — når løsningsarket er den eneste publiserte kilden til
-oppgaveteksten, (3) beskrivelse av en figur eller et plot som kilde-PDF-en inneholder.
+oppgaveteksten, (3) beskrivelse av en figur eller et plot som kilde-PDF-en inneholder,
+(4) tilpassingsattribution — at ei Syntetisk oppgave seier frå om lærekjelda si med
+«tilpassa frå <source>» (t.d. ei omformulert øving frå eit lærebokutkast), slik at fila
+nemner pedagogikken bak utan å utgje seg for å vera ein Kildesett-transkripsjon.
 En Kjeldevarsel er *ikke* innholds- eller vanskelighetskommentar — forbudet mot
 vanskelighetsgrader og faglige kommentarer står ved lag.
 
