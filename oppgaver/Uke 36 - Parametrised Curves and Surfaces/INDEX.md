@@ -4,6 +4,10 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 
 | Fil | Kildesett | Oppgave | Løsningsfil |
 |---|---|---|---|
+| [2023-var-M2-losning_oppgave2.md](2023-var-M2-losning_oppgave2.md) | TMA4105 · var 2023 | oppgave 2 | (løsningsfil) |
+| [2023-var-M2-losning_oppgave5.md](2023-var-M2-losning_oppgave5.md) | TMA4105 · var 2023 | oppgave 5 | (løsningsfil) |
+| [2023-var-M2_oppgave2.md](2023-var-M2_oppgave2.md) | TMA4105 · var 2023 | oppgave 2 | [2023-var-M2-losning_oppgave2.md](2023-var-M2-losning_oppgave2.md) |
+| [2023-var-M2_oppgave5.md](2023-var-M2_oppgave5.md) | TMA4105 · var 2023 | oppgave 5 | [2023-var-M2-losning_oppgave5.md](2023-var-M2-losning_oppgave5.md) |
 | [2024-sommer-M2-losning_oppgave1.md](2024-sommer-M2-losning_oppgave1.md) | TMA4105 · sommer 2024 | oppgave 1 | (løsningsfil) |
 | [2024-sommer-M2-losning_oppgave4.md](2024-sommer-M2-losning_oppgave4.md) | TMA4105 · sommer 2024 | oppgave 4 | (løsningsfil) |
 | [2024-sommer-M2_oppgave1.md](2024-sommer-M2_oppgave1.md) | TMA4105 · sommer 2024 | oppgave 1 | [2024-sommer-M2-losning_oppgave1.md](2024-sommer-M2-losning_oppgave1.md) |
