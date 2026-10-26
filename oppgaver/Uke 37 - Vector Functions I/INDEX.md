@@ -86,6 +86,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2023-sommer-4D-losning_problem1.md](2023-sommer-4D-losning_problem1.md) | TMA4135 · sommer 2023 | problem 1 | (løsningsfil) |
 | [2023-sommer-4D_problem1.md](2023-sommer-4D_problem1.md) | TMA4135 · sommer 2023 | problem 1 | [2023-sommer-4D-losning_problem1.md](2023-sommer-4D-losning_problem1.md) |
 | [2023-sommer-4N_dup1_problem1.md](2023-sommer-4N_dup1_problem1.md) | TMA4135 · sommer 2023 | problem 1 | – |
+| [2023-sommer-M2-losning_oppgave4.md](2023-sommer-M2-losning_oppgave4.md) | TMA4105 · sommer 2023 | oppgave 4 | (løsningsfil) |
+| [2023-sommer-M2_oppgave4.md](2023-sommer-M2_oppgave4.md) | TMA4105 · sommer 2023 | oppgave 4 | [2023-sommer-M2-losning_oppgave4.md](2023-sommer-M2-losning_oppgave4.md) |
 | [2024-var-M2-losning_oppgave4.md](2024-var-M2-losning_oppgave4.md) | TMA4105 · var 2024 | oppgave 4 | (løsningsfil) |
 | [2024-var-M2_oppgave4.md](2024-var-M2_oppgave4.md) | TMA4105 · var 2024 | oppgave 4 | [2024-var-M2-losning_oppgave4.md](2024-var-M2-losning_oppgave4.md) |
 | [2025-sommer-M2-losning_oppgave6.md](2025-sommer-M2-losning_oppgave6.md) | TMA4105 · sommer 2025 | oppgave 6 | (løsningsfil) |
