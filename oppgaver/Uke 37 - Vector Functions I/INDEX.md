@@ -34,6 +34,8 @@ Autogenerert av `python3 scripts/check_repo.py index` — ikkje rediger for hand
 | [2014-kont-4D-losning_oppgave5.md](2014-kont-4D-losning_oppgave5.md) | TMA4135 · kont 2014 | oppgave 5 | (løsningsfil) |
 | [2014-kont-4D_oppgave2.md](2014-kont-4D_oppgave2.md) | TMA4135 · kont 2014 | oppgave 2 | [2014-kont-4D-losning_oppgave2.md](2014-kont-4D-losning_oppgave2.md) |
 | [2014-kont-4D_oppgave5.md](2014-kont-4D_oppgave5.md) | TMA4135 · kont 2014 | oppgave 5 | [2014-kont-4D-losning_oppgave5.md](2014-kont-4D-losning_oppgave5.md) |
+| [2014-var-M2-losning_oppgave1.md](2014-var-M2-losning_oppgave1.md) | TMA4105 · var 2014 | oppgave 1 | (løsningsfil) |
+| [2014-var-M2_oppgave1.md](2014-var-M2_oppgave1.md) | TMA4105 · var 2014 | oppgave 1 | [2014-var-M2-losning_oppgave1.md](2014-var-M2-losning_oppgave1.md) |
 | [2015-var-M2-losning_oppgave2.md](2015-var-M2-losning_oppgave2.md) | TMA4105 · var 2015 | oppgave 2 | (løsningsfil) |
 | [2015-var-M2_oppgave2.md](2015-var-M2_oppgave2.md) | TMA4105 · var 2015 | oppgave 2 | [2015-var-M2-losning_oppgave2.md](2015-var-M2-losning_oppgave2.md) |
 | [2016-host-4D-losning_oppgave5.md](2016-host-4D-losning_oppgave5.md) | TMA4135 · host 2016 | oppgave 5 | (løsningsfil) |
