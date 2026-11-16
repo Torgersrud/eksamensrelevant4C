@@ -5,8 +5,11 @@ Hei!
 Dette er en samling av alle eksamensoppgaver som er relevante for TMA4432 Matematikk 4C,
 hentet fra de gamle kursene 4N (TMA4125/TMA4130), 4D (TMA4135), Lineære metoder (TMA4145)
 og Matematikk 3 (TMA4110) — pluss den offisielle testeksamen for 4C. Markdown-filene er lette
-å lese for både oss og KI, så det er lett å be KI om å finne oppgaver til deg. Du må bare se
-de igjennom en leser som formaterer LaTeX (Obsidian anbefales).
+å lese for både oss og KI, så det er lett å be KI om å finne oppgaver til deg. 
+
+BRUK DENNE LINKEN FOR Å FÅ DET TIL Å SE SCHMUUUUD UT!
+
+https://torgersrud.github.io/eksamensrelevant4C/
 <!-- TELL-TABELL:START -->
 | Uke | Emneknutepunkt | Oppgaver | Løsningsfiler |
 |---|---|---|---|
