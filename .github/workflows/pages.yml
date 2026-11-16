@@ -27,7 +27,7 @@ jobs:
           cp pages-assets/javascripts/mathjax.js site_src/javascripts/
           # make README links relative instead of absolute github.com URLs
           sed -i 's#https://github.com/Torgersrud/eksamensrelevant4C/blob/main/##g' site_src/index.md
-      - run: mkdocs build --strict=false
+      - run: mkdocs build 
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
