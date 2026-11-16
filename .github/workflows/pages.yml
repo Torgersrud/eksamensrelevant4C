@@ -1,0 +1,43 @@
+name: Deploy site
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install mkdocs-material
+      - name: Assemble site sources
+        run: |
+          mkdir -p site_src/javascripts
+          cp -r oppgaver site_src/
+          cp GLOSSARY.md site_src/
+          cp README.md site_src/index.md
+          cp pages-assets/javascripts/mathjax.js site_src/javascripts/
+          # make README links relative instead of absolute github.com URLs
+          sed -i 's#https://github.com/Torgersrud/eksamensrelevant4C/blob/main/##g' site_src/index.md
+      - run: mkdocs build --strict=false
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
